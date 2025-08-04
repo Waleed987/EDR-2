@@ -1,0 +1,17 @@
+LOGIC BOMBS
+
+For Logic Bombs 
+we Can check for sleep calls, schedule tasks, timing logic
+or more effectively we could speed up virtual environment or sandbox to do an early trigger for that bomb
+Monitor processes that always execute at the same time daily (e.g., 3:00 AM).	
+
+Procedure
+
+Agent detects a script calling time.sleep(2592000) (30 days).
+Sends telemetry saying: "This file scheduled to run in the future".
+ML engine flags it as anomaly.
+EDR quarantines the script, halts its future execution, and alerts SOC.
+Analysts investigate — they spot a time-based payload and remove it safely.
+
+
+

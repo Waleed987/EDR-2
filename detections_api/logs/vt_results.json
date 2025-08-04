@@ -1,0 +1,126 @@
+[
+  {
+    "file_name": "eicar.com",
+    "path": "C:\\Users\\pc\\Downloads\\eicar.com",
+    "sha256": "275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f",
+    "timestamp": "2025-07-20T22:40:43.743942",
+    "vt_result": {
+      "malicious_count": 66,
+      "suspicious_count": 0,
+      "undetected_count": 3,
+      "harmless_count": 0,
+      "total_engines": 76,
+      "permalink": "https://www.virustotal.com/api/v3/files/275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f",
+      "first_submitted": 1148301722,
+      "last_analysis_date": 1753033655,
+      "popular_threat_classification": {
+        "suggested_threat_label": "virus.eicar/test",
+        "popular_threat_category": [
+          {
+            "value": "virus",
+            "count": 15
+          },
+          {
+            "value": "trojan",
+            "count": 2
+          }
+        ],
+        "popular_threat_name": [
+          {
+            "value": "eicar",
+            "count": 60
+          },
+          {
+            "value": "test",
+            "count": 50
+          },
+          {
+            "value": "file",
+            "count": 35
+          }
+        ]
+      },
+      "vt_checked_at": "2025-07-20T17:54:02.923465Z"
+    }
+  },
+  {
+    "file_name": "eicar.com",
+    "path": "C:\\Users\\pc\\Downloads\\eicar.com",
+    "sha256": "275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f",
+    "timestamp": "2025-07-20T22:40:43.743942",
+    "vt_result": {
+      "malicious_count": 66,
+      "suspicious_count": 0,
+      "undetected_count": 3,
+      "harmless_count": 0,
+      "total_engines": 76,
+      "permalink": "https://www.virustotal.com/api/v3/files/275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f",
+      "first_submitted": 1148301722,
+      "last_analysis_date": 1753033655,
+      "popular_threat_classification": {
+        "suggested_threat_label": "virus.eicar/test",
+        "popular_threat_category": [
+          {
+            "value": "virus",
+            "count": 15
+          },
+          {
+            "value": "trojan",
+            "count": 2
+          }
+        ],
+        "popular_threat_name": [
+          {
+            "value": "eicar",
+            "count": 60
+          },
+          {
+            "value": "test",
+            "count": 50
+          },
+          {
+            "value": "file",
+            "count": 35
+          }
+        ]
+      },
+      "vt_checked_at": "2025-07-20T17:54:02.923465Z"
+    }
+  },
+  {
+    "file_name": "cat.jpeg",
+    "path": "C:\\Users\\ahmad\\Downloads\\cat.jpeg",
+    "sha256": "90def42617fe42db0d55900b7e17d40fcd261044e325957c56af007a4361ae5c",
+    "timestamp": "2025-07-22T20:32:52.539638",
+    "vt_result": {
+      "malicious_count": 0,
+      "suspicious_count": 0,
+      "undetected_count": 60,
+      "harmless_count": 0,
+      "total_engines": 76,
+      "permalink": "https://www.virustotal.com/api/v3/files/90def42617fe42db0d55900b7e17d40fcd261044e325957c56af007a4361ae5c",
+      "first_submitted": 1748013965,
+      "last_analysis_date": 1748013965,
+      "popular_threat_classification": null,
+      "vt_checked_at": "2025-07-22T15:33:23.518347Z"
+    }
+  },
+  {
+    "file_name": "cat.jpeg",
+    "path": "C:\\Users\\ahmad\\Downloads\\cat.jpeg",
+    "sha256": "90def42617fe42db0d55900b7e17d40fcd261044e325957c56af007a4361ae5c",
+    "timestamp": "2025-07-22T20:32:53.422026",
+    "vt_result": {
+      "malicious_count": 0,
+      "suspicious_count": 0,
+      "undetected_count": 60,
+      "harmless_count": 0,
+      "total_engines": 76,
+      "permalink": "https://www.virustotal.com/api/v3/files/90def42617fe42db0d55900b7e17d40fcd261044e325957c56af007a4361ae5c",
+      "first_submitted": 1748013965,
+      "last_analysis_date": 1748013965,
+      "popular_threat_classification": null,
+      "vt_checked_at": "2025-07-22T15:33:39.667871Z"
+    }
+  }
+]

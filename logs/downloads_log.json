@@ -1,0 +1,324 @@
+[
+    {
+        "file_name": "keymapper-1.0-installer_Ll-lWn1.exe",
+        "path": "C:\\Users\\pc\\Downloads\\keymapper-1.0-installer_Ll-lWn1.exe",
+        "size_bytes": 1962080,
+        "file_extension": ".exe",
+        "mime_type": "application/x-msdownload",
+        "encoding": null,
+        "timestamp": "2025-07-20T20:32:37.567969",
+        "file_modified": "2025-07-20T20:32:33.538621",
+        "file_created": "2025-07-20T20:32:30.013417",
+        "file_accessed": "2025-07-20T20:32:33.606573",
+        "hashes": {
+            "md5": "7607ba020bbdb7f86b35f54895c20179",
+            "sha1": "a334f47cd8930b9eb5c9c6ee1d7e9cb40eac8258",
+            "sha256": "73ce5730dea408cc582c76d901d19df1fb8158a5309e0bd82a6f014bd749c896"
+        },
+        "file_signature": "4d5a50000200000004000f00ffff0000b80000000000000040001a0000000000",
+        "entropy": null,
+        "pe_info": {
+            "company_name": "                                                            ",
+            "file_description": "Softonic International SA                                   ",
+            "file_version": "2.41.2.9280         ",
+            "product_name": "Softonic International SA                                   ",
+            "product_version": "3.1.5.8                                           ",
+            "copyright": "c2023 Softonic International SA                                                                     ",
+            "original_filename": "                                                  "
+        },
+        "zone_identifier": "[ZoneTransfer]\nZoneId=3\nHostUrl=https://d1hck35173zzpc.cloudfront.net/hu/zbr0hmuo1d/ahy/82.385",
+        "system_info": {
+            "os": "Windows",
+            "os_version": "10.0.26100",
+            "machine": "AMD64",
+            "user": "pc"
+        },
+        "risk_indicators": {
+            "high_entropy": false,
+            "suspicious_extension": true,
+            "no_version_info": false,
+            "from_internet": true,
+            "large_file": false
+        }
+    },
+    {
+        "file_name": "keymapper-1.0-installer_M-LNQM1.exe",
+        "path": "C:\\Users\\pc\\Downloads\\keymapper-1.0-installer_M-LNQM1.exe",
+        "size_bytes": 1962176,
+        "file_extension": ".exe",
+        "mime_type": "application/x-msdownload",
+        "encoding": null,
+        "timestamp": "2025-07-20T21:00:17.130357",
+        "file_modified": "2025-07-20T21:00:12.174518",
+        "file_created": "2025-07-20T21:00:08.833067",
+        "file_accessed": "2025-07-20T21:00:12.217228",
+        "hashes": {
+            "md5": "5c059bab98881f4cae30fd2deb3b1498",
+            "sha1": "ce53f3d9545994534ef8fd24e7930ed4f37153cf",
+            "sha256": "ffc910bdf3468999e419d80be850ac69c2bb3fa62a55c1633bc2eb681f4d1456"
+        },
+        "file_signature": "4d5a50000200000004000f00ffff0000b80000000000000040001a0000000000",
+        "entropy": null,
+        "pe_info": {
+            "company_name": "                                                            ",
+            "file_description": "Softonic International SA                                   ",
+            "file_version": "2.41.2.9280         ",
+            "product_name": "Softonic International SA                                   ",
+            "product_version": "3.1.5.8                                           ",
+            "copyright": "c2023 Softonic International SA                                                                     ",
+            "original_filename": "                                                  "
+        },
+        "zone_identifier": "[ZoneTransfer]\nZoneId=3\nHostUrl=https://d1hck35173zzpc.cloudfront.net/hu/zbr0hmuo1d/ahy/82.385",
+        "system_info": {
+            "os": "Windows",
+            "os_version": "10.0.26100",
+            "machine": "AMD64",
+            "user": "pc"
+        },
+        "risk_indicators": {
+            "high_entropy": false,
+            "suspicious_extension": true,
+            "no_version_info": false,
+            "from_internet": true,
+            "large_file": false
+        }
+    },
+    {
+        "file_name": "271_AI Lect Notes.pdf",
+        "path": "C:\\Users\\pc\\Downloads\\271_AI Lect Notes.pdf",
+        "size_bytes": 2187463,
+        "file_extension": ".pdf",
+        "mime_type": "application/pdf",
+        "encoding": null,
+        "timestamp": "2025-07-20T22:23:29.340889",
+        "file_modified": "2025-07-20T22:23:23.280332",
+        "file_created": "2025-07-20T22:23:27.137014",
+        "file_accessed": "2025-07-20T22:23:23.280332",
+        "hashes": {
+            "md5": "adbc3aeb14d34d721fdb3620c5cbde10",
+            "sha1": "c86de0948889810c8380e39d701793550d9f3bb5",
+            "sha256": "500d30d6de692d5442bce9fe7075bce7079231af25c08c4f0478c38e78c2160b"
+        },
+        "file_signature": "255044462d312e350d0a25b5b5b5b50d0a312030206f626a0d0a3c3c2f547970",
+        "entropy": 7.8941,
+        "pe_info": null,
+        "zone_identifier": "[ZoneTransfer]\nZoneId=3\nReferrerUrl=https://www.cet.edu.in/noticefiles/271_AI%20Lect%20Notes.pdf\nHostUrl=https://www.cet.edu.in/noticefiles/271_AI%20Lect%20Notes.pdf",
+        "system_info": {
+            "os": "Windows",
+            "os_version": "10.0.26100",
+            "machine": "AMD64",
+            "user": "pc"
+        },
+        "risk_indicators": {
+            "high_entropy": true,
+            "suspicious_extension": false,
+            "no_version_info": null,
+            "from_internet": true,
+            "large_file": false
+        }
+    },
+    {
+        "file_name": "271_AI Lect Notes.pdf",
+        "path": "C:\\Users\\pc\\Downloads\\271_AI Lect Notes.pdf",
+        "size_bytes": 2187463,
+        "file_extension": ".pdf",
+        "mime_type": "application/pdf",
+        "encoding": null,
+        "timestamp": "2025-07-20T22:23:32.810483",
+        "file_modified": "2025-07-20T22:23:27.563443",
+        "file_created": "2025-07-20T22:23:27.137014",
+        "file_accessed": "2025-07-20T22:23:29.283664",
+        "hashes": {
+            "md5": "adbc3aeb14d34d721fdb3620c5cbde10",
+            "sha1": "c86de0948889810c8380e39d701793550d9f3bb5",
+            "sha256": "500d30d6de692d5442bce9fe7075bce7079231af25c08c4f0478c38e78c2160b"
+        },
+        "file_signature": "255044462d312e350d0a25b5b5b5b50d0a312030206f626a0d0a3c3c2f547970",
+        "entropy": 7.8941,
+        "pe_info": null,
+        "zone_identifier": "[ZoneTransfer]\nZoneId=3\nReferrerUrl=https://www.cet.edu.in/noticefiles/271_AI%20Lect%20Notes.pdf\nHostUrl=https://www.cet.edu.in/noticefiles/271_AI%20Lect%20Notes.pdf",
+        "system_info": {
+            "os": "Windows",
+            "os_version": "10.0.26100",
+            "machine": "AMD64",
+            "user": "pc"
+        },
+        "risk_indicators": {
+            "high_entropy": true,
+            "suspicious_extension": false,
+            "no_version_info": null,
+            "from_internet": true,
+            "large_file": false
+        }
+    },
+    {
+        "file_name": "271_AI Lect Notes.pdf",
+        "path": "C:\\Users\\pc\\Downloads\\271_AI Lect Notes.pdf",
+        "size_bytes": 2187463,
+        "file_extension": ".pdf",
+        "mime_type": "application/pdf",
+        "encoding": null,
+        "timestamp": "2025-07-20T22:30:24.857507",
+        "file_modified": "2025-07-20T22:30:17.522755",
+        "file_created": "2025-07-20T22:30:17.507118",
+        "file_accessed": "2025-07-20T22:30:17.522755",
+        "hashes": {
+            "md5": null,
+            "sha1": null,
+            "sha256": null
+        },
+        "file_signature": null,
+        "entropy": null,
+        "pe_info": null,
+        "zone_identifier": "[ZoneTransfer]\nZoneId=3\nReferrerUrl=https://www.cet.edu.in/noticefiles/271_AI%20Lect%20Notes.pdf\nHostUrl=https://www.cet.edu.in/noticefiles/271_AI%20Lect%20Notes.pdf",
+        "system_info": {
+            "os": "Windows",
+            "os_version": "10.0.26100",
+            "machine": "AMD64",
+            "user": "pc"
+        },
+        "risk_indicators": {
+            "high_entropy": false,
+            "suspicious_extension": false,
+            "no_version_info": null,
+            "from_internet": true,
+            "large_file": false
+        }
+    },
+    {
+        "file_name": "eicar.com",
+        "path": "C:\\Users\\pc\\Downloads\\eicar.com",
+        "size_bytes": 68,
+        "file_extension": ".com",
+        "mime_type": null,
+        "encoding": null,
+        "timestamp": "2025-07-20T22:35:36.262833",
+        "file_modified": "2025-07-20T22:35:31.065815",
+        "file_created": "2025-07-20T22:35:30.773984",
+        "file_accessed": "2025-07-20T22:35:31.191963",
+        "hashes": {
+            "md5": null,
+            "sha1": null,
+            "sha256": null
+        },
+        "file_signature": null,
+        "entropy": null,
+        "pe_info": null,
+        "zone_identifier": "[ZoneTransfer]\nZoneId=3\nHostUrl=https://secure.eicar.org/eicar.com",
+        "system_info": {
+            "os": "Windows",
+            "os_version": "10.0.26100",
+            "machine": "AMD64",
+            "user": "pc"
+        },
+        "risk_indicators": {
+            "high_entropy": false,
+            "suspicious_extension": true,
+            "no_version_info": null,
+            "from_internet": true,
+            "large_file": false
+        }
+    },
+    {
+        "file_name": "eicar.com",
+        "path": "C:\\Users\\pc\\Downloads\\eicar.com",
+        "size_bytes": 68,
+        "file_extension": ".com",
+        "mime_type": null,
+        "encoding": null,
+        "timestamp": "2025-07-20T22:35:36.300164",
+        "file_modified": "2025-07-20T22:35:31.065815",
+        "file_created": "2025-07-20T22:35:30.773984",
+        "file_accessed": "2025-07-20T22:35:31.191963",
+        "hashes": {
+            "md5": null,
+            "sha1": null,
+            "sha256": null
+        },
+        "file_signature": null,
+        "entropy": null,
+        "pe_info": null,
+        "zone_identifier": "[ZoneTransfer]\nZoneId=3\nHostUrl=https://secure.eicar.org/eicar.com",
+        "system_info": {
+            "os": "Windows",
+            "os_version": "10.0.26100",
+            "machine": "AMD64",
+            "user": "pc"
+        },
+        "risk_indicators": {
+            "high_entropy": false,
+            "suspicious_extension": true,
+            "no_version_info": null,
+            "from_internet": true,
+            "large_file": false
+        }
+    },
+    {
+        "file_name": "eicar.com",
+        "path": "C:\\Users\\pc\\Downloads\\eicar.com",
+        "size_bytes": 68,
+        "file_extension": ".com",
+        "mime_type": null,
+        "encoding": null,
+        "timestamp": "2025-07-20T22:40:43.553982",
+        "file_modified": "2025-07-20T22:40:38.575402",
+        "file_created": "2025-07-20T22:38:15.681058",
+        "file_accessed": "2025-07-20T22:40:38.688117",
+        "hashes": {
+            "md5": "44d88612fea8a8f36de82e1278abb02f",
+            "sha1": "3395856ce81f2b7382dee72602f798b642f14140",
+            "sha256": "275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f"
+        },
+        "file_signature": "58354f2150254041505b345c505a58353428505e2937434329377d2445494341",
+        "entropy": 4.8723,
+        "pe_info": null,
+        "zone_identifier": "[ZoneTransfer]\nZoneId=3\nHostUrl=https://secure.eicar.org/eicar.com",
+        "system_info": {
+            "os": "Windows",
+            "os_version": "10.0.26100",
+            "machine": "AMD64",
+            "user": "pc"
+        },
+        "risk_indicators": {
+            "high_entropy": false,
+            "suspicious_extension": true,
+            "no_version_info": null,
+            "from_internet": true,
+            "large_file": false
+        }
+    },
+    {
+        "file_name": "eicar.com",
+        "path": "C:\\Users\\pc\\Downloads\\eicar.com",
+        "size_bytes": 68,
+        "file_extension": ".com",
+        "mime_type": null,
+        "encoding": null,
+        "timestamp": "2025-07-20T22:40:43.743942",
+        "file_modified": "2025-07-20T22:40:38.575402",
+        "file_created": "2025-07-20T22:38:15.681058",
+        "file_accessed": "2025-07-20T22:40:42.294816",
+        "hashes": {
+            "md5": "44d88612fea8a8f36de82e1278abb02f",
+            "sha1": "3395856ce81f2b7382dee72602f798b642f14140",
+            "sha256": "275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f"
+        },
+        "file_signature": "58354f2150254041505b345c505a58353428505e2937434329377d2445494341",
+        "entropy": 4.8723,
+        "pe_info": null,
+        "zone_identifier": "[ZoneTransfer]\nZoneId=3\nHostUrl=https://secure.eicar.org/eicar.com",
+        "system_info": {
+            "os": "Windows",
+            "os_version": "10.0.26100",
+            "machine": "AMD64",
+            "user": "pc"
+        },
+        "risk_indicators": {
+            "high_entropy": false,
+            "suspicious_extension": true,
+            "no_version_info": null,
+            "from_internet": true,
+            "large_file": false
+        }
+    }
+]
