@@ -40,11 +40,13 @@ def normalize_document(doc, module):
         "domain": None,
         "asn": None,
         "country": None,
-        "score": None
+        "score": None  # will become features.score
     }
 
     data = doc.get("data", {})
-    features["score"] = doc.get("score", None)
+
+    # Map severity → features.score
+    features["score"] = doc.get("severity", None)
     features["timestamp"] = doc.get("timestamp", str(datetime.datetime.utcnow()))
 
     # Module-specific logic
@@ -53,6 +55,8 @@ def normalize_document(doc, module):
         features["cpu"] = data.get("cpu")
         features["uptime"] = data.get("uptime")
         features["duration"] = data.get("duration")
+        features["score"] = data.get("severity")
+        
 
     elif module == "process_monitor":
         features["process_name"] = data.get("process_name")
@@ -71,12 +75,15 @@ def normalize_document(doc, module):
         features["asn"] = data.get("asn")
         features["country"] = data.get("country")
 
+    # Ensure label is same as score
+    label_value = features["score"]
+
     return {
         "event_type": doc.get("event_type") or doc.get("event") or "unknown",
         "module": module,
         "timestamp": doc.get("timestamp", str(datetime.datetime.utcnow())),
         "features": features,
-        "label":  doc.get("score", None)
+        "label": label_value
     }
 
 # ---------- Main Routine ----------
@@ -86,7 +93,7 @@ def run_normalizer():
     for collection_name, module in collection_modules.items():
         collection = db[collection_name]
         docs = collection.find()
-    
+
         doc_count = 0
         for doc in docs:
             normalized = normalize_document(doc, module)
@@ -106,7 +113,8 @@ def run_normalizer():
         flat = {
             "event_type": entry["event_type"],
             "module": entry["module"],
-            "timestamp": entry["timestamp"]
+            "timestamp": entry["timestamp"],
+            "label": entry["label"]  # keep label as a separate column
         }
         flat.update({f"features.{k}": v for k, v in entry["features"].items()})
         flattened.append(flat)

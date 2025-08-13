@@ -16,7 +16,7 @@ def extract_features(csv_path=NORMALIZED_CSV_PATH):
             print("[!] No data found in normalized log file.")
             return None, None
 
-        # ------------------ Adjusted Feature Names ------------------ #
+        # ------------------ Feature Names ------------------ #
         feature_cols = [
             'features.score',
             'event_type',
@@ -27,13 +27,26 @@ def extract_features(csv_path=NORMALIZED_CSV_PATH):
         available_cols = [col for col in feature_cols if col in df.columns]
         df = df[available_cols]
 
-        # Drop fully empty columns (fixes sklearn warnings)
+        # Drop fully empty columns
         df = df.dropna(axis=1, how='all')
 
-        # Separate labels
-        y = df['features.score'] if 'features.score' in df.columns else None
+        # ------------------ Labels ------------------ #
+        label_col = None
+        if 'features.score' in df.columns:
+            label_col = 'features.score'
+        elif 'severity' in df.columns:
+            label_col = 'severity'
 
-        # Categorical vs numeric
+        if label_col:
+            y = df[label_col].copy()
+            if not pd.api.types.is_numeric_dtype(y):
+                y = pd.factorize(y)[0]
+            y = pd.Series(y, name="label")
+        else:
+            print("[!] No label column ('features.score' or 'severity') found.")
+            y = None
+
+        # ------------------ Split Categorical / Numeric ------------------ #
         categorical_cols = [col for col in ['event_type', 'features.parent_process', 'features.process_name'] if col in df.columns]
         numeric_cols = [col for col in df.columns if col not in categorical_cols and col != 'features.score']
 
@@ -52,12 +65,13 @@ def extract_features(csv_path=NORMALIZED_CSV_PATH):
         else:
             encoded_df = pd.DataFrame()
 
-        # Combine features
+        # ------------------ Combine Features ------------------ #
         df_combined = pd.concat([df_numeric.reset_index(drop=True), encoded_df.reset_index(drop=True)], axis=1)
 
         # ------------------ Save ------------------ #
         os.makedirs(os.path.dirname(FEATURE_OUTPUT_PATH), exist_ok=True)
         df_combined.to_csv(FEATURE_OUTPUT_PATH, index=False)
+
         if y is not None:
             y.to_csv(LABEL_OUTPUT_PATH, index=False)
 
@@ -65,6 +79,7 @@ def extract_features(csv_path=NORMALIZED_CSV_PATH):
         if y is not None:
             print(f"[+] Saved labels to {LABEL_OUTPUT_PATH}")
         print(f"[+] Extracted {df_combined.shape[0]} rows and {df_combined.shape[1]} features.")
+
         return df_combined, y
 
     except Exception as e:
