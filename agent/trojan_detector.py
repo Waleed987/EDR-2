@@ -10,6 +10,9 @@ from watchdog.events import FileSystemEventHandler
 from pymongo import MongoClient
 import threading
 import subprocess
+from log_sender import send_to_backend
+from severity_scoring import score_event
+from realtime_decision import decide_action
 
 # === CONFIGURATION ===
 DOWNLOAD_FOLDER = os.path.join(os.path.expanduser("~"), "Downloads")
@@ -386,6 +389,20 @@ class DownloadHandler(FileSystemEventHandler):
             print(f"[DEBUG] LOG_FILE path: {LOG_FILE}")
             print(f"[DEBUG] Current working directory: {os.getcwd()}")
         
+        # Compute severity and send to backend as unified module 'download'
+        try:
+            sev = score_event("Download Detected", {"file": file_name, "path": file_path, "size_bytes": file_size, "entropy": entropy})
+            log_entry["severity"] = sev
+        except Exception:
+            pass
+
+        try:
+            action, conf = decide_action("download", "Download Detected", log_entry)
+            log_entry.update({"ml_action": action, "ml_confidence": conf})
+            send_to_backend("download", "Download Detected", log_entry)
+        except Exception as e:
+            print(f"[!] Backend send failed: {e}")
+
         # Log to MongoDB with full details
         if collection is not None:
             try:

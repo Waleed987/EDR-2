@@ -1,0 +1,64 @@
+event_type,module,features.score,features.cpu,features.uptime,features.duration,features.filename,features.hash,features.registry_key,features.ip,features.domain,features.asn,features.country,features.parent_process,features.process_name,label
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\vcruntime140_1.dll,,,,,,,,,5.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,161.142.152.150,Unknown,,,,,7.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\prm0009.dll,,,,,,,,,5.0
+Network Connection,network_monitor,4.0,,,,,,,197.186.4.32,32-4-186-197.r.airtel.co.tz,,,,,4.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\en-US\AppXDeploymentServer.dll.mui,,,,,,,,,5.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,Cursor.exe,6.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\wlidprov.dll,,,,,,,,,5.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\vcruntime140_1.dll,,,,,,,,,5.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,svchost.exe,RuntimeBroker.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,103.186.57.51,Unknown,,,,,7.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\msvcp140.dll,,,,,,,,,5.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,wininit.exe,fontdrvhost.exe,1.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\windows.applicationmodel.datatransfer.dll,,,,,,,,,5.0
+Network Connection,network_monitor,4.0,,,,,,,115.96.219.212,219.96.115.212.hathway.com,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,137.59.221.168,Unknown,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\winevt\Logs\Application.evtx,,,,,,,,,5.0
+Process Created,process_monitor,1.0,,,,,,,,,,,winlogon.exe,fontdrvhost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,steamwebhelper.exe,steamwebhelper.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Suspicious Network,network_monitor,7.0,,,,,,,103.115.198.44,44.198.zcomnetworks.com.pk,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\winevt\Logs\System.evtx,,,,,,,,,5.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\RTMediaFrame.dll,,,,,,,,,5.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,steamwebhelper.exe,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,backgroundTaskHost.exe,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\en-US\WFSR.dll.mui,,,,,,,,,5.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\AppContracts.dll,,,,,,,,,5.0
+Suspicious Network,network_monitor,7.0,,,,,,,10.7.41.54,Unknown,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system idle process,System,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,OneApp.IGCC.WinService.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,nvdisplay.container.exe,NVDisplay.Container.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\winevt\Logs\Microsoft-Windows-Crypto-NCrypt%4Operational.evtx,,,,,,,,,5.0

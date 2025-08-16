@@ -10,6 +10,8 @@ from datetime import datetime
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from log_sender import send_to_backend
+from severity_scoring import score_event
+from realtime_decision import decide_action
 
 # ------------------ CONFIG ------------------ #
 SUSPICIOUS_FILES = [
@@ -85,11 +87,16 @@ class FileTriggerHandler(FileSystemEventHandler):
                 print(f"[!] File-triggered Process Detected: {alert_data}")
                 
                 
-                # 1. Log individual event
-                log_locally("File-triggered Process", alert_data)
-                send_to_backend("logic_bomb", "File-triggered Process", alert_data)
+                # 1. Log individual event with severity
+                severity = score_event("File-triggered Process", alert_data)
+                alert_with_sev = {**alert_data, "severity": severity}
+                log_locally("File-triggered Process", alert_with_sev)
+                action, conf = decide_action("logic_bomb", "File-triggered Process", alert_with_sev)
+                alert_with_sev.update({"ml_action": action, "ml_confidence": conf})
+                send_to_backend("logic_bomb", "File-triggered Process", alert_with_sev)
 
                 # 2. Log correlation
+                corr_sev = score_event("Correlated Trigger-Process", alert_data)
                 log_correlation(event.src_path, proc)
 
 # ------------------ RUNNER ------------------ #

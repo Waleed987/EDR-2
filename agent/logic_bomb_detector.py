@@ -13,6 +13,7 @@ from collections import defaultdict, deque
 from file_trigger_detector import run_file_trigger_monitor
 from severity_scoring import score_event  
 from log_sender import send_to_backend
+from realtime_decision import decide_action
 
 # ------------------ CONFIG ------------------ #
 
@@ -151,8 +152,9 @@ def send_alert(event_type, data):
     data["severity"] = severity
     print(f"[!] {event_type} (Severity {severity}): {data}")
     log_locally(event_type, data)
+    action, conf = decide_action("logic_bomb", event_type, data)
+    data.update({"ml_action": action, "ml_confidence": conf})
     send_to_backend("logic_bomb", event_type, data)
-    score_event(event_type, data) 
 
 # ------------------ RUNNER ------------------ #
 

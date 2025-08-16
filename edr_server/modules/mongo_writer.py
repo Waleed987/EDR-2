@@ -5,6 +5,7 @@ db = client["edr_logs"]
 
 def insert_log(module_name, log_data):
     try:
+        # Normalize module names to collection
         collection = db[f"{module_name}_logs"]
         result = collection.insert_one(log_data)
         return {"status": "success", "id": str(result.inserted_id)}

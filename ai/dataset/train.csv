@@ -1,0 +1,295 @@
+event_type,module,features.score,features.cpu,features.uptime,features.duration,features.filename,features.hash,features.registry_key,features.ip,features.domain,features.asn,features.country,features.parent_process,features.process_name,label
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\ActivationClient.dll,,,,,,,,,5.0
+Time-Based Execution Window,logic_bomb,5.0,,,,,,,,,,,,,5.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\dxgi.dll,,,,,,,,,5.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,Cursor.exe,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,206.84.143.113,Unknown,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\directxdatabasehelper.dll,,,,,,,,,5.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\imageres.dll,,,,,,,,,5.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\drivers\storport.sys,,,,,,,,,5.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\MSWB7.dll,,,,,,,,,5.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,taskhostw.exe,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\WFSR.dll,,,,,,,,,5.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,svchost.exe,6.0
+Network Connection,network_monitor,4.0,,,,,,,206.84.143.113,Unknown,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\Windows.Media.dll,,,,,,,,,5.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\WFSR.dll,,,,,,,,,5.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,cursor.exe,Cursor.exe,1.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\pcwum.dll,,,,,,,,,5.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\Windows.Security.Integrity.dll,,,,,,,,,5.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Network Connection,network_monitor,4.0,,,,,,,2401,Unknown,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,155.133.225.21,Unknown,,,,,4.0
+Network Connection,network_monitor,4.0,,,,,,,36.250.241.151,Unknown,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\DriverStore\FileRepository\nvcvi.inf_amd64_eac0e69528ef8aec\nvdlistx.dll,,,,,,,,,5.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\Microsoft-Windows-AppModelExecEvents.dll,,,,,,,,,5.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,SearchIndexer.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,45.248.148.254,254.148.248.45.dotinternetbd.com,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\directxdatabasehelper.dll,,,,,,,,,5.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,winlogon.exe,dwm.exe,1.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\FirewallControlPanel.dll,,,,,,,,,5.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Network Connection,network_monitor,4.0,,,,,,,122.170.81.239,abts-mum-dynamic-239.81.170.122.airtelbroadband.in,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\wbem\en-US\cimwin32.dll.mui,,,,,,,,,5.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,RuntimeBroker.exe,6.0
+Network Connection,network_monitor,4.0,,,,,,,106.195.7.138,Unknown,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\vcruntime140.dll,,,,,,,,,5.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\TileDataRepository.dll,,,,,,,,,5.0
+Consistent Execution Time,logic_bomb,6.0,,,,,,,,,,,,svchost.exe,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,2409,Unknown,,,,,7.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\windows.applicationmodel.datatransfer.dll,,,,,,,,,5.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\IDStore.dll,,,,,,,,,5.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Consistent Execution Time,logic_bomb,6.0,,,,,,,,,,,,svchost.exe,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,141.95.53.64,vps-6d1f4b3d.vps.ovh.net,,,,,4.0
+Suspicious Network,network_monitor,7.0,,,,,,,106.79.196.245,Unknown,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,cursor.exe,Cursor.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,106.79.196.245,Unknown,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\TileDataRepository.dll,,,,,,,,,5.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,161.142.152.150,Unknown,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,igfxCUIService.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\ResourcePolicyClient.dll,,,,,,,,,5.0
+Process Created,process_monitor,1.0,,,,,,,,,,,wininit.exe,services.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,unknown,csrss.exe,1.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\Windows.Media.dll,,,,,,,,,5.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\pcwum.dll,,,,,,,,,5.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,45.248.148.252,252.148.248.45.dotinternetbd.com,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,2401,Unknown,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,Registry,1.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\vcruntime140.dll,,,,,,,,,5.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\dxgi.dll,,,,,,,,,5.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\winevt\Logs\Microsoft-Windows-PushNotification-Platform%4Operational.evtx,,,,,,,,,5.0
+Network Connection,network_monitor,4.0,,,,,,,103.115.198.44,44.198.zcomnetworks.com.pk,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,unknown,firefox.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,137.59.221.168,Unknown,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,SynTPEnhService.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,cursor.exe,Cursor.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,115.96.219.212,219.96.115.212.hathway.com,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,92.62.121.212,Unknown,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,141.95.53.64,vps-6d1f4b3d.vps.ovh.net,,,,,7.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\en-US\imageres.dll.mui,,,,,,,,,5.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,103.186.57.51,Unknown,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,106.195.7.138,Unknown,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\CompPkgSup.dll,,,,,,,,,5.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Consistent Execution Time,logic_bomb,6.0,,,,,,,,,,,,svchost.exe,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,cursor.exe,Cursor.exe,1.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\CompPkgSrv.exe,,,,,,,,,5.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,155.133.225.21,Unknown,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,unknown,wininit.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Network Connection,network_monitor,4.0,,,,,,,45.248.148.252,252.148.248.45.dotinternetbd.com,,,,,4.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\en-US\FirewallControlPanel.dll.mui,,,,,,,,,5.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\winevt\Logs\Microsoft-Windows-PushNotification-Platform%4Operational.evtx,,,,,,,,,5.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\Windows.Security.Integrity.dll,,,,,,,,,5.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\en-US\imageres.dll.mui,,,,,,,,,5.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\msvcp140.dll,,,,,,,,,5.0
+Process Created,process_monitor,1.0,,,,,,,,,,,jusched.exe,jucheck.exe,1.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\en-US\AppXDeploymentServer.dll.mui,,,,,,,,,5.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\imageres.dll,,,,,,,,,5.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,MemCompression,1.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\IDStore.dll,,,,,,,,,5.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\wlidprov.dll,,,,,,,,,5.0
+Process Created,process_monitor,1.0,,,,,,,,,,,wininit.exe,LsaIso.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,wsnativepushservice.exe,WsToastNotification.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,wininit.exe,lsass.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,103.84.57.47,Unknown,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,2603,Unknown,,,,,4.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Consistent Execution Time,logic_bomb,6.0,,,,,,,,,,,,svchost.exe,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\rometadata.dll,,,,,,,,,5.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,SecurityHealthSystray.exe,6.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\ResourcePolicyClient.dll,,,,,,,,,5.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system idle process,System Idle Process,1.0
+Network Connection,network_monitor,4.0,,,,,,,34.107.243.93,93.243.107.34.bc.googleusercontent.com,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,svchost.exe,backgroundTaskHost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,codesetup-stable-1.4.5.exe,CodeSetup-stable-1.4.5.tmp,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,197.186.4.32,32-4-186-197.r.airtel.co.tz,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,36.250.241.151,Unknown,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,122.170.81.239,abts-mum-dynamic-239.81.170.122.airtelbroadband.in,,,,,7.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\winevt\Logs\Microsoft-Windows-Crypto-NCrypt%4Operational.evtx,,,,,,,,,5.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,unknown,winlogon.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,IntelCpHDCPSvc.exe,1.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\CompPkgSup.dll,,,,,,,,,5.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,unknown,csrss.exe,1.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\ActivationClient.dll,,,,,,,,,5.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,IntelCpHeciSvc.exe,1.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\winevt\Logs\Microsoft-Windows-AAD%4Operational.evtx,,,,,,,,,5.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,34.107.243.93,93.243.107.34.bc.googleusercontent.com,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,27.34.65.133,Unknown,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,firefox.exe,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\RTMediaFrame.dll,,,,,,,,,5.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,smss.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\AppContracts.dll,,,,,,,,,5.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\winevt\Logs\Microsoft-Client-Licensing-Platform%4Admin.evtx,,,,,,,,,5.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,firefox.exe,6.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,10.7.41.87,DESKTOP-MBP29E1,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\WindowsPowerShell\v1.0\powershell_ise.exe,,,,,,,,,5.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\Microsoft-Windows-AppModelExecEvents.dll,,,,,,,,,5.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\en-US\WFSR.dll.mui,,,,,,,,,5.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\winevt\Logs\Microsoft-Windows-Diagnosis-PCW%4Operational.evtx,,,,,,,,,5.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,PresentationFontCache.exe,1.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\winevt\Logs\Microsoft-Windows-Diagnosis-PCW%4Operational.evtx,,,,,,,,,5.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\samlib.dll,,,,,,,,,5.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\MSWB7.dll,,,,,,,,,5.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\drivers\storport.sys,,,,,,,,,5.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,27.34.65.133,Unknown,,,,,4.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\wbem\en-US\cimwin32.dll.mui,,,,,,,,,5.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\winevt\Logs\System.evtx,,,,,,,,,5.0
+File Modified,file_monitor,5.0,,,,C:/Windows/System32\FirewallControlPanel.dll,,,,,,,,,5.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\WindowsPowerShell\v1.0\powershell_ise.exe,,,,,,,,,5.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,WsToastNotification.exe,6.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\en-US\FirewallControlPanel.dll.mui,,,,,,,,,5.0
+System File Touched,file_monitor,5.0,,,,C:/Windows/System32\DriverStore\FileRepository\nvcvi.inf_amd64_eac0e69528ef8aec\nvdlistx.dll,,,,,,,,,5.0

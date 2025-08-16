@@ -6,6 +6,8 @@ import time
 import os
 from datetime import datetime
 from log_sender import send_to_backend
+from severity_scoring import score_event
+from realtime_decision import decide_action
 
 # ------------------ CONFIG ------------------ #
 BASELINE_PATH = "D:/CyberSecurity-Learning-Materials/EDR project/baseline/trusted_process_relationships.json"
@@ -51,6 +53,13 @@ def detect_untrusted_process_tree():
                 }
                 print(f"[!] Untrusted Process Tree: {event}")
                 log_locally(event)
+                try:
+                    sev = score_event("Untrusted Process Tree", event)
+                    event = {**event, "severity": sev}
+                except Exception:
+                    pass
+                action, conf = decide_action("process_tree", "Untrusted Process Tree", event)
+                event.update({"ml_action": action, "ml_confidence": conf})
                 send_to_backend("process_tree", "Untrusted Process Tree", event)
 
         except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):

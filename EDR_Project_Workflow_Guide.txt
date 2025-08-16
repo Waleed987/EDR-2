@@ -1,0 +1,526 @@
+================================================================================
+                    EDR AI/ML PROJECT - COMPLETE WORKFLOW GUIDE
+================================================================================
+
+This guide provides step-by-step instructions for setting up and using the EDR AI/ML
+project. Follow these steps carefully to get your automated threat detection and
+response system running.
+
+================================================================================
+                            FIRST-TIME SETUP WORKFLOW
+================================================================================
+
+PREREQUISITES CHECK:
+==================
+Before starting, ensure you have:
+✓ Python 3.8+ installed
+✓ MongoDB running and accessible
+✓ Required Python packages installed (see requirements.txt)
+✓ Project files in correct directory structure
+
+STEP 1: INSTALL DEPENDENCIES
+============================
+Open Command Prompt/PowerShell in the project directory and run:
+
+```bash
+# Install AI/ML dependencies
+cd ai
+pip install -r requirements.txt
+
+# Install agent dependencies (if not already installed)
+cd ..
+pip install watchdog psutil requests pymongo
+```
+
+STEP 2: START THE BACKEND SERVER
+================================
+Open a NEW Command Prompt/PowerShell window and run:
+
+```bash
+cd "D:\CyberSecurity-Learning-Materials\EDR project\edr_server"
+python app.py
+```
+
+Expected output:
+```
+[*] EDR Backend API running on http://localhost:5000
+ * Serving Flask app 'app'
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+```
+
+Keep this window open - the server must be running for the agent to work.
+
+STEP 3: GENERATE INITIAL LOGS
+==============================
+Open another Command Prompt/PowerShell window and run:
+
+```bash
+cd "D:\CyberSecurity-Learning-Materials\EDR project"
+python agent/monitor.py
+```
+
+This will:
+- Start monitoring your system (processes, files, network, USB, etc.)
+- Generate security events and severity scores
+- Send logs to the backend MongoDB
+- Run for about 2-3 minutes to collect sufficient data
+
+Expected output:
+```
+[+] Starting EDR monitoring...
+[+] Process monitoring started
+[+] File monitoring started
+[+] Network monitoring started
+[+] USB monitoring started
+[+] Autorun monitoring started
+[!] Suspicious Process (Severity 7): {...}
+[!] File-triggered Process (Severity 8): {...}
+[+] Monitoring completed
+```
+
+Let it run until you see "Monitoring completed" or stop it with Ctrl+C after 2-3 minutes.
+
+STEP 4: NORMALIZE THE LOGS
+===========================
+In the same window (or a new one), run:
+
+```bash
+cd "D:\CyberSecurity-Learning-Materials\EDR project"
+python ai/log_normalizer.py
+```
+
+Expected output:
+```
+[+] Connected to MongoDB
+[+] Processing logic_bomb_logs...
+[+] Processing process_logs...
+[+] Processing file_logs...
+[+] Processing network_logs...
+[+] Processing usb_logs...
+[+] Processing yara_scan_logs...
+[+] Processing process_tree_logs...
+[+] Processing download_logs...
+[+] Processing severity_score_logs...
+[+] Normalized data saved to: logs/normalized_logs.csv
+[+] Total normalized records: [X] rows
+```
+
+This creates the normalized CSV file needed for ML training.
+
+STEP 5: EXTRACT FEATURES
+========================
+Run the feature extraction:
+
+```bash
+python ai/feature_extractor.py
+```
+
+Expected output:
+```
+[+] Loaded [X] rows from normalized CSV
+[+] Using [Y] feature columns: [...]
+[+] Categorical columns: [...]
+[+] Numeric columns: [...]
+[+] Saved features to dataset/features.csv
+[+] Saved labels to dataset/labels.csv
+[+] Extracted [X] rows and [Y] features
+```
+
+This creates the ML-ready dataset files.
+
+STEP 6: PREPARE DATA FOR TRAINING
+=================================
+Run data preparation:
+
+```bash
+python ai/data_prep.py
+```
+
+Expected output:
+```
+[+] Loaded [X] rows from normalized CSV
+[+] After cleaning: [Y] rows with valid labels
+[+] Split sizes - Train: [A], Valid: [B], Test: [C]
+```
+
+This splits your data into training, validation, and test sets.
+
+STEP 7: TRAIN THE BASELINE MODEL
+=================================
+Train the initial ML model:
+
+```bash
+python ai/train_baseline.py
+```
+
+Expected output:
+```
+[+] Loading preprocessed data...
+[+] Training Random Forest model...
+[+] Model training completed
+[+] Validation Results:
+    Accuracy: 100.00%
+    Precision: 100.00%
+    Recall: 100.00%
+    F1-Score: 100.00%
+[+] Baseline model saved to: models/baseline_model.joblib
+```
+
+STEP 8: OPTIMIZE THE MODEL
+===========================
+Run model optimization:
+
+```bash
+python ai/optimize_model.py
+```
+
+Expected output:
+```
+[+] Loading preprocessed data...
+[+] Testing RandomForestClassifier...
+[+] Testing LogisticRegression...
+[+] Testing SVC...
+[+] Best model: RandomForestClassifier
+[+] Best F1-score: 0.9966
+[+] Final model evaluation on test set:
+    Accuracy: 100.00%
+[+] Optimized model saved to: models/optimized_model.joblib
+```
+
+STEP 9: TEST THE COMPLETE SYSTEM
+=================================
+Now test the full AI-powered EDR system:
+
+```bash
+python agent/monitor.py
+```
+
+This time you should see ML-powered decisions:
+```
+[+] Starting EDR monitoring...
+[+] Realtime ML model loaded successfully
+[!] Suspicious Process (Severity 7): {...}
+[ML-ALERT] Suspicious Process from process_monitor (Confidence: 0.85)
+[!] File-triggered Process (Severity 8): {...}
+[ML-ACTION] Blocking File-triggered Process from logic_bomb (Confidence: 0.92)
+[ACTION] Terminated process with PID: [X]
+```
+
+Congratulations! Your AI-powered EDR system is now fully operational.
+
+================================================================================
+                            ONGOING USAGE WORKFLOW
+================================================================================
+
+DAILY OPERATION:
+===============
+
+1. START THE SYSTEM:
+   ```bash
+   # Terminal 1: Start backend server
+   cd "D:\CyberSecurity-Learning-Materials\EDR project\edr_server"
+   python app.py
+   
+   # Terminal 2: Start EDR monitoring
+   cd "D:\CyberSecurity-Learning-Materials\EDR project"
+   python agent/monitor.py
+   ```
+
+2. MONITOR OUTPUT:
+   - Watch for ML decisions and automated actions
+   - Check for any errors or warnings
+   - Monitor system performance
+
+3. STOP MONITORING:
+   - Press Ctrl+C in the monitor window
+   - Close the backend server window
+
+PERIODIC MODEL UPDATES:
+======================
+
+Every few days or when you want to improve the model:
+
+1. COLLECT NEW DATA:
+   ```bash
+   python agent/monitor.py
+   # Let it run for 5-10 minutes to collect new logs
+   ```
+
+2. UPDATE THE MODEL:
+   ```bash
+   # Normalize new logs
+   python ai/log_normalizer.py
+   
+   # Extract features
+   python ai/feature_extractor.py
+   
+   # Prepare data
+   python ai/data_prep.py
+   
+   # Retrain and optimize
+   python ai/train_baseline.py
+   python ai/optimize_model.py
+   ```
+
+3. VERIFY IMPROVEMENT:
+   ```bash
+   python agent/monitor.py
+   # Check if ML decisions are more accurate
+   ```
+
+================================================================================
+                            TROUBLESHOOTING GUIDE
+================================================================================
+
+COMMON ISSUES & SOLUTIONS:
+=========================
+
+ISSUE 1: "ModuleNotFoundError: No module named 'pymongo'"
+SOLUTION: Install dependencies
+```bash
+pip install pymongo pandas scikit-learn joblib
+```
+
+ISSUE 2: "Connection refused" when starting monitor.py
+SOLUTION: Ensure backend server is running first
+```bash
+# Start server first
+cd edr_server
+python app.py
+
+# Then in another terminal
+python agent/monitor.py
+```
+
+ISSUE 3: "Model file not found: models\optimized_model.joblib"
+SOLUTION: Run the complete ML pipeline first
+```bash
+python ai/log_normalizer.py
+python ai/feature_extractor.py
+python ai/data_prep.py
+python ai/train_baseline.py
+python ai/optimize_model.py
+```
+
+ISSUE 4: "ValueError: Input y contains NaN"
+SOLUTION: Clean the dataset
+```bash
+python ai/clean_dataset.py
+```
+
+ISSUE 5: "Cannot use median strategy with non-numeric data"
+SOLUTION: This is fixed in the current code, but if it occurs:
+```bash
+python ai/clean_dataset.py
+```
+
+ISSUE 6: MongoDB connection errors
+SOLUTION: Check MongoDB is running and accessible
+```bash
+# Test connection
+python -c "import pymongo; print(pymongo.MongoClient('mongodb://localhost:27017/').server_info())"
+```
+
+================================================================================
+                            ADVANCED USAGE SCENARIOS
+================================================================================
+
+CUSTOM MONITORING:
+=================
+
+1. MODIFY MONITORING PARAMETERS:
+   Edit `agent/monitor.py` to change:
+   - Monitoring intervals
+   - File paths to watch
+   - Process monitoring thresholds
+   - Network monitoring rules
+
+2. ADD CUSTOM DETECTION RULES:
+   Edit `agent/severity_scoring.py` to:
+   - Add new event types
+   - Modify scoring algorithms
+   - Adjust severity thresholds
+
+3. CUSTOMIZE ML DECISIONS:
+   Edit `agent/realtime_decision.py` to:
+   - Change confidence thresholds
+   - Modify decision logic
+   - Add custom response actions
+
+BATCH PROCESSING:
+================
+
+For processing large amounts of historical data:
+
+```bash
+# Process multiple log files
+python ai/batch_processor.py
+
+# Train on specific datasets
+python ai/train_custom.py --data_path custom_data.csv
+```
+
+PERFORMANCE MONITORING:
+======================
+
+Monitor system performance:
+
+```bash
+# Check model performance
+python ai/model_evaluator.py
+
+# Monitor system resources
+python agent/performance_monitor.py
+```
+
+================================================================================
+                            MAINTENANCE & UPDATES
+================================================================================
+
+REGULAR MAINTENANCE:
+===================
+
+1. WEEKLY:
+   - Check MongoDB storage usage
+   - Review error logs
+   - Verify ML model performance
+
+2. MONTHLY:
+   - Update ML models with new data
+   - Review and update detection rules
+   - Backup MongoDB data
+
+3. QUARTERLY:
+   - Evaluate system performance
+   - Update dependencies
+   - Review security policies
+
+BACKUP & RECOVERY:
+==================
+
+1. BACKUP MONGODB:
+   ```bash
+   mongodump --db edr_database --out backup/
+   ```
+
+2. BACKUP ML MODELS:
+   ```bash
+   copy models\*.joblib backup_models\
+   ```
+
+3. RESTORE FROM BACKUP:
+   ```bash
+   mongorestore --db edr_database backup/edr_database/
+   copy backup_models\*.joblib models\
+   ```
+
+================================================================================
+                            PERFORMANCE OPTIMIZATION
+================================================================================
+
+SYSTEM OPTIMIZATION:
+===================
+
+1. MEMORY OPTIMIZATION:
+   - Reduce monitoring intervals if needed
+   - Limit log retention periods
+   - Use efficient data structures
+
+2. SPEED OPTIMIZATION:
+   - Enable model caching
+   - Use batch processing for multiple events
+   - Optimize database queries
+
+3. ACCURACY IMPROVEMENT:
+   - Collect more diverse threat data
+   - Implement ensemble methods
+   - Add anomaly detection
+
+================================================================================
+                            SECURITY CONSIDERATIONS
+================================================================================
+
+IMPORTANT SECURITY NOTES:
+========================
+
+1. ACCESS CONTROL:
+   - Restrict access to the project directory
+   - Use strong passwords for MongoDB
+   - Implement network security for the backend
+
+2. DATA PRIVACY:
+   - Ensure logs don't contain sensitive information
+   - Implement data retention policies
+   - Secure backup storage
+
+3. MODEL SECURITY:
+   - Protect trained models from tampering
+   - Validate model integrity
+   - Monitor for adversarial attacks
+
+================================================================================
+                            SUPPORT & RESOURCES
+================================================================================
+
+GETTING HELP:
+============
+
+1. CHECK LOGS:
+   - Monitor output for error messages
+   - Check MongoDB logs
+   - Review Python error traces
+
+2. VERIFY CONFIGURATION:
+   - Check file paths are correct
+   - Verify MongoDB connection settings
+   - Ensure all dependencies are installed
+
+3. TEST COMPONENTS INDIVIDUALLY:
+   - Test MongoDB connection separately
+   - Test ML model loading
+   - Test agent monitoring
+
+USEFUL COMMANDS:
+===============
+
+```bash
+# Check MongoDB status
+python -c "import pymongo; print(pymongo.MongoClient('mongodb://localhost:27017/').server_info())"
+
+# Test ML model
+python -c "from agent.realtime_decision import decide_action; print(decide_action('test', 'Test Event', {'severity': 7}))"
+
+# Check system resources
+python -c "import psutil; print(f'CPU: {psutil.cpu_percent()}%, Memory: {psutil.virtual_memory().percent}%')"
+```
+
+================================================================================
+                            CONCLUSION
+================================================================================
+
+This workflow guide covers the complete setup and usage of your EDR AI/ML project.
+Follow the steps carefully for first-time setup, and use the ongoing workflow for
+daily operations.
+
+Key Success Factors:
+- Always start the backend server first
+- Complete the full ML pipeline before testing
+- Monitor for errors and address them promptly
+- Regularly update models with new data
+- Keep backups of important data and models
+
+Your AI-powered EDR system will provide:
+- Real-time threat detection
+- Automated response actions
+- Intelligent decision making
+- Continuous learning capabilities
+- Comprehensive security monitoring
+
+For questions or issues, refer to the troubleshooting section and verify each
+component is working correctly.
+
+================================================================================
+End of Document
+================================================================================
+

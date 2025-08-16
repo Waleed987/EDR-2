@@ -17,6 +17,8 @@ import winreg
 from process_tree_monitor import run_process_tree_monitor
 import sys
 from severity_scoring import score_event
+from realtime_decision import decide_action
+from action_executor import execute_action
 
 #-----------------------Trusted IPS Checking----------------------#
 def load_trusted_ranges(path="trusted_ips.json"):
@@ -53,11 +55,26 @@ def check_suspicious_modules(pid):
     except Exception:
         return False
 
+def send_with_severity(module, event_type, data):
+    try:
+        severity = score_event(event_type, data)
+        data = {**data, "severity": severity}
+    except Exception:
+        data = {**data}
+    # realtime decisioning
+    action, conf = decide_action(module, event_type, data)
+    data.update({"ml_action": action, "ml_confidence": conf})
+    if action == "block":
+        exec_result = execute_action(module, event_type, data, action)
+        data.update({"ml_exec": exec_result})
+    send_to_backend(module, event_type, data)
+
+
 def monitor_processes():
     seen = set()
     suspicious_keywords = ["keylogger", "rat", "remoteadmin", "ransom", "locker", "stealer", "info_stealer"]
     suspicious_parents = ["powershell.exe", "cmd.exe", "wscript.exe", "mshta.exe"]
-    score = score_event(event_type, data)
+    # Removed invalid unused severity computation
 
     while True:
         for proc in psutil.process_iter(['pid', 'name', 'ppid']):
@@ -77,11 +94,10 @@ def monitor_processes():
                     "parent": parent_name
                 })
 
-                send_to_backend("process", "Process Created", {
+                send_with_severity("process", "Process Created", {
                     "pid": proc.pid,
                     "name": proc.info['name'],
                     "parent": parent_name
-                    
                 })
 
                 if any(keyword in proc_name for keyword in suspicious_keywords):
@@ -91,7 +107,7 @@ def monitor_processes():
                         "reason": "Matched suspicious keyword"
                     })
                     print(f"[ALERT] Suspicious process detected: {proc.info['name']}")
-                    send_to_backend("process", "Suspicious Process", {
+                    send_with_severity("process", "Suspicious Process", {
                         "pid": proc.pid,
                         "name": proc.info['name'],
                         "reason": "Matched suspicious keyword"
@@ -106,7 +122,7 @@ def monitor_processes():
                     if parent_name in suspicious_parents:
                         print(f"[ALERT] Suspicious parent process: {proc.info['name']} (Parent: {parent_name})")
 
-                    send_to_backend("process", "Suspicious Parent Process", {
+                    send_with_severity("process", "Suspicious Parent Process", {
                         "pid": proc.pid,
                         "name": proc.info['name'],
                         "parent": parent_name
@@ -120,7 +136,7 @@ def monitor_processes():
                     if check_suspicious_modules(proc.pid):
                         print(f"[ALERT] Suspicious modules in: {proc.info['name']}")
 
-                    send_to_backend("process", "Suspicious Process Modules", {
+                    send_with_severity("process", "Suspicious Process Modules", {
                         "pid": proc.pid,
                         "name": proc.info['name']
                     })
@@ -167,7 +183,7 @@ def monitor_network():
                     }
 
                     log_event("Network Connection", log_data)
-                    send_to_backend("network", "Network Connection", log_data)
+                    send_with_severity("network", "Network Connection", log_data)
 
                     if not is_trusted or conn.raddr.port in suspicious_ports or proc_name == "Unknown":
                         log_event("Suspicious Network", {
@@ -176,7 +192,7 @@ def monitor_network():
                         })
                         print(f"[ALERT] Suspicious network connection: {proc_name} -> {remote_ip}:{conn.raddr.port}")
 
-                        send_to_backend("network", "Suspicious Network", {
+                        send_with_severity("network", "Suspicious Network", {
                             **log_data,
                             "reason": "Untrusted IP / Suspicious port / Unknown process"
                         })
@@ -195,11 +211,11 @@ def monitor_usb():
 
         new_devices = current_devices - seen_devices
         for dev in new_devices:
-            send_to_backend("usb", "USB Inserted", {"device": dev})
+            send_with_severity("usb", "USB Inserted", {"device": dev})
 
         removed_devices = seen_devices - current_devices
         for dev in removed_devices:
-            send_to_backend("usb", "USB Removed", {"device": dev})
+            send_with_severity("usb", "USB Removed", {"device": dev})
 
         seen_devices = current_devices
         time.sleep(10)
@@ -221,7 +237,7 @@ def monitor_autorun():
         autoruns = detect_autorun_registry()
         for entry in autoruns:
             log_event("Autorun Entry Detected", entry)
-            send_to_backend("autorun", "Autorun Entry Detected", entry)
+            send_with_severity("autorun", "Autorun Entry Detected", entry)
         time.sleep(30)
 
 # ------------------ FILE MONITORING ------------------
@@ -265,18 +281,18 @@ class Handler(FileSystemEventHandler):
         total_mods = sum(file_change_counter.values())
 
         log_event("File Modified", {"path": event.src_path})
-        send_to_backend("file", "File Modified", {"path": event.src_path})
+        send_with_severity("file", "File Modified", {"path": event.src_path})
 
         if "C:/Windows" in str(event.src_path):
             log_event("System File Touched", {"file": event.src_path})
-            send_to_backend("file", "System File Touched", {"file": event.src_path})
+            send_with_severity("file", "System File Touched", {"file": event.src_path})
 
         if total_mods > file_mod_threshold:
             log_event("Suspicious Behavior", {
                 "reason": "Rapid file modification",
                 "count": total_mods
             })
-            send_to_backend("file", "Suspicious Behavior", {
+            send_with_severity("file", "Suspicious Behavior", {
                 "reason": "Rapid file modification",
                 "count": total_mods
             })
@@ -284,16 +300,16 @@ class Handler(FileSystemEventHandler):
 
     def on_created(self, event):
         log_event("File Created", {"path": event.src_path})
-        send_to_backend("file", "File Created", {"path": event.src_path})
+        send_with_severity("file", "File Created", {"path": event.src_path})
         print(f"[ALERT] Suspicious file extension created: {event.src_path}")
 
         if any(str(event.src_path).endswith(ext) for ext in suspicious_extensions):
             log_event("Suspicious File Extension", {"file": event.src_path})
-            send_to_backend("file", "Suspicious File Extension", {"file": event.src_path})
+            send_with_severity("file", "Suspicious File Extension", {"file": event.src_path})
 
     def on_deleted(self, event):
         log_event("File Deleted", {"path": event.src_path})
-        send_to_backend("file", "File Deleted", {"path": event.src_path})
+        send_with_severity("file", "File Deleted", {"path": event.src_path})
 
 # ------------------ LOGGING FUNCTION ------------------
 def log_event(event_type, data):

@@ -2,6 +2,8 @@ import os
 import json
 import time
 from log_sender import send_to_backend
+from severity_scoring import score_event
+from realtime_decision import decide_action
 
 try:
     import yara
@@ -42,6 +44,8 @@ def load_yara_rules():
 
 # ------------------ Logger ------------------ #
 def log_event(event_type, data):
+    severity = score_event(event_type, data)
+    data = {**data, "severity": severity}
     log_entry = {
         "event": event_type,
         "data": data,
@@ -49,6 +53,8 @@ def log_event(event_type, data):
     }
     with open(LOG_FILE, "a") as f:
         f.write(json.dumps(log_entry) + "\n")
+    action, conf = decide_action("yara_scan", event_type, data)
+    data.update({"ml_action": action, "ml_confidence": conf})
     send_to_backend("yara_scan", event_type, data)
 
 # ------------------ Scanner ------------------ #

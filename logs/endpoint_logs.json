@@ -3710,3 +3710,416 @@
 {"event": "File Modified", "details": {"path": "C:/Windows/System32\\WindowsPowerShell\\v1.0\\Modules\\ConfigDefender\\MSFT_MpThreatDetection.cdxml"}, "time": "Sat Aug  2 17:49:38 2025"}
 {"event": "Process Created", "details": {"pid": 3856, "name": "NVDisplay.Container.exe", "parent": "nvdisplay.container.exe"}, "time": "Sat Aug  2 17:49:39 2025"}
 {"event": "Network Connection", "details": {"pid": 10756, "process": "Spotify.exe", "local_addr": "2606:4700:110:833c:8d31:b4c9:1348:a7f1:54978", "remote_addr": "2600:1901:1:5a5:::443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Sat Aug  2 17:49:39 2025"}
+{"event": "Process Created", "details": {"pid": 0, "name": "System Idle Process", "parent": "system idle process"}, "time": "Thu Aug 14 21:45:44 2025"}
+{"event": "Autorun Entry Detected", "details": {"OneDrive": "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background"}, "time": "Thu Aug 14 21:45:44 2025"}
+{"event": "Network Connection", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55416", "remote_addr": "197.186.4.32:4198", "status": "ESTABLISHED", "trusted": false, "domain": "32-4-186-197.r.airtel.co.tz"}, "time": "Thu Aug 14 21:45:45 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\winevt\\Logs\\Application.evtx"}, "time": "Thu Aug 14 21:45:47 2025"}
+{"event": "Autorun Entry Detected", "details": {"RiotClient": "D:\\Riot Games\\Riot Client\\RiotClientServices.exe --launch-background-mode"}, "time": "Thu Aug 14 21:45:48 2025"}
+{"event": "Process Created", "details": {"pid": 4, "name": "System", "parent": "system idle process"}, "time": "Thu Aug 14 21:45:48 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55416", "remote_addr": "197.186.4.32:4198", "status": "ESTABLISHED", "trusted": false, "domain": "32-4-186-197.r.airtel.co.tz", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:45:49 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\winevt\\Logs\\Application.evtx"}, "time": "Thu Aug 14 21:45:51 2025"}
+{"event": "Autorun Entry Detected", "details": {"Free Download Manager": "\"D:\\Extras\\Free Download Manager\\fdm.exe\" --hidden"}, "time": "Thu Aug 14 21:45:52 2025"}
+{"event": "Process Created", "details": {"pid": 116, "name": "", "parent": "system"}, "time": "Thu Aug 14 21:45:52 2025"}
+{"event": "Network Connection", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55389", "remote_addr": "141.95.53.64:6881", "status": "ESTABLISHED", "trusted": false, "domain": "vps-6d1f4b3d.vps.ovh.net"}, "time": "Thu Aug 14 21:45:53 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Client-Licensing-Platform%4Admin.evtx"}, "time": "Thu Aug 14 21:45:55 2025"}
+{"event": "Process Created", "details": {"pid": 156, "name": "Registry", "parent": "system"}, "time": "Thu Aug 14 21:45:56 2025"}
+64\\EpicGamesLauncher.exe\" -silent -launchcontext=boot"}, "time": "Thu Aug 14 21:45:56 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55389", "remote_addr": "141.95.53.64:6881", "status": "ESTABLISHED", "trusted": false, "domain": "vps-6d1f4b3d.vps.ovh.net", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:45:57 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Client-Licensing-Platform%4Admin.evtx"}, "time": "Thu Aug 14 21:45:59 2025"}
+{"event": "Autorun Entry Detected", "details": {"EADM": "\"C:\\Program Files\\Electronic Arts\\EA Desktop\\EA Desktop\\EALauncher.exe\" -silent"}, "time": "Thu Aug 14 21:46:01 2025"}
+{"event": "Process Created", "details": {"pid": 304, "name": "Cursor.exe", "parent": "cursor.exe"}, "time": "Thu Aug 14 21:46:01 2025"}
+{"event": "Network Connection", "details": {"pid": 5260, "process": "mongod.exe", "local_addr": "127.0.0.1:27017", "remote_addr": "127.0.0.1:54809", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Thu Aug 14 21:46:01 2025"}
+{"event": "Autorun Entry Detected", "details": {"Discord": "\"C:\\Users\\ahmad\\AppData\\Local\\Discord\\Update.exe\" --processStart Discord.exe"}, "time": "Thu Aug 14 21:46:05 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 304, "name": "Cursor.exe"}, "time": "Thu Aug 14 21:46:05 2025"}
+{"event": "Suspicious Network", "details": {"pid": 5260, "process": "mongod.exe", "local_addr": "127.0.0.1:27017", "remote_addr": "127.0.0.1:54809", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:46:06 2025"}
+{"event": "Autorun Entry Detected", "details": {"com.squirrel.Postman-Agent.PostmanAgent": "C:\\Users\\ahmad\\AppData\\Local\\Postman-Agent\\Postman Agent.exe"}, "time": "Thu Aug 14 21:46:09 2025"}
+{"event": "Process Created", "details": {"pid": 596, "name": "IntelCpHDCPSvc.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:46:09 2025"}
+{"event": "Network Connection", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55400", "remote_addr": "122.170.81.239:6881", "status": "ESTABLISHED", "trusted": false, "domain": "abts-mum-dynamic-239.81.170.122.airtelbroadband.in"}, "time": "Thu Aug 14 21:46:10 2025"}
+{"event": "Autorun Entry Detected", "details": {"MicrosoftEdgeAutoLaunch_20FC30D426BA353D06DB6B994A55E12A": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --no-startup-window --win-session-start"}, "time": "Thu Aug 14 21:46:13 2025"}
+{"event": "Process Created", "details": {"pid": 616, "name": "smss.exe", "parent": "system"}, "time": "Thu Aug 14 21:46:13 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55400", "remote_addr": "122.170.81.239:6881", "status": "ESTABLISHED", "trusted": false, "domain": "abts-mum-dynamic-239.81.170.122.airtelbroadband.in", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:46:14 2025"}
+{"event": "Autorun Entry Detected", "details": {"Steam": "\"C:\\Program Files (x86)\\Steam\\steam.exe\" -silent"}, "time": "Thu Aug 14 21:46:17 2025"}
+{"event": "Process Created", "details": {"pid": 972, "name": "csrss.exe", "parent": "unknown"}, "time": "Thu Aug 14 21:46:17 2025"}
+{"event": "Process Created", "details": {"pid": 984, "name": "Cursor.exe", "parent": "cursor.exe"}, "time": "Thu Aug 14 21:46:21 2025"}
+{"event": "Network Connection", "details": {"pid": 15864, "process": "steam.exe", "local_addr": "172.16.0.2:54780", "remote_addr": "155.133.225.21:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Thu Aug 14 21:46:23 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 984, "name": "Cursor.exe"}, "time": "Thu Aug 14 21:46:25 2025"}
+{"event": "Suspicious Network", "details": {"pid": 15864, "process": "steam.exe", "local_addr": "172.16.0.2:54780", "remote_addr": "155.133.225.21:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:46:27 2025"}
+{"event": "Process Created", "details": {"pid": 1068, "name": "wininit.exe", "parent": "unknown"}, "time": "Thu Aug 14 21:46:29 2025"}
+{"event": "Network Connection", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "2606:4700:110:833c:8d31:b4c9:1348:a7f1:55388", "remote_addr": "2401:4900:883d:9c58:a9a5:6b8f:479a:23d9:6881", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Thu Aug 14 21:46:33 2025"}
+{"event": "Process Created", "details": {"pid": 1076, "name": "csrss.exe", "parent": "unknown"}, "time": "Thu Aug 14 21:46:33 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\pcwum.dll"}, "time": "Thu Aug 14 21:46:37 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "2606:4700:110:833c:8d31:b4c9:1348:a7f1:55388", "remote_addr": "2401:4900:883d:9c58:a9a5:6b8f:479a:23d9:6881", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:46:37 2025"}
+{"event": "Process Created", "details": {"pid": 1084, "name": "SecurityHealthSystray.exe", "parent": "explorer.exe"}, "time": "Thu Aug 14 21:46:38 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\pcwum.dll"}, "time": "Thu Aug 14 21:46:41 2025"}
+{"event": "Network Connection", "details": {"pid": 5260, "process": "mongod.exe", "local_addr": "127.0.0.1:27017", "remote_addr": "127.0.0.1:54808", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Thu Aug 14 21:46:41 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 1084, "name": "SecurityHealthSystray.exe"}, "time": "Thu Aug 14 21:46:42 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\msvcp140.dll"}, "time": "Thu Aug 14 21:46:45 2025"}
+{"event": "Suspicious Network", "details": {"pid": 5260, "process": "mongod.exe", "local_addr": "127.0.0.1:27017", "remote_addr": "127.0.0.1:54808", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:46:45 2025"}
+{"event": "Process Created", "details": {"pid": 1164, "name": "winlogon.exe", "parent": "unknown"}, "time": "Thu Aug 14 21:46:46 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\msvcp140.dll"}, "time": "Thu Aug 14 21:46:49 2025"}
+{"event": "Network Connection", "details": {"pid": 5260, "process": "mongod.exe", "local_addr": "127.0.0.1:27017", "remote_addr": "127.0.0.1:54810", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Thu Aug 14 21:46:50 2025"}
+{"event": "Process Created", "details": {"pid": 1188, "name": "services.exe", "parent": "wininit.exe"}, "time": "Thu Aug 14 21:46:50 2025"}
+{"event": "Autorun Entry Detected", "details": {"OneDrive": "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background"}, "time": "Thu Aug 14 21:46:51 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\vcruntime140.dll"}, "time": "Thu Aug 14 21:46:53 2025"}
+{"event": "Suspicious Network", "details": {"pid": 5260, "process": "mongod.exe", "local_addr": "127.0.0.1:27017", "remote_addr": "127.0.0.1:54810", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:46:54 2025"}
+{"event": "Process Created", "details": {"pid": 1212, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:46:54 2025"}
+{"event": "Autorun Entry Detected", "details": {"RiotClient": "D:\\Riot Games\\Riot Client\\RiotClientServices.exe --launch-background-mode"}, "time": "Thu Aug 14 21:46:55 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\vcruntime140.dll"}, "time": "Thu Aug 14 21:46:57 2025"}
+{"event": "Network Connection", "details": {"pid": 17340, "process": "steamwebhelper.exe", "local_addr": "127.0.0.1:50331", "remote_addr": "127.0.0.1:50314", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Thu Aug 14 21:46:58 2025"}
+{"event": "Process Created", "details": {"pid": 1220, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:46:58 2025"}
+{"event": "Autorun Entry Detected", "details": {"Free Download Manager": "\"D:\\Extras\\Free Download Manager\\fdm.exe\" --hidden"}, "time": "Thu Aug 14 21:46:59 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\vcruntime140_1.dll"}, "time": "Thu Aug 14 21:47:01 2025"}
+{"event": "Suspicious Network", "details": {"pid": 17340, "process": "steamwebhelper.exe", "local_addr": "127.0.0.1:50331", "remote_addr": "127.0.0.1:50314", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:47:02 2025"}
+{"event": "Process Created", "details": {"pid": 1228, "name": "LsaIso.exe", "parent": "wininit.exe"}, "time": "Thu Aug 14 21:47:02 2025"}
+{"event": "Autorun Entry Detected", "details": {"EpicGamesLauncher": "\"D:\\Epic games\\Epic Games\\Launcher\\Portal\\Binaries\\Win64\\EpicGamesLauncher.exe\" -silent -launchcontext=boot"}, "time": "Thu Aug 14 21:47:03 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\vcruntime140_1.dll"}, "time": "Thu Aug 14 21:47:05 2025"}
+{"event": "Network Connection", "details": {"pid": 6356, "process": "mysqld.exe", "local_addr": "127.0.0.1:49679", "remote_addr": "127.0.0.1:49680", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Thu Aug 14 21:47:06 2025"}
+{"event": "Process Created", "details": {"pid": 1236, "name": "lsass.exe", "parent": "wininit.exe"}, "time": "Thu Aug 14 21:47:06 2025"}
+{"event": "Autorun Entry Detected", "details": {"EADM": "\"C:\\Program Files\\Electronic Arts\\EA Desktop\\EA Desktop\\EALauncher.exe\" -silent"}, "time": "Thu Aug 14 21:47:07 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\CompPkgSrv.exe"}, "time": "Thu Aug 14 21:47:10 2025"}
+{"event": "Suspicious Network", "details": {"pid": 6356, "process": "mysqld.exe", "local_addr": "127.0.0.1:49679", "remote_addr": "127.0.0.1:49680", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:47:10 2025"}
+{"event": "Process Created", "details": {"pid": 1292, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:47:11 2025"}
+{"event": "Autorun Entry Detected", "details": {"Discord": "\"C:\\Users\\ahmad\\AppData\\Local\\Discord\\Update.exe\" --processStart Discord.exe"}, "time": "Thu Aug 14 21:47:12 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\CompPkgSrv.exe"}, "time": "Thu Aug 14 21:47:14 2025"}
+{"event": "Network Connection", "details": {"pid": 6356, "process": "mysqld.exe", "local_addr": "127.0.0.1:49680", "remote_addr": "127.0.0.1:49679", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Thu Aug 14 21:47:14 2025"}
+{"event": "Process Created", "details": {"pid": 1300, "name": "Cursor.exe", "parent": "cursor.exe"}, "time": "Thu Aug 14 21:47:15 2025"}
+{"event": "Autorun Entry Detected", "details": {"com.squirrel.Postman-Agent.PostmanAgent": "C:\\Users\\ahmad\\AppData\\Local\\Postman-Agent\\Postman Agent.exe"}, "time": "Thu Aug 14 21:47:16 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\CompPkgSup.dll"}, "time": "Thu Aug 14 21:47:18 2025"}
+{"event": "Suspicious Network", "details": {"pid": 6356, "process": "mysqld.exe", "local_addr": "127.0.0.1:49680", "remote_addr": "127.0.0.1:49679", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:47:18 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 1300, "name": "Cursor.exe"}, "time": "Thu Aug 14 21:47:19 2025"}
+{"event": "Autorun Entry Detected", "details": {"MicrosoftEdgeAutoLaunch_20FC30D426BA353D06DB6B994A55E12A": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --no-startup-window --win-session-start"}, "time": "Thu Aug 14 21:47:20 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\CompPkgSup.dll"}, "time": "Thu Aug 14 21:47:22 2025"}
+{"event": "Process Created", "details": {"pid": 1316, "name": "taskhostw.exe", "parent": "svchost.exe"}, "time": "Thu Aug 14 21:47:23 2025"}
+{"event": "Autorun Entry Detected", "details": {"Steam": "\"C:\\Program Files (x86)\\Steam\\steam.exe\" -silent"}, "time": "Thu Aug 14 21:47:24 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\Windows.Media.dll"}, "time": "Thu Aug 14 21:47:26 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 1316, "name": "taskhostw.exe"}, "time": "Thu Aug 14 21:47:27 2025"}
+{"event": "Network Connection", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55376", "remote_addr": "137.59.221.168:29131", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Thu Aug 14 21:47:28 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\Windows.Media.dll"}, "time": "Thu Aug 14 21:47:30 2025"}
+{"event": "Process Created", "details": {"pid": 1368, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:47:31 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55376", "remote_addr": "137.59.221.168:29131", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:47:32 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\wbem\\en-US\\cimwin32.dll.mui"}, "time": "Thu Aug 14 21:47:34 2025"}
+{"event": "Process Created", "details": {"pid": 1396, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:47:35 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\wbem\\en-US\\cimwin32.dll.mui"}, "time": "Thu Aug 14 21:47:38 2025"}
+{"event": "Process Created", "details": {"pid": 1400, "name": "fontdrvhost.exe", "parent": "wininit.exe"}, "time": "Thu Aug 14 21:47:39 2025"}
+{"event": "Network Connection", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55373", "remote_addr": "27.34.65.133:40517", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Thu Aug 14 21:47:41 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\winevt\\Logs\\System.evtx"}, "time": "Thu Aug 14 21:47:42 2025"}
+{"event": "Process Created", "details": {"pid": 1408, "name": "fontdrvhost.exe", "parent": "winlogon.exe"}, "time": "Thu Aug 14 21:47:43 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55373", "remote_addr": "27.34.65.133:40517", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:47:46 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\winevt\\Logs\\System.evtx"}, "time": "Thu Aug 14 21:47:46 2025"}
+{"event": "Process Created", "details": {"pid": 1504, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:47:48 2025"}
+{"event": "Network Connection", "details": {"pid": 19800, "process": "MongoDBCompass.exe", "local_addr": "127.0.0.1:54810", "remote_addr": "127.0.0.1:27017", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Thu Aug 14 21:47:50 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Windows-PushNotification-Platform%4Operational.evtx"}, "time": "Thu Aug 14 21:47:51 2025"}
+{"event": "Process Created", "details": {"pid": 1556, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:47:52 2025"}
+{"event": "Suspicious Network", "details": {"pid": 19800, "process": "MongoDBCompass.exe", "local_addr": "127.0.0.1:54810", "remote_addr": "127.0.0.1:27017", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:47:54 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Windows-PushNotification-Platform%4Operational.evtx"}, "time": "Thu Aug 14 21:47:55 2025"}
+{"event": "Process Created", "details": {"pid": 1608, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:47:56 2025"}
+{"event": "Autorun Entry Detected", "details": {"OneDrive": "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background"}, "time": "Thu Aug 14 21:47:58 2025"}
+{"event": "Network Connection", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55420", "remote_addr": "115.96.219.212:61309", "status": "ESTABLISHED", "trusted": false, "domain": "219.96.115.212.hathway.com"}, "time": "Thu Aug 14 21:47:58 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Windows-AppXDeploymentServer%4Operational.evtx"}, "time": "Thu Aug 14 21:47:59 2025"}
+{"event": "Process Created", "details": {"pid": 1640, "name": "dwm.exe", "parent": "winlogon.exe"}, "time": "Thu Aug 14 21:48:00 2025"}
+{"event": "Autorun Entry Detected", "details": {"RiotClient": "D:\\Riot Games\\Riot Client\\RiotClientServices.exe --launch-background-mode"}, "time": "Thu Aug 14 21:48:02 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55420", "remote_addr": "115.96.219.212:61309", "status": "ESTABLISHED", "trusted": false, "domain": "219.96.115.212.hathway.com", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:48:02 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Windows-AppXDeploymentServer%4Operational.evtx"}, "time": "Thu Aug 14 21:48:03 2025"}
+{"event": "Process Created", "details": {"pid": 1680, "name": "UserOOBEBroker.exe", "parent": "svchost.exe"}, "time": "Thu Aug 14 21:48:04 2025"}
+{"event": "Autorun Entry Detected", "details": {"Free Download Manager": "\"D:\\Extras\\Free Download Manager\\fdm.exe\" --hidden"}, "time": "Thu Aug 14 21:48:06 2025"}
+{"event": "Network Connection", "details": {"pid": 17340, "process": "steamwebhelper.exe", "local_addr": "127.0.0.1:50330", "remote_addr": "127.0.0.1:50316", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Thu Aug 14 21:48:06 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Windows-Crypto-NCrypt%4Operational.evtx"}, "time": "Thu Aug 14 21:48:07 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 1680, "name": "UserOOBEBroker.exe"}, "time": "Thu Aug 14 21:48:08 2025"}
+{"event": "Autorun Entry Detected", "details": {"EpicGamesLauncher": "\"D:\\Epic games\\Epic Games\\Launcher\\Portal\\Binaries\\Win64\\EpicGamesLauncher.exe\" -silent -launchcontext=boot"}, "time": "Thu Aug 14 21:48:10 2025"}
+{"event": "Suspicious Network", "details": {"pid": 17340, "process": "steamwebhelper.exe", "local_addr": "127.0.0.1:50330", "remote_addr": "127.0.0.1:50316", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:48:11 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Windows-Crypto-NCrypt%4Operational.evtx"}, "time": "Thu Aug 14 21:48:11 2025"}
+{"event": "Process Created", "details": {"pid": 1696, "name": "PresentationFontCache.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:48:12 2025"}
+{"event": "Autorun Entry Detected", "details": {"EADM": "\"C:\\Program Files\\Electronic Arts\\EA Desktop\\EA Desktop\\EALauncher.exe\" -silent"}, "time": "Thu Aug 14 21:48:15 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Windows-AAD%4Operational.evtx"}, "time": "Thu Aug 14 21:48:15 2025"}
+{"event": "Network Connection", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55391", "remote_addr": "103.115.198.44:36181", "status": "ESTABLISHED", "trusted": false, "domain": "44.198.zcomnetworks.com.pk"}, "time": "Thu Aug 14 21:48:15 2025"}
+{"event": "Process Created", "details": {"pid": 1728, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:48:17 2025"}
+{"event": "Autorun Entry Detected", "details": {"Discord": "\"C:\\Users\\ahmad\\AppData\\Local\\Discord\\Update.exe\" --processStart Discord.exe"}, "time": "Thu Aug 14 21:48:19 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Windows-AAD%4Operational.evtx"}, "time": "Thu Aug 14 21:48:19 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55391", "remote_addr": "103.115.198.44:36181", "status": "ESTABLISHED", "trusted": false, "domain": "44.198.zcomnetworks.com.pk", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:48:19 2025"}
+{"event": "Process Created", "details": {"pid": 1748, "name": "RuntimeBroker.exe", "parent": "svchost.exe"}, "time": "Thu Aug 14 21:48:21 2025"}
+{"event": "Autorun Entry Detected", "details": {"com.squirrel.Postman-Agent.PostmanAgent": "C:\\Users\\ahmad\\AppData\\Local\\Postman-Agent\\Postman Agent.exe"}, "time": "Thu Aug 14 21:48:23 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\drivers\\storport.sys"}, "time": "Thu Aug 14 21:48:23 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 1748, "name": "RuntimeBroker.exe"}, "time": "Thu Aug 14 21:48:25 2025"}
+{"event": "Autorun Entry Detected", "details": {"MicrosoftEdgeAutoLaunch_20FC30D426BA353D06DB6B994A55E12A": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --no-startup-window --win-session-start"}, "time": "Thu Aug 14 21:48:27 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\drivers\\storport.sys"}, "time": "Thu Aug 14 21:48:27 2025"}
+{"event": "Process Created", "details": {"pid": 1816, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:48:29 2025"}
+{"event": "Network Connection", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55402", "remote_addr": "206.84.143.113:61163", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Thu Aug 14 21:48:29 2025"}
+{"event": "Autorun Entry Detected", "details": {"Steam": "\"C:\\Program Files (x86)\\Steam\\steam.exe\" -silent"}, "time": "Thu Aug 14 21:48:31 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\en-US\\AppXDeploymentServer.dll.mui"}, "time": "Thu Aug 14 21:48:31 2025"}
+{"event": "Process Created", "details": {"pid": 1824, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:48:33 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55402", "remote_addr": "206.84.143.113:61163", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:48:33 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\en-US\\AppXDeploymentServer.dll.mui"}, "time": "Thu Aug 14 21:48:35 2025"}
+{"event": "Process Created", "details": {"pid": 1832, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:48:37 2025"}
+{"event": "Network Connection", "details": {"pid": 2464, "process": "firefox.exe", "local_addr": "127.0.0.1:56908", "remote_addr": "127.0.0.1:56907", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Thu Aug 14 21:48:37 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Windows-Diagnosis-PCW%4Operational.evtx"}, "time": "Thu Aug 14 21:48:40 2025"}
+{"event": "Process Created", "details": {"pid": 1876, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:48:41 2025"}
+{"event": "Suspicious Network", "details": {"pid": 2464, "process": "firefox.exe", "local_addr": "127.0.0.1:56908", "remote_addr": "127.0.0.1:56907", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:48:42 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Windows-Diagnosis-PCW%4Operational.evtx"}, "time": "Thu Aug 14 21:48:44 2025"}
+{"event": "Process Created", "details": {"pid": 1884, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:48:45 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\IDStore.dll"}, "time": "Thu Aug 14 21:48:48 2025"}
+{"event": "Process Created", "details": {"pid": 2028, "name": "WsToastNotification.exe", "parent": "wsnativepushservice.exe"}, "time": "Thu Aug 14 21:48:49 2025"}
+{"event": "Network Connection", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55381", "remote_addr": "103.186.57.51:16977", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Thu Aug 14 21:48:51 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\IDStore.dll"}, "time": "Thu Aug 14 21:48:52 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 2028, "name": "WsToastNotification.exe"}, "time": "Thu Aug 14 21:48:53 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55381", "remote_addr": "103.186.57.51:16977", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:48:55 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\samlib.dll"}, "time": "Thu Aug 14 21:48:56 2025"}
+{"event": "Process Created", "details": {"pid": 2120, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:48:58 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\samlib.dll"}, "time": "Thu Aug 14 21:49:00 2025"}
+{"event": "Network Connection", "details": {"pid": 5284, "process": "MpDefenderCoreService.exe", "local_addr": "2606:4700:110:833c:8d31:b4c9:1348:a7f1:55216", "remote_addr": "2603:1063:27:1::14:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Thu Aug 14 21:49:00 2025"}
+{"event": "Process Created", "details": {"pid": 2136, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:49:02 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\wlidprov.dll"}, "time": "Thu Aug 14 21:49:04 2025"}
+{"event": "Suspicious Network", "details": {"pid": 5284, "process": "MpDefenderCoreService.exe", "local_addr": "2606:4700:110:833c:8d31:b4c9:1348:a7f1:55216", "remote_addr": "2603:1063:27:1::14:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:49:04 2025"}
+{"event": "Autorun Entry Detected", "details": {"OneDrive": "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background"}, "time": "Thu Aug 14 21:49:05 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 2136, "name": "svchost.exe"}, "time": "Thu Aug 14 21:49:06 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\wlidprov.dll"}, "time": "Thu Aug 14 21:49:08 2025"}
+{"event": "Autorun Entry Detected", "details": {"RiotClient": "D:\\Riot Games\\Riot Client\\RiotClientServices.exe --launch-background-mode"}, "time": "Thu Aug 14 21:49:09 2025"}
+{"event": "Process Created", "details": {"pid": 2244, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:49:10 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\windows.applicationmodel.datatransfer.dll"}, "time": "Thu Aug 14 21:49:12 2025"}
+{"event": "Autorun Entry Detected", "details": {"Free Download Manager": "\"D:\\Extras\\Free Download Manager\\fdm.exe\" --hidden"}, "time": "Thu Aug 14 21:49:13 2025"}
+{"event": "Network Connection", "details": {"pid": 3792, "process": "svchost.exe", "local_addr": "10.7.40.143:56166", "remote_addr": "10.7.41.87:7680", "status": "ESTABLISHED", "trusted": false, "domain": "DESKTOP-MBP29E1"}, "time": "Thu Aug 14 21:49:14 2025"}
+{"event": "Process Created", "details": {"pid": 2252, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:49:14 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\windows.applicationmodel.datatransfer.dll"}, "time": "Thu Aug 14 21:49:16 2025"}
+{"event": "Autorun Entry Detected", "details": {"EpicGamesLauncher": "\"D:\\Epic games\\Epic Games\\Launcher\\Portal\\Binaries\\Win64\\EpicGamesLauncher.exe\" -silent -launchcontext=boot"}, "time": "Thu Aug 14 21:49:17 2025"}
+{"event": "Suspicious Network", "details": {"pid": 3792, "process": "svchost.exe", "local_addr": "10.7.40.143:56166", "remote_addr": "10.7.41.87:7680", "status": "ESTABLISHED", "trusted": false, "domain": "DESKTOP-MBP29E1", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:49:18 2025"}
+{"event": "Process Created", "details": {"pid": 2316, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:49:18 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\RTMediaFrame.dll"}, "time": "Thu Aug 14 21:49:20 2025"}
+{"event": "Autorun Entry Detected", "details": {"EADM": "\"C:\\Program Files\\Electronic Arts\\EA Desktop\\EA Desktop\\EALauncher.exe\" -silent"}, "time": "Thu Aug 14 21:49:21 2025"}
+{"event": "Network Connection", "details": {"pid": 6356, "process": "mysqld.exe", "local_addr": "127.0.0.1:49677", "remote_addr": "127.0.0.1:49678", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Thu Aug 14 21:49:22 2025"}
+{"event": "Process Created", "details": {"pid": 2372, "name": "IntelCpHeciSvc.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:49:22 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\RTMediaFrame.dll"}, "time": "Thu Aug 14 21:49:25 2025"}
+{"event": "Autorun Entry Detected", "details": {"Discord": "\"C:\\Users\\ahmad\\AppData\\Local\\Discord\\Update.exe\" --processStart Discord.exe"}, "time": "Thu Aug 14 21:49:26 2025"}
+{"event": "Suspicious Network", "details": {"pid": 6356, "process": "mysqld.exe", "local_addr": "127.0.0.1:49677", "remote_addr": "127.0.0.1:49678", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:49:26 2025"}
+{"event": "Process Created", "details": {"pid": 2396, "name": "CodeSetup-stable-1.4.5.tmp", "parent": "codesetup-stable-1.4.5.exe"}, "time": "Thu Aug 14 21:49:26 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\MSWB7.dll"}, "time": "Thu Aug 14 21:49:29 2025"}
+{"event": "Autorun Entry Detected", "details": {"com.squirrel.Postman-Agent.PostmanAgent": "C:\\Users\\ahmad\\AppData\\Local\\Postman-Agent\\Postman Agent.exe"}, "time": "Thu Aug 14 21:49:30 2025"}
+{"event": "Network Connection", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55403", "remote_addr": "45.248.148.254:44287", "status": "ESTABLISHED", "trusted": false, "domain": "254.148.248.45.dotinternetbd.com"}, "time": "Thu Aug 14 21:49:30 2025"}
+{"event": "Process Created", "details": {"pid": 2464, "name": "firefox.exe", "parent": "unknown"}, "time": "Thu Aug 14 21:49:30 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\MSWB7.dll"}, "time": "Thu Aug 14 21:49:33 2025"}
+{"event": "Autorun Entry Detected", "details": {"MicrosoftEdgeAutoLaunch_20FC30D426BA353D06DB6B994A55E12A": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --no-startup-window --win-session-start"}, "time": "Thu Aug 14 21:49:34 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55403", "remote_addr": "45.248.148.254:44287", "status": "ESTABLISHED", "trusted": false, "domain": "254.148.248.45.dotinternetbd.com", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:49:34 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 2464, "name": "firefox.exe"}, "time": "Thu Aug 14 21:49:34 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\prm0009.dll"}, "time": "Thu Aug 14 21:49:37 2025"}
+{"event": "Autorun Entry Detected", "details": {"Steam": "\"C:\\Program Files (x86)\\Steam\\steam.exe\" -silent"}, "time": "Thu Aug 14 21:49:38 2025"}
+{"event": "Network Connection", "details": {"pid": 25324, "process": "firefox.exe", "local_addr": "127.0.0.1:56909", "remote_addr": "127.0.0.1:56910", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Thu Aug 14 21:49:38 2025"}
+{"event": "Process Created", "details": {"pid": 2468, "name": "backgroundTaskHost.exe", "parent": "svchost.exe"}, "time": "Thu Aug 14 21:49:39 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\prm0009.dll"}, "time": "Thu Aug 14 21:49:41 2025"}
+{"event": "Suspicious Network", "details": {"pid": 25324, "process": "firefox.exe", "local_addr": "127.0.0.1:56909", "remote_addr": "127.0.0.1:56910", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:49:42 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 2468, "name": "backgroundTaskHost.exe"}, "time": "Thu Aug 14 21:49:43 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\FirewallControlPanel.dll"}, "time": "Thu Aug 14 21:49:45 2025"}
+{"event": "Network Connection", "details": {"pid": 6356, "process": "mysqld.exe", "local_addr": "127.0.0.1:49678", "remote_addr": "127.0.0.1:49677", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Thu Aug 14 21:49:47 2025"}
+{"event": "Process Created", "details": {"pid": 2484, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:49:47 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\FirewallControlPanel.dll"}, "time": "Thu Aug 14 21:49:49 2025"}
+{"event": "Suspicious Network", "details": {"pid": 6356, "process": "mysqld.exe", "local_addr": "127.0.0.1:49678", "remote_addr": "127.0.0.1:49677", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:49:51 2025"}
+{"event": "Process Created", "details": {"pid": 2504, "name": "SearchIndexer.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:49:51 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\en-US\\FirewallControlPanel.dll.mui"}, "time": "Thu Aug 14 21:49:53 2025"}
+{"event": "Process Created", "details": {"pid": 2532, "name": "Cursor.exe", "parent": "cursor.exe"}, "time": "Thu Aug 14 21:49:55 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\en-US\\FirewallControlPanel.dll.mui"}, "time": "Thu Aug 14 21:49:57 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 2532, "name": "Cursor.exe"}, "time": "Thu Aug 14 21:49:59 2025"}
+{"event": "Network Connection", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55401", "remote_addr": "103.84.57.47:48913", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Thu Aug 14 21:50:00 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\WFSR.dll"}, "time": "Thu Aug 14 21:50:01 2025"}
+{"event": "Process Created", "details": {"pid": 2656, "name": "firefox.exe", "parent": "firefox.exe"}, "time": "Thu Aug 14 21:50:03 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55401", "remote_addr": "103.84.57.47:48913", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:50:04 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\WFSR.dll"}, "time": "Thu Aug 14 21:50:05 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 2656, "name": "firefox.exe"}, "time": "Thu Aug 14 21:50:08 2025"}
+{"event": "Network Connection", "details": {"pid": 5260, "process": "mongod.exe", "local_addr": "127.0.0.1:27017", "remote_addr": "127.0.0.1:54811", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Thu Aug 14 21:50:08 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\en-US\\WFSR.dll.mui"}, "time": "Thu Aug 14 21:50:10 2025"}
+{"event": "Process Created", "details": {"pid": 2736, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:50:12 2025"}
+{"event": "Autorun Entry Detected", "details": {"OneDrive": "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background"}, "time": "Thu Aug 14 21:50:12 2025"}
+{"event": "Suspicious Network", "details": {"pid": 5260, "process": "mongod.exe", "local_addr": "127.0.0.1:27017", "remote_addr": "127.0.0.1:54811", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:50:12 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\en-US\\WFSR.dll.mui"}, "time": "Thu Aug 14 21:50:14 2025"}
+{"event": "Process Created", "details": {"pid": 2768, "name": "jucheck.exe", "parent": "jusched.exe"}, "time": "Thu Aug 14 21:50:16 2025"}
+{"event": "Autorun Entry Detected", "details": {"RiotClient": "D:\\Riot Games\\Riot Client\\RiotClientServices.exe --launch-background-mode"}, "time": "Thu Aug 14 21:50:16 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\WindowsPowerShell\\v1.0\\powershell_ise.exe"}, "time": "Thu Aug 14 21:50:18 2025"}
+{"event": "Process Created", "details": {"pid": 2796, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:50:20 2025"}
+{"event": "Autorun Entry Detected", "details": {"Free Download Manager": "\"D:\\Extras\\Free Download Manager\\fdm.exe\" --hidden"}, "time": "Thu Aug 14 21:50:20 2025"}
+{"event": "Network Connection", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55399", "remote_addr": "92.62.121.212:18240", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Thu Aug 14 21:50:21 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\WindowsPowerShell\\v1.0\\powershell_ise.exe"}, "time": "Thu Aug 14 21:50:22 2025"}
+{"event": "Process Created", "details": {"pid": 2840, "name": "SynTPEnhService.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:50:24 2025"}
+{"event": "Autorun Entry Detected", "details": {"EpicGamesLauncher": "\"D:\\Epic games\\Epic Games\\Launcher\\Portal\\Binaries\\Win64\\EpicGamesLauncher.exe\" -silent -launchcontext=boot"}, "time": "Thu Aug 14 21:50:24 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55399", "remote_addr": "92.62.121.212:18240", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:50:25 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\AppContracts.dll"}, "time": "Thu Aug 14 21:50:26 2025"}
+{"event": "Process Created", "details": {"pid": 2908, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:50:28 2025"}
+{"event": "Autorun Entry Detected", "details": {"EADM": "\"C:\\Program Files\\Electronic Arts\\EA Desktop\\EA Desktop\\EALauncher.exe\" -silent"}, "time": "Thu Aug 14 21:50:28 2025"}
+{"event": "Network Connection", "details": {"pid": 15864, "process": "steam.exe", "local_addr": "127.0.0.1:50316", "remote_addr": "127.0.0.1:50330", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Thu Aug 14 21:50:30 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\AppContracts.dll"}, "time": "Thu Aug 14 21:50:30 2025"}
+{"event": "Process Created", "details": {"pid": 2924, "name": "NVDisplay.Container.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:50:32 2025"}
+{"event": "Autorun Entry Detected", "details": {"Discord": "\"C:\\Users\\ahmad\\AppData\\Local\\Discord\\Update.exe\" --processStart Discord.exe"}, "time": "Thu Aug 14 21:50:32 2025"}
+{"event": "Suspicious Network", "details": {"pid": 15864, "process": "steam.exe", "local_addr": "127.0.0.1:50316", "remote_addr": "127.0.0.1:50330", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:50:34 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\TileDataRepository.dll"}, "time": "Thu Aug 14 21:50:34 2025"}
+{"event": "Process Created", "details": {"pid": 2996, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:50:36 2025"}
+{"event": "Autorun Entry Detected", "details": {"com.squirrel.Postman-Agent.PostmanAgent": "C:\\Users\\ahmad\\AppData\\Local\\Postman-Agent\\Postman Agent.exe"}, "time": "Thu Aug 14 21:50:37 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\TileDataRepository.dll"}, "time": "Thu Aug 14 21:50:38 2025"}
+{"event": "Process Created", "details": {"pid": 3028, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:50:41 2025"}
+{"event": "Autorun Entry Detected", "details": {"MicrosoftEdgeAutoLaunch_20FC30D426BA353D06DB6B994A55E12A": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --no-startup-window --win-session-start"}, "time": "Thu Aug 14 21:50:41 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\Microsoft-Windows-AppModelExecEvents.dll"}, "time": "Thu Aug 14 21:50:42 2025"}
+{"event": "Network Connection", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55412", "remote_addr": "106.79.196.245:47078", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Thu Aug 14 21:50:43 2025"}
+{"event": "Process Created", "details": {"pid": 3128, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:50:45 2025"}
+{"event": "Autorun Entry Detected", "details": {"Steam": "\"C:\\Program Files (x86)\\Steam\\steam.exe\" -silent"}, "time": "Thu Aug 14 21:50:45 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\Microsoft-Windows-AppModelExecEvents.dll"}, "time": "Thu Aug 14 21:50:46 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55412", "remote_addr": "106.79.196.245:47078", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:50:47 2025"}
+{"event": "Process Created", "details": {"pid": 3148, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:50:49 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\imageres.dll"}, "time": "Thu Aug 14 21:50:50 2025"}
+{"event": "Process Created", "details": {"pid": 3160, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:50:53 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\imageres.dll"}, "time": "Thu Aug 14 21:50:55 2025"}
+{"event": "Network Connection", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55396", "remote_addr": "36.250.241.151:9464", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Thu Aug 14 21:50:57 2025"}
+{"event": "Process Created", "details": {"pid": 3268, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:50:57 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\en-US\\imageres.dll.mui"}, "time": "Thu Aug 14 21:50:59 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55396", "remote_addr": "36.250.241.151:9464", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:51:01 2025"}
+{"event": "Process Created", "details": {"pid": 3276, "name": "MemCompression", "parent": "system"}, "time": "Thu Aug 14 21:51:01 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\en-US\\imageres.dll.mui"}, "time": "Thu Aug 14 21:51:03 2025"}
+{"event": "Process Created", "details": {"pid": 3356, "name": "igfxCUIService.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:51:05 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\ActivationClient.dll"}, "time": "Thu Aug 14 21:51:07 2025"}
+{"event": "Process Created", "details": {"pid": 3408, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:51:09 2025"}
+{"event": "Network Connection", "details": {"pid": 3792, "process": "svchost.exe", "local_addr": "10.7.40.143:55859", "remote_addr": "10.7.41.54:7680", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Thu Aug 14 21:51:10 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\ActivationClient.dll"}, "time": "Thu Aug 14 21:51:11 2025"}
+{"event": "Process Created", "details": {"pid": 3416, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:51:14 2025"}
+{"event": "Suspicious Network", "details": {"pid": 3792, "process": "svchost.exe", "local_addr": "10.7.40.143:55859", "remote_addr": "10.7.41.54:7680", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:51:14 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\Windows.Security.Integrity.dll"}, "time": "Thu Aug 14 21:51:15 2025"}
+{"event": "Process Created", "details": {"pid": 3512, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:51:18 2025"}
+{"event": "Network Connection", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55418", "remote_addr": "45.248.148.252:10543", "status": "ESTABLISHED", "trusted": false, "domain": "252.148.248.45.dotinternetbd.com"}, "time": "Thu Aug 14 21:51:18 2025"}
+{"event": "Autorun Entry Detected", "details": {"OneDrive": "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background"}, "time": "Thu Aug 14 21:51:19 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\Windows.Security.Integrity.dll"}, "time": "Thu Aug 14 21:51:19 2025"}
+{"event": "Process Created", "details": {"pid": 3536, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:51:22 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55418", "remote_addr": "45.248.148.252:10543", "status": "ESTABLISHED", "trusted": false, "domain": "252.148.248.45.dotinternetbd.com", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:51:23 2025"}
+{"event": "Autorun Entry Detected", "details": {"RiotClient": "D:\\Riot Games\\Riot Client\\RiotClientServices.exe --launch-background-mode"}, "time": "Thu Aug 14 21:51:23 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\Windows.StateRepositoryBroker.dll"}, "time": "Thu Aug 14 21:51:23 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 3536, "name": "svchost.exe"}, "time": "Thu Aug 14 21:51:26 2025"}
+{"event": "Network Connection", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "127.0.0.1:54319", "remote_addr": "127.0.0.1:54318", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Thu Aug 14 21:51:27 2025"}
+{"event": "Autorun Entry Detected", "details": {"Free Download Manager": "\"D:\\Extras\\Free Download Manager\\fdm.exe\" --hidden"}, "time": "Thu Aug 14 21:51:27 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\Windows.StateRepositoryBroker.dll"}, "time": "Thu Aug 14 21:51:27 2025"}
+{"event": "Process Created", "details": {"pid": 3660, "name": "NVDisplay.Container.exe", "parent": "nvdisplay.container.exe"}, "time": "Thu Aug 14 21:51:30 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "127.0.0.1:54319", "remote_addr": "127.0.0.1:54318", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:51:31 2025"}
+{"event": "Autorun Entry Detected", "details": {"EpicGamesLauncher": "\"D:\\Epic games\\Epic Games\\Launcher\\Portal\\Binaries\\Win64\\EpicGamesLauncher.exe\" -silent -launchcontext=boot"}, "time": "Thu Aug 14 21:51:31 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_51f685305808e3a5\\igdumdim64.dll"}, "time": "Thu Aug 14 21:51:31 2025"}
+{"event": "Process Created", "details": {"pid": 3684, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:51:34 2025"}
+{"event": "Autorun Entry Detected", "details": {"EADM": "\"C:\\Program Files\\Electronic Arts\\EA Desktop\\EA Desktop\\EALauncher.exe\" -silent"}, "time": "Thu Aug 14 21:51:35 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_51f685305808e3a5\\igdumdim64.dll"}, "time": "Thu Aug 14 21:51:35 2025"}
+{"event": "Process Created", "details": {"pid": 3728, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:51:38 2025"}
+{"event": "Autorun Entry Detected", "details": {"Discord": "\"C:\\Users\\ahmad\\AppData\\Local\\Discord\\Update.exe\" --processStart Discord.exe"}, "time": "Thu Aug 14 21:51:39 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\rometadata.dll"}, "time": "Thu Aug 14 21:51:40 2025"}
+{"event": "Network Connection", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55378", "remote_addr": "106.195.7.138:6881", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Thu Aug 14 21:51:40 2025"}
+{"event": "Process Created", "details": {"pid": 3792, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:51:43 2025"}
+{"event": "Autorun Entry Detected", "details": {"com.squirrel.Postman-Agent.PostmanAgent": "C:\\Users\\ahmad\\AppData\\Local\\Postman-Agent\\Postman Agent.exe"}, "time": "Thu Aug 14 21:51:43 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\rometadata.dll"}, "time": "Thu Aug 14 21:51:44 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55378", "remote_addr": "106.195.7.138:6881", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:51:44 2025"}
+{"event": "Process Created", "details": {"pid": 3808, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:51:47 2025"}
+{"event": "Autorun Entry Detected", "details": {"MicrosoftEdgeAutoLaunch_20FC30D426BA353D06DB6B994A55E12A": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --no-startup-window --win-session-start"}, "time": "Thu Aug 14 21:51:48 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\dxgi.dll"}, "time": "Thu Aug 14 21:51:48 2025"}
+{"event": "Process Created", "details": {"pid": 4120, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:51:51 2025"}
+{"event": "Autorun Entry Detected", "details": {"Steam": "\"C:\\Program Files (x86)\\Steam\\steam.exe\" -silent"}, "time": "Thu Aug 14 21:51:52 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\dxgi.dll"}, "time": "Thu Aug 14 21:51:52 2025"}
+{"event": "Network Connection", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "2606:4700:110:833c:8d31:b4c9:1348:a7f1:54152", "remote_addr": "2409:40d2:200f:73c3:897a:ced9:5200:338c:37000", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Thu Aug 14 21:51:53 2025"}
+{"event": "Process Created", "details": {"pid": 4180, "name": "steamwebhelper.exe", "parent": "steamwebhelper.exe"}, "time": "Thu Aug 14 21:51:55 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\directxdatabasehelper.dll"}, "time": "Thu Aug 14 21:51:56 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "2606:4700:110:833c:8d31:b4c9:1348:a7f1:54152", "remote_addr": "2409:40d2:200f:73c3:897a:ced9:5200:338c:37000", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:51:57 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 4180, "name": "steamwebhelper.exe"}, "time": "Thu Aug 14 21:51:59 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\directxdatabasehelper.dll"}, "time": "Thu Aug 14 21:52:00 2025"}
+{"event": "Process Created", "details": {"pid": 4188, "name": "OneApp.IGCC.WinService.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:52:03 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\ResourcePolicyClient.dll"}, "time": "Thu Aug 14 21:52:04 2025"}
+{"event": "Network Connection", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55410", "remote_addr": "161.142.152.150:6881", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Thu Aug 14 21:52:06 2025"}
+{"event": "Process Created", "details": {"pid": 4192, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:52:07 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\ResourcePolicyClient.dll"}, "time": "Thu Aug 14 21:52:08 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "172.16.0.2:55410", "remote_addr": "161.142.152.150:6881", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:52:10 2025"}
+{"event": "Process Created", "details": {"pid": 4288, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:52:11 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\DriverStore\\FileRepository\\nvcvi.inf_amd64_eac0e69528ef8aec\\nvdlistx.dll"}, "time": "Thu Aug 14 21:52:12 2025"}
+{"event": "Network Connection", "details": {"pid": 2464, "process": "firefox.exe", "local_addr": "172.16.0.2:54798", "remote_addr": "34.107.243.93:443", "status": "ESTABLISHED", "trusted": false, "domain": "93.243.107.34.bc.googleusercontent.com"}, "time": "Thu Aug 14 21:52:14 2025"}
+{"event": "Process Created", "details": {"pid": 4356, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:52:16 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\DriverStore\\FileRepository\\nvcvi.inf_amd64_eac0e69528ef8aec\\nvdlistx.dll"}, "time": "Thu Aug 14 21:52:17 2025"}
+{"event": "Suspicious Network", "details": {"pid": 2464, "process": "firefox.exe", "local_addr": "172.16.0.2:54798", "remote_addr": "34.107.243.93:443", "status": "ESTABLISHED", "trusted": false, "domain": "93.243.107.34.bc.googleusercontent.com", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 14 21:52:18 2025"}
+{"event": "Process Created", "details": {"pid": 4364, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:52:20 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\d3d11.dll"}, "time": "Thu Aug 14 21:52:21 2025"}
+{"event": "Process Created", "details": {"pid": 4416, "name": "cmw_srv.exe", "parent": "services.exe"}, "time": "Thu Aug 14 21:52:24 2025"}
+{"event": "Process Created", "details": {"pid": 0, "name": "System Idle Process", "parent": "system idle process"}, "time": "Sat Aug 16 23:33:49 2025"}
+{"event": "Autorun Entry Detected", "details": {"OneDrive": "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background"}, "time": "Sat Aug 16 23:33:49 2025"}
+{"event": "Network Connection", "details": {"pid": 13056, "process": "firefox.exe", "local_addr": "127.0.0.1:62918", "remote_addr": "127.0.0.1:62919", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Sat Aug 16 23:33:49 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Windows-Application-Experience%4Program-Compatibility-Assistant.evtx"}, "time": "Sat Aug 16 23:33:50 2025"}
+{"event": "Suspicious Network", "details": {"pid": 13056, "process": "firefox.exe", "local_addr": "127.0.0.1:62918", "remote_addr": "127.0.0.1:62919", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Sat Aug 16 23:33:55 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Windows-Application-Experience%4Program-Compatibility-Assistant.evtx"}, "time": "Sat Aug 16 23:33:55 2025"}
+{"event": "Process Created", "details": {"pid": 4, "name": "System", "parent": "system idle process"}, "time": "Sat Aug 16 23:33:55 2025"}
+{"event": "Autorun Entry Detected", "details": {"RiotClient": "D:\\Riot Games\\Riot Client\\RiotClientServices.exe --launch-background-mode"}, "time": "Sat Aug 16 23:33:55 2025"}
+{"event": "Network Connection", "details": {"pid": 5260, "process": "mongod.exe", "local_addr": "127.0.0.1:27017", "remote_addr": "127.0.0.1:51585", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Sat Aug 16 23:33:59 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Windows-Security-Mitigations%4KernelMode.evtx"}, "time": "Sat Aug 16 23:33:59 2025"}
+{"event": "Autorun Entry Detected", "details": {"Free Download Manager": "\"D:\\Extras\\Free Download Manager\\fdm.exe\" --hidden"}, "time": "Sat Aug 16 23:33:59 2025"}
+{"event": "Process Created", "details": {"pid": 116, "name": "", "parent": "system"}, "time": "Sat Aug 16 23:33:59 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Windows-Security-Mitigations%4KernelMode.evtx"}, "time": "Sat Aug 16 23:34:04 2025"}
+{"event": "Suspicious Network", "details": {"pid": 5260, "process": "mongod.exe", "local_addr": "127.0.0.1:27017", "remote_addr": "127.0.0.1:51585", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Sat Aug 16 23:34:04 2025"}
+{"event": "Autorun Entry Detected", "details": {"EpicGamesLauncher": "\"D:\\Epic games\\Epic Games\\Launcher\\Portal\\Binaries\\Win64\\EpicGamesLauncher.exe\" -silent -launchcontext=boot"}, "time": "Sat Aug 16 23:34:04 2025"}
+{"event": "Process Created", "details": {"pid": 156, "name": "Registry", "parent": "system"}, "time": "Sat Aug 16 23:34:04 2025"}
+{"event": "Autorun Entry Detected", "details": {"EADM": "\"C:\\Program Files\\Electronic Arts\\EA Desktop\\EA Desktop\\EALauncher.exe\" -silent"}, "time": "Sat Aug 16 23:34:08 2025"}
+{"event": "Process Created", "details": {"pid": 596, "name": "IntelCpHDCPSvc.exe", "parent": "services.exe"}, "time": "Sat Aug 16 23:34:08 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Windows-Store%4Operational.evtx"}, "time": "Sat Aug 16 23:34:10 2025"}
+{"event": "Autorun Entry Detected", "details": {"Discord": "\"C:\\Users\\ahmad\\AppData\\Local\\Discord\\Update.exe\" --processStart Discord.exe"}, "time": "Sat Aug 16 23:34:12 2025"}
+{"event": "Process Created", "details": {"pid": 616, "name": "smss.exe", "parent": "system"}, "time": "Sat Aug 16 23:34:12 2025"}
+{"event": "Network Connection", "details": {"pid": 21012, "process": "Code.exe", "local_addr": "10.7.41.230:51545", "remote_addr": "150.171.73.16:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Sat Aug 16 23:34:13 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Windows-Store%4Operational.evtx"}, "time": "Sat Aug 16 23:34:14 2025"}
+{"event": "Autorun Entry Detected", "details": {"com.squirrel.Postman-Agent.PostmanAgent": "C:\\Users\\ahmad\\AppData\\Local\\Postman-Agent\\Postman Agent.exe"}, "time": "Sat Aug 16 23:34:16 2025"}
+{"event": "Process Created", "details": {"pid": 972, "name": "csrss.exe", "parent": "unknown"}, "time": "Sat Aug 16 23:34:16 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21012, "process": "Code.exe", "local_addr": "10.7.41.230:51545", "remote_addr": "150.171.73.16:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Sat Aug 16 23:34:17 2025"}
+{"event": "Autorun Entry Detected", "details": {"MicrosoftEdgeAutoLaunch_20FC30D426BA353D06DB6B994A55E12A": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --no-startup-window --win-session-start"}, "time": "Sat Aug 16 23:34:20 2025"}
+{"event": "Process Created", "details": {"pid": 1068, "name": "wininit.exe", "parent": "unknown"}, "time": "Sat Aug 16 23:34:20 2025"}
+{"event": "Network Connection", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "127.0.0.1:65286", "remote_addr": "127.0.0.1:65285", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Sat Aug 16 23:34:21 2025"}
+{"event": "Autorun Entry Detected", "details": {"Steam": "\"C:\\Program Files (x86)\\Steam\\steam.exe\" -silent"}, "time": "Sat Aug 16 23:34:24 2025"}
+{"event": "Process Created", "details": {"pid": 1076, "name": "csrss.exe", "parent": "unknown"}, "time": "Sat Aug 16 23:34:25 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "127.0.0.1:65286", "remote_addr": "127.0.0.1:65285", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Sat Aug 16 23:34:25 2025"}
+{"event": "Process Created", "details": {"pid": 1084, "name": "SecurityHealthSystray.exe", "parent": "explorer.exe"}, "time": "Sat Aug 16 23:34:29 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 1084, "name": "SecurityHealthSystray.exe"}, "time": "Sat Aug 16 23:34:33 2025"}
+{"event": "Network Connection", "details": {"pid": 13056, "process": "firefox.exe", "local_addr": "10.7.41.230:65404", "remote_addr": "104.18.39.21:443", "status": "ESTABLISHED", "trusted": true, "domain": "Unknown"}, "time": "Sat Aug 16 23:34:34 2025"}
+{"event": "Process Created", "details": {"pid": 1164, "name": "winlogon.exe", "parent": "unknown"}, "time": "Sat Aug 16 23:34:37 2025"}
+{"event": "Network Connection", "details": {"pid": 17340, "process": "steamwebhelper.exe", "local_addr": "127.0.0.1:50330", "remote_addr": "127.0.0.1:50316", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Sat Aug 16 23:34:38 2025"}
+{"event": "Process Created", "details": {"pid": 1188, "name": "services.exe", "parent": "wininit.exe"}, "time": "Sat Aug 16 23:34:41 2025"}
+{"event": "Suspicious Network", "details": {"pid": 17340, "process": "steamwebhelper.exe", "local_addr": "127.0.0.1:50330", "remote_addr": "127.0.0.1:50316", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Sat Aug 16 23:34:42 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\wpncore.dll"}, "time": "Sat Aug 16 23:34:44 2025"}
+{"event": "Process Created", "details": {"pid": 1212, "name": "svchost.exe", "parent": "services.exe"}, "time": "Sat Aug 16 23:34:45 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\wpncore.dll"}, "time": "Sat Aug 16 23:34:48 2025"}
+{"event": "Process Created", "details": {"pid": 1220, "name": "svchost.exe", "parent": "services.exe"}, "time": "Sat Aug 16 23:34:49 2025"}
+{"event": "Network Connection", "details": {"pid": 3792, "process": "svchost.exe", "local_addr": "10.7.41.230:49740", "remote_addr": "10.7.41.172:7680", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Sat Aug 16 23:34:51 2025"}
+{"event": "Process Created", "details": {"pid": 1228, "name": "LsaIso.exe", "parent": "wininit.exe"}, "time": "Sat Aug 16 23:34:54 2025"}
+{"event": "Suspicious Network", "details": {"pid": 3792, "process": "svchost.exe", "local_addr": "10.7.41.230:49740", "remote_addr": "10.7.41.172:7680", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Sat Aug 16 23:34:56 2025"}
+{"event": "Process Created", "details": {"pid": 1236, "name": "lsass.exe", "parent": "wininit.exe"}, "time": "Sat Aug 16 23:34:58 2025"}
+{"event": "Autorun Entry Detected", "details": {"OneDrive": "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background"}, "time": "Sat Aug 16 23:34:59 2025"}
+{"event": "Network Connection", "details": {"pid": 28088, "process": "python3.12.exe", "local_addr": "127.0.0.1:51584", "remote_addr": "127.0.0.1:27017", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Sat Aug 16 23:35:00 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\config\\DRIVERS"}, "time": "Sat Aug 16 23:35:00 2025"}
+{"event": "Process Created", "details": {"pid": 1292, "name": "svchost.exe", "parent": "services.exe"}, "time": "Sat Aug 16 23:35:02 2025"}
+{"event": "Autorun Entry Detected", "details": {"RiotClient": "D:\\Riot Games\\Riot Client\\RiotClientServices.exe --launch-background-mode"}, "time": "Sat Aug 16 23:35:03 2025"}
+{"event": "Suspicious Network", "details": {"pid": 28088, "process": "python3.12.exe", "local_addr": "127.0.0.1:51584", "remote_addr": "127.0.0.1:27017", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Sat Aug 16 23:35:04 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\config\\DRIVERS"}, "time": "Sat Aug 16 23:35:04 2025"}
+{"event": "Process Created", "details": {"pid": 1316, "name": "taskhostw.exe", "parent": "svchost.exe"}, "time": "Sat Aug 16 23:35:06 2025"}
+{"event": "Autorun Entry Detected", "details": {"Free Download Manager": "\"D:\\Extras\\Free Download Manager\\fdm.exe\" --hidden"}, "time": "Sat Aug 16 23:35:07 2025"}
+{"event": "Network Connection", "details": {"pid": 5372, "process": "pgbouncer.exe", "local_addr": "127.0.0.1:49669", "remote_addr": "127.0.0.1:49670", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Sat Aug 16 23:35:08 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 1316, "name": "taskhostw.exe"}, "time": "Sat Aug 16 23:35:10 2025"}
+{"event": "Autorun Entry Detected", "details": {"EpicGamesLauncher": "\"D:\\Epic games\\Epic Games\\Launcher\\Portal\\Binaries\\Win64\\EpicGamesLauncher.exe\" -silent -launchcontext=boot"}, "time": "Sat Aug 16 23:35:11 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\en-US\\reg.exe.mui"}, "time": "Sat Aug 16 23:35:11 2025"}
+{"event": "Suspicious Network", "details": {"pid": 5372, "process": "pgbouncer.exe", "local_addr": "127.0.0.1:49669", "remote_addr": "127.0.0.1:49670", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Sat Aug 16 23:35:12 2025"}
+{"event": "Process Created", "details": {"pid": 1368, "name": "svchost.exe", "parent": "services.exe"}, "time": "Sat Aug 16 23:35:15 2025"}
+{"event": "Autorun Entry Detected", "details": {"EADM": "\"C:\\Program Files\\Electronic Arts\\EA Desktop\\EA Desktop\\EALauncher.exe\" -silent"}, "time": "Sat Aug 16 23:35:15 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\en-US\\reg.exe.mui"}, "time": "Sat Aug 16 23:35:15 2025"}
+{"event": "Process Created", "details": {"pid": 1396, "name": "svchost.exe", "parent": "services.exe"}, "time": "Sat Aug 16 23:35:19 2025"}
+{"event": "Autorun Entry Detected", "details": {"Discord": "\"C:\\Users\\ahmad\\AppData\\Local\\Discord\\Update.exe\" --processStart Discord.exe"}, "time": "Sat Aug 16 23:35:19 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\Tasks\\Microsoft\\Windows\\Flighting\\OneSettings\\RefreshCache"}, "time": "Sat Aug 16 23:35:20 2025"}
+{"event": "Network Connection", "details": {"pid": 21012, "process": "Code.exe", "local_addr": "10.7.41.230:51546", "remote_addr": "20.189.173.9:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Sat Aug 16 23:35:21 2025"}
+{"event": "Process Created", "details": {"pid": 1400, "name": "fontdrvhost.exe", "parent": "wininit.exe"}, "time": "Sat Aug 16 23:35:23 2025"}
+{"event": "Autorun Entry Detected", "details": {"com.squirrel.Postman-Agent.PostmanAgent": "C:\\Users\\ahmad\\AppData\\Local\\Postman-Agent\\Postman Agent.exe"}, "time": "Sat Aug 16 23:35:23 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\Tasks\\Microsoft\\Windows\\Flighting\\OneSettings\\RefreshCache"}, "time": "Sat Aug 16 23:35:24 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21012, "process": "Code.exe", "local_addr": "10.7.41.230:51546", "remote_addr": "20.189.173.9:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Sat Aug 16 23:35:25 2025"}
+{"event": "Process Created", "details": {"pid": 1408, "name": "fontdrvhost.exe", "parent": "winlogon.exe"}, "time": "Sat Aug 16 23:35:27 2025"}
+{"event": "Autorun Entry Detected", "details": {"MicrosoftEdgeAutoLaunch_20FC30D426BA353D06DB6B994A55E12A": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --no-startup-window --win-session-start"}, "time": "Sat Aug 16 23:35:28 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Windows-LiveId%4Operational.evtx"}, "time": "Sat Aug 16 23:35:28 2025"}
+{"event": "Network Connection", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "127.0.0.1:65285", "remote_addr": "127.0.0.1:65286", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Sat Aug 16 23:35:29 2025"}
+{"event": "Process Created", "details": {"pid": 1448, "name": "conhost.exe", "parent": "code.exe"}, "time": "Sat Aug 16 23:35:31 2025"}
+{"event": "Autorun Entry Detected", "details": {"Steam": "\"C:\\Program Files (x86)\\Steam\\steam.exe\" -silent"}, "time": "Sat Aug 16 23:35:32 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Windows-LiveId%4Operational.evtx"}, "time": "Sat Aug 16 23:35:32 2025"}
+{"event": "Suspicious Network", "details": {"pid": 21132, "process": "fdm.exe", "local_addr": "127.0.0.1:65285", "remote_addr": "127.0.0.1:65286", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Sat Aug 16 23:35:33 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 1448, "name": "conhost.exe"}, "time": "Sat Aug 16 23:35:35 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Windows-Diagnosis-PCW%4Operational.evtx"}, "time": "Sat Aug 16 23:35:36 2025"}
+{"event": "Network Connection", "details": {"pid": 18348, "process": "firefox.exe", "local_addr": "127.0.0.1:62922", "remote_addr": "127.0.0.1:62923", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Sat Aug 16 23:35:38 2025"}
+{"event": "Process Created", "details": {"pid": 1504, "name": "svchost.exe", "parent": "services.exe"}, "time": "Sat Aug 16 23:35:40 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Windows-Diagnosis-PCW%4Operational.evtx"}, "time": "Sat Aug 16 23:35:40 2025"}
+{"event": "Suspicious Network", "details": {"pid": 18348, "process": "firefox.exe", "local_addr": "127.0.0.1:62922", "remote_addr": "127.0.0.1:62923", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Sat Aug 16 23:35:42 2025"}
+{"event": "Process Created", "details": {"pid": 1556, "name": "svchost.exe", "parent": "services.exe"}, "time": "Sat Aug 16 23:35:44 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\Tasks\\Microsoft\\Windows\\SoftwareProtectionPlatform\\SvcRestartTask"}, "time": "Sat Aug 16 23:35:44 2025"}
+{"event": "Network Connection", "details": {"pid": 13256, "process": "Widgets.exe", "local_addr": "10.7.41.230:65102", "remote_addr": "23.44.236.203:443", "status": "ESTABLISHED", "trusted": false, "domain": "a23-44-236-203.deploy.static.akamaitechnologies.com"}, "time": "Sat Aug 16 23:35:46 2025"}
+{"event": "Process Created", "details": {"pid": 1608, "name": "svchost.exe", "parent": "services.exe"}, "time": "Sat Aug 16 23:35:48 2025"}
+{"event": "System File Touched", "details": {"file": "C:/Windows/System32\\Tasks\\Microsoft\\Windows\\SoftwareProtectionPlatform\\SvcRestartTask"}, "time": "Sat Aug 16 23:35:49 2025"}
+{"event": "Suspicious Network", "details": {"pid": 13256, "process": "Widgets.exe", "local_addr": "10.7.41.230:65102", "remote_addr": "23.44.236.203:443", "status": "ESTABLISHED", "trusted": false, "domain": "a23-44-236-203.deploy.static.akamaitechnologies.com", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Sat Aug 16 23:35:50 2025"}
+{"event": "Process Created", "details": {"pid": 1640, "name": "dwm.exe", "parent": "winlogon.exe"}, "time": "Sat Aug 16 23:35:52 2025"}
+{"event": "File Modified", "details": {"path": "C:/Windows/System32\\winevt\\Logs\\Microsoft-Windows-PushNotification-Platform%4Operational.evtx"}, "time": "Sat Aug 16 23:35:53 2025"}

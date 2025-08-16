@@ -16,43 +16,72 @@ def extract_features(csv_path=NORMALIZED_CSV_PATH):
             print("[!] No data found in normalized log file.")
             return None, None
 
+        print(f"[+] Loaded {len(df)} rows from normalized CSV")
+        print(f"[+] Available columns: {list(df.columns)}")
+
         # ------------------ Feature Names ------------------ #
         feature_cols = [
-            'features.score',
-            'event_type',
-            'features.cpu', 'features.uptime', 'features.duration',
+            'event_type', 'module',
+            'features.score', 'features.cpu', 'features.uptime', 'features.duration',
             'features.port', 'features.is_external_ip', 'features.is_suspicious_ip',
-            'features.parent_process', 'features.process_name'
+            'features.parent_process', 'features.process_name',
+            'features.filename', 'features.hash', 'features.registry_key',
+            'features.ip', 'features.domain', 'features.asn', 'features.country'
         ]
         available_cols = [col for col in feature_cols if col in df.columns]
         df = df[available_cols]
+        
+        print(f"[+] Using {len(available_cols)} feature columns: {available_cols}")
 
         # Drop fully empty columns
         df = df.dropna(axis=1, how='all')
+        print(f"[+] After dropping empty columns: {df.shape[1]} columns")
 
         # ------------------ Labels ------------------ #
         label_col = None
         if 'features.score' in df.columns:
             label_col = 'features.score'
+        elif 'label' in df.columns:
+            label_col = 'label'
         elif 'severity' in df.columns:
             label_col = 'severity'
 
         if label_col:
             y = df[label_col].copy()
-            if not pd.api.types.is_numeric_dtype(y):
-                y = pd.factorize(y)[0]
+            # Clean labels - remove empty strings and convert to numeric
+            y = y.replace("", pd.NA)
+            y = pd.to_numeric(y, errors='coerce')
+            
+            # Remove rows with invalid labels
+            valid_mask = y.notna()
+            df = df[valid_mask]
+            y = y[valid_mask]
+            
+            print(f"[+] After cleaning labels: {len(df)} rows with valid labels")
+            print(f"[+] Label distribution:\n{y.value_counts().sort_index()}")
+            
             y = pd.Series(y, name="label")
         else:
-            print("[!] No label column ('features.score' or 'severity') found.")
+            print("[!] No label column ('features.score', 'label', or 'severity') found.")
             y = None
 
         # ------------------ Split Categorical / Numeric ------------------ #
-        categorical_cols = [col for col in ['event_type', 'features.parent_process', 'features.process_name'] if col in df.columns]
-        numeric_cols = [col for col in df.columns if col not in categorical_cols and col != 'features.score']
+        categorical_cols = [col for col in ['event_type', 'module', 'features.parent_process', 'features.process_name', 'features.filename', 'features.domain', 'features.country', 'features.hash', 'features.registry_key', 'features.ip'] if col in df.columns]
+        numeric_cols = [col for col in df.columns if col not in categorical_cols and col != label_col]
+        
+        # Additional check: ensure IP-like columns are treated as categorical
+        for col in df.columns:
+            if 'ip' in col.lower() and col in numeric_cols:
+                numeric_cols.remove(col)
+                if col not in categorical_cols:
+                    categorical_cols.append(col)
+        
+        print(f"[+] Categorical columns: {categorical_cols}")
+        print(f"[+] Numeric columns: {numeric_cols}")
 
         # ------------------ Impute numeric ------------------ #
         if numeric_cols:
-            imputer = SimpleImputer(strategy="mean")
+            imputer = SimpleImputer(strategy="median")
             df_numeric = pd.DataFrame(imputer.fit_transform(df[numeric_cols]), columns=numeric_cols)
         else:
             df_numeric = pd.DataFrame()
@@ -84,6 +113,8 @@ def extract_features(csv_path=NORMALIZED_CSV_PATH):
 
     except Exception as e:
         print("[!] Error during feature extraction:", e)
+        import traceback
+        traceback.print_exc()
         return None, None
 
 

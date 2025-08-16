@@ -35,6 +35,58 @@ def score_event(event_type, data):
         if "powershell" in data.get("proc_name", "").lower():
             score += 2
 
+    # --- Generic modules ---
+    elif event_type in ("Process Created",):
+        # Lower severity by default
+        parent = (data.get("parent") or "").lower()
+        name = (data.get("name") or "").lower()
+        if any(k in name for k in ["powershell", "cmd", "wscript", "mshta"]):
+            score += 4
+        if parent in ["powershell.exe", "cmd.exe", "wscript.exe", "mshta.exe"]:
+            score += 3
+        score = max(score, 1)
+    elif event_type in ("Suspicious Process", "Suspicious Parent Process", "Suspicious Process Modules"):
+        score += 6
+    elif event_type == "Network Connection":
+        if not data.get("trusted", True):
+            score += 4
+        try:
+            port = int(str(data.get("remote_addr", ":")).split(":")[1])
+            if port in [1337, 5555, 6666, 8081, 9001, 3389, 22]:
+                score += 3
+        except Exception:
+            pass
+        score = max(score, 1)
+    elif event_type == "Suspicious Network":
+        score += 7
+    elif event_type in ("File Modified", "File Created", "File Deleted", "System File Touched"):
+        score += 2
+        if str(data.get("file") or data.get("path") or "").lower().startswith("c:/windows"):
+            score += 3
+    elif event_type == "Suspicious File Extension":
+        score += 6
+    elif event_type == "Autorun Entry Detected":
+        score += 6
+    elif event_type == "USB Inserted":
+        score += 3
+    elif event_type == "USB Removed":
+        score += 1
+    elif event_type == "Untrusted Process Tree":
+        score += 7
+    elif event_type == "YARA Match Detected":
+        score += 8
+    elif event_type == "Download Detected":
+        # Use entropy and extension for heuristic
+        entropy = data.get("entropy")
+        file_ext = (data.get("file_extension") or data.get("path") or "")
+        try:
+            if isinstance(entropy, (int, float)) and entropy > 7.5:
+                score += 3
+        except Exception:
+            pass
+        if any(str(file_ext).lower().endswith(ext) for ext in [".exe", ".dll", ".scr", ".js", ".vbs", ".jar", ".msi"]):
+            score += 4
+
     score = min(score, 10)
 
     # Prepare full event log
@@ -42,7 +94,7 @@ def score_event(event_type, data):
         "event_id": str(uuid.uuid4()),
         "timestamp": time.time(),
         "event_type": event_type,
-        "source": "logic_bomb_detector",
+        "source": "agent",
         "data": data,
         "score": score
     }

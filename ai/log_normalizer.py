@@ -17,7 +17,12 @@ collection_modules = {
     "process_logs": "process_monitor",
     "file_logs": "file_monitor",
     "autorun_logs": "autorun_monitor",
-    "network_logs": "network_monitor"
+    "network_logs": "network_monitor",
+    "usb_logs": "usb_monitor",
+    "yara_scan_logs": "yara_scan",
+    "process_tree_logs": "process_tree",
+    "download_logs": "download",
+    "severity_score_logs": "severity_score"
 }
 
 # ---------- Connect MongoDB ----------
@@ -45,8 +50,11 @@ def normalize_document(doc, module):
 
     data = doc.get("data", {})
 
-    # Map severity → features.score
-    features["score"] = doc.get("severity", None)
+    # Map severity → features.score (prefer nested data.severity since server nests fields)
+    sev = data.get("severity", None)
+    if sev is None:
+        sev = doc.get("severity", None)
+    features["score"] = sev
     features["timestamp"] = doc.get("timestamp", str(datetime.datetime.utcnow()))
 
     # Module-specific logic
@@ -55,22 +63,23 @@ def normalize_document(doc, module):
         features["cpu"] = data.get("cpu")
         features["uptime"] = data.get("uptime")
         features["duration"] = data.get("duration")
-        features["score"] = data.get("severity")
+        # keep features.score as set above
         
 
     elif module == "process_monitor":
-        features["process_name"] = data.get("process_name")
+        features["process_name"] = data.get("name") or data.get("process_name")
         features["parent_process"] = data.get("parent")
 
     elif module == "file_monitor":
-        features["filename"] = data.get("filename")
+        features["filename"] = data.get("file") or data.get("filename") or data.get("path")
         features["hash"] = data.get("hash")
 
     elif module == "autorun_monitor":
         features["registry_key"] = data.get("value")
 
     elif module == "network_monitor":
-        features["ip"] = data.get("ip")
+        features["ip"] = (data.get("remote_addr", ":").split(":")[0]
+                           if isinstance(data.get("remote_addr"), str) else data.get("ip"))
         features["domain"] = data.get("domain")
         features["asn"] = data.get("asn")
         features["country"] = data.get("country")
