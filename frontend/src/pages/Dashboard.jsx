@@ -48,6 +48,7 @@ function Dashboard() {
   const [selectedEventType, setSelectedEventType] = useState('all');
   const [isRealTime, setIsRealTime] = useState(true);
   const [lastUpdate, setLastUpdate] = useState(new Date());
+  const [nextUpdate, setNextUpdate] = useState(new Date(Date.now() + 5000));
   const [stats, setStats] = useState({
     totalEvents: 0,
     highSeverity: 0,
@@ -58,6 +59,25 @@ function Dashboard() {
   const [selectedLog, setSelectedLog] = useState(null);
   const [showLogDetails, setShowLogDetails] = useState(false);
   const intervalRef = useRef(null);
+
+  // Countdown timer for next update
+  const [countdown, setCountdown] = useState(5);
+
+  // Update countdown every second
+  useEffect(() => {
+    if (isRealTime) {
+      const countdownInterval = setInterval(() => {
+        setCountdown(prev => {
+          if (prev <= 1) {
+            return 5;
+          }
+          return prev - 1;
+        });
+      }, 1000);
+
+      return () => clearInterval(countdownInterval);
+    }
+  }, [isRealTime]);
 
   // Event types for filtering
   const eventTypes = [
@@ -82,82 +102,64 @@ function Dashboard() {
     6: '#7C2D12'  // Brown - Extreme
   };
 
+  // Handle real-time toggle
+  const handleRealTimeToggle = () => {
+    setIsRealTime(!isRealTime);
+    if (!isRealTime) {
+      // Resuming real-time - reset countdown and fetch logs immediately
+      setCountdown(5);
+      fetchLogs();
+    }
+  };
+
   // Fetch logs from backend
   const fetchLogs = async () => {
     try {
       const response = await axios.get(API_ENDPOINTS.LOGS.ALL);
       setLogs(response.data);
       setLastUpdate(new Date());
+      setNextUpdate(new Date(Date.now() + 5000));
     } catch (error) {
       console.error('Error fetching logs:', error);
-      // Fallback to mock data if API fails
-      const mockLogs = {
-        endpoint: generateMockEndpointLogs(),
-        severity: generateMockSeverityLogs(),
-        processTree: generateMockProcessTreeLogs(),
-        downloads: generateMockDownloadLogs()
-      };
-      setLogs(mockLogs);
+      // Don't fall back to mock data - just keep existing logs
     }
   };
 
-  // Generate mock data for demonstration
-  const generateMockEndpointLogs = () => {
-    const events = [
-      'Process Created',
-      'Network Connection',
-      'Suspicious Network',
-      'Autorun Entry Detected',
-      'Suspicious Process Modules'
-    ];
-    
-    return Array.from({ length: 50 }, (_, i) => ({
-      id: i,
-      event: events[Math.floor(Math.random() * events.length)],
-      details: {
-        pid: Math.floor(Math.random() * 10000),
-        name: `process_${i}.exe`,
-        parent: `parent_${i}.exe`,
-        local_addr: `192.168.1.${Math.floor(Math.random() * 255)}:${Math.floor(Math.random() * 65535)}`,
-        remote_addr: `${Math.floor(Math.random() * 255)}.${Math.floor(Math.random() * 255)}.${Math.floor(Math.random() * 255)}.${Math.floor(Math.random() * 255)}:443`,
-        status: 'ESTABLISHED',
-        trusted: Math.random() > 0.7
-      },
-      time: new Date(Date.now() - Math.random() * 86400000).toLocaleString()
-    }));
+  // Sort logs by timestamp (most recent first)
+  const sortLogsByTimestamp = (logsArray, timeKey = 'timestamp') => {
+    return logsArray.sort((a, b) => {
+      const getTimestamp = (log) => {
+        try {
+          if (timeKey in log) {
+            if (typeof log[timeKey] === 'number') {
+              return log[timeKey];
+            } else if (typeof log[timeKey] === 'string') {
+              // Try to parse ISO format or other string formats
+              const date = new Date(log[timeKey]);
+              return isNaN(date.getTime()) ? 0 : date.getTime();
+            }
+          } else if ('time' in log) {
+            // Handle 'time' field as fallback
+            const date = new Date(log.time);
+            return isNaN(date.getTime()) ? 0 : date.getTime();
+          }
+          return 0;
+        } catch {
+          return 0;
+        }
+      };
+
+      const timeA = getTimestamp(a);
+      const timeB = getTimestamp(b);
+      return timeB - timeA; // Most recent first
+    });
   };
 
-  const generateMockSeverityLogs = () => {
-    return Array.from({ length: 30 }, (_, i) => ({
-      event_id: `event_${i}`,
-      timestamp: Date.now() - Math.random() * 86400000,
-      event_type: ['Suspicious Scheduled Task', 'Consistent Execution Time', 'Time-Based Execution Window'][Math.floor(Math.random() * 3)],
-      source: 'logic_bomb_detector',
-      score: Math.floor(Math.random() * 6) + 1
-    }));
-  };
-
-  const generateMockProcessTreeLogs = () => {
-    return Array.from({ length: 20 }, (_, i) => ({
-      pid: Math.floor(Math.random() * 10000),
-      name: `process_${i}.exe`,
-      parent_pid: Math.floor(Math.random() * 10000),
-      parent_name: `parent_${i}.exe`,
-      children: Math.floor(Math.random() * 5),
-      suspicious: Math.random() > 0.8
-    }));
-  };
-
-  const generateMockDownloadLogs = () => {
-    return Array.from({ length: 25 }, (_, i) => ({
-      filename: `file_${i}.exe`,
-      url: `https://example.com/file_${i}.exe`,
-      timestamp: new Date(Date.now() - Math.random() * 86400000).toISOString(),
-      size: Math.floor(Math.random() * 10000000),
-      suspicious: Math.random() > 0.7,
-      hash: `sha256_${Math.random().toString(36).substring(2, 15)}`
-    }));
-  };
+  // Generate mock data for demonstration - REMOVED, will use real API data only
+  // const generateMockEndpointLogs = () => { ... } - REMOVED
+  // const generateMockSeverityLogs = () => { ... } - REMOVED
+  // const generateMockProcessTreeLogs = () => { ... } - REMOVED
+  // const generateMockDownloadLogs = () => { ... } - REMOVED
 
   // Calculate statistics
   const calculateStats = () => {
@@ -189,11 +191,14 @@ function Dashboard() {
       ...logs.downloads.map(log => ({ ...log, source: 'downloads' }))
     ];
 
+    // Sort all logs by timestamp (most recent first)
+    const sortedLogs = sortLogsByTimestamp(allLogs);
+
     // Filter by event type
     if (selectedEventType !== 'all') {
-      filtered = allLogs.filter(log => log.event === selectedEventType || log.event_type === selectedEventType);
+      filtered = sortedLogs.filter(log => log.event === selectedEventType || log.event_type === selectedEventType);
     } else {
-      filtered = allLogs;
+      filtered = sortedLogs;
     }
 
     // Filter by search term
@@ -209,13 +214,16 @@ function Dashboard() {
   // Real-time updates
   useEffect(() => {
     if (isRealTime) {
+      // Fetch logs immediately
       fetchLogs();
-      intervalRef.current = setInterval(fetchLogs, DASHBOARD_CONFIG.REFRESH_INTERVAL);
+      // Set up interval for every 5 seconds
+      intervalRef.current = setInterval(fetchLogs, 5000);
     }
 
     return () => {
       if (intervalRef.current) {
         clearInterval(intervalRef.current);
+        intervalRef.current = null;
       }
     };
   }, [isRealTime]);
@@ -233,7 +241,8 @@ function Dashboard() {
   // Chart data preparation
   const getSeverityChartData = () => {
     const severityCounts = {};
-    logs.severity.forEach(log => {
+    const sortedSeverityLogs = sortLogsByTimestamp([...logs.severity]);
+    sortedSeverityLogs.forEach(log => {
       const score = log.score;
       severityCounts[score] = (severityCounts[score] || 0) + 1;
     });
@@ -247,7 +256,8 @@ function Dashboard() {
 
   const getEventTypeChartData = () => {
     const eventCounts = {};
-    logs.endpoint.forEach(log => {
+    const sortedEndpointLogs = sortLogsByTimestamp([...logs.endpoint]);
+    sortedEndpointLogs.forEach(log => {
       eventCounts[log.event] = (eventCounts[log.event] || 0) + 1;
     });
     
@@ -259,9 +269,10 @@ function Dashboard() {
 
   const getNetworkActivityData = () => {
     const networkLogs = logs.endpoint.filter(log => log.event.includes('Network'));
+    const sortedNetworkLogs = sortLogsByTimestamp(networkLogs);
     const timeData = {};
     
-    networkLogs.forEach(log => {
+    sortedNetworkLogs.forEach(log => {
       const hour = new Date(log.time).getHours();
       timeData[hour] = (timeData[hour] || 0) + 1;
     });
@@ -291,9 +302,14 @@ function Dashboard() {
                 <span className="text-sm text-gray-600">
                   {isRealTime ? 'Live' : 'Paused'}
                 </span>
+                {isRealTime && (
+                  <span className="text-xs text-gray-500">
+                    Next update in {countdown}s
+                  </span>
+                )}
               </div>
               <button
-                onClick={() => setIsRealTime(!isRealTime)}
+                onClick={handleRealTimeToggle}
                 className="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
                 {isRealTime ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
@@ -461,14 +477,21 @@ function Dashboard() {
             </div>
           </div>
           <div className="mt-4 text-sm text-gray-500">
-            Last updated: {lastUpdate.toLocaleTimeString()} | Showing {filteredLogs.length} of {stats.totalEvents} events
+            Last updated: {lastUpdate.toLocaleTimeString()} | 
+            {isRealTime && ` Next update in ${countdown}s |`} 
+            Showing {filteredLogs.length} of {stats.totalEvents} events
           </div>
         </div>
 
         {/* Logs Table */}
         <div className="bg-white rounded-lg shadow overflow-hidden">
           <div className="px-6 py-4 border-b border-gray-200">
-            <h3 className="text-lg font-medium text-gray-900">Real-time Logs</h3>
+            <div className="flex justify-between items-center">
+              <h3 className="text-lg font-medium text-gray-900">Real-time Logs</h3>
+              <div className="text-sm text-gray-500">
+                Sorted by time (most recent first)
+              </div>
+            </div>
           </div>
           <div className="overflow-x-auto">
             <table className="min-w-full divide-y divide-gray-200">
@@ -483,10 +506,17 @@ function Dashboard() {
               </thead>
               <tbody className="bg-white divide-y divide-gray-200">
                 {filteredLogs.slice(0, DASHBOARD_CONFIG.MAX_LOGS_DISPLAY).map((log, index) => (
-                  <tr key={`${log.source}-${index}`} className="hover:bg-gray-50">
+                  <tr key={`${log.source}-${index}`} className={`hover:bg-gray-50 ${index < 5 ? 'bg-blue-50' : ''}`}>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                      {log.time ? new Date(log.time).toLocaleTimeString() : 
-                       log.timestamp ? new Date(log.timestamp).toLocaleTimeString() : 'N/A'}
+                      <div className="flex items-center space-x-2">
+                        {index < 5 && (
+                          <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                        )}
+                        <span>
+                          {log.time ? new Date(log.time).toLocaleTimeString() : 
+                           log.timestamp ? new Date(log.timestamp).toLocaleTimeString() : 'N/A'}
+                        </span>
+                      </div>
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap">
                       <span className={`inline-flex px-2 py-1 text-xs font-semibold rounded-full ${
