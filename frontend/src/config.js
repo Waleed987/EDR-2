@@ -3,6 +3,7 @@ export const API_BASE_URL = 'http://localhost:5000';
 
 // API Endpoints
 export const API_ENDPOINTS = {
+  BASE: API_BASE_URL,
   LOGS: {
     ALL: `${API_BASE_URL}/api/logs/all`,
     ENDPOINT: `${API_BASE_URL}/api/logs/endpoint`,

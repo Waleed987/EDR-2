@@ -79,11 +79,28 @@ def prepare_data(csv_path=NORMALIZED_CSV_PATH):
         remainder="drop"
     )
 
-    # Stratified split if label has reasonable distribution
-    stratify = y if y.nunique() <= 20 and len(y) > 0 else None
-
-    X_train, X_temp, y_train, y_temp = train_test_split(X, y, test_size=0.30, random_state=42, stratify=stratify)
-    X_valid, X_test, y_valid, y_test = train_test_split(X_temp, y_temp, test_size=0.50, random_state=42, stratify=(y_temp if stratify is not None else None))
+    # Check class distribution for stratified split
+    label_counts = y.value_counts()
+    min_class_size = label_counts.min()
+    
+    # Only use stratification if all classes have at least 4 samples (enough for 2 splits)
+    use_stratify = y.nunique() <= 20 and min_class_size >= 4
+    
+    if use_stratify:
+        print(f"[+] Using stratified split (min class size: {min_class_size})")
+        stratify_first = y
+        X_train, X_temp, y_train, y_temp = train_test_split(X, y, test_size=0.30, random_state=42, stratify=stratify_first)
+        
+        # Check if temp split still has enough samples per class
+        temp_counts = y_temp.value_counts()
+        temp_min = temp_counts.min()
+        stratify_second = y_temp if temp_min >= 2 else None
+        
+        X_valid, X_test, y_valid, y_test = train_test_split(X_temp, y_temp, test_size=0.50, random_state=42, stratify=stratify_second)
+    else:
+        print(f"[+] Using random split (min class size too small: {min_class_size})")
+        X_train, X_temp, y_train, y_temp = train_test_split(X, y, test_size=0.30, random_state=42)
+        X_valid, X_test, y_valid, y_test = train_test_split(X_temp, y_temp, test_size=0.50, random_state=42)
 
     print(f"[+] Split sizes - Train: {len(X_train)}, Valid: {len(X_valid)}, Test: {len(X_test)}")
 
