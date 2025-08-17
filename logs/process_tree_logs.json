@@ -379,3 +379,19 @@
 {"event": "Untrusted Process Tree", "parent": "System", "child": "MemCompression", "pid": 3556, "ppid": 4, "timestamp": "2025-08-17T15:31:36.466828"}
 {"event": "Untrusted Process Tree", "parent": "services.exe", "child": "svchost.exe", "pid": 3628, "ppid": 1600, "timestamp": "2025-08-17T15:31:40.667934"}
 {"event": "Untrusted Process Tree", "parent": "services.exe", "child": "svchost.exe", "pid": 3664, "ppid": 1600, "timestamp": "2025-08-17T15:31:44.857249"}
+{"event": "Untrusted Process Tree", "parent": "System Idle Process", "child": "System Idle Process", "pid": 0, "ppid": 0, "timestamp": "2025-08-17T15:36:41.236736"}
+{"event": "Untrusted Process Tree", "parent": "System Idle Process", "child": "System", "pid": 4, "ppid": 0, "timestamp": "2025-08-17T15:36:51.143853"}
+{"event": "Untrusted Process Tree", "parent": "System", "child": "", "pid": 308, "ppid": 4, "timestamp": "2025-08-17T15:36:59.349449"}
+{"event": "Untrusted Process Tree", "parent": "System Idle Process", "child": "System Idle Process", "pid": 0, "ppid": 0, "timestamp": "2025-08-17T15:41:27.539872"}
+{"event": "Untrusted Process Tree", "parent": "System Idle Process", "child": "System", "pid": 4, "ppid": 0, "timestamp": "2025-08-17T15:41:33.426441"}
+{"event": "Untrusted Process Tree", "parent": "System", "child": "", "pid": 308, "ppid": 4, "timestamp": "2025-08-17T15:41:37.590374"}
+{"event": "Untrusted Process Tree", "parent": "System", "child": "Registry", "pid": 352, "ppid": 4, "timestamp": "2025-08-17T15:41:41.785905"}
+{"event": "Untrusted Process Tree", "parent": "services.exe", "child": "svchost.exe", "pid": 976, "ppid": 1600, "timestamp": "2025-08-17T15:41:45.879321"}
+{"event": "Untrusted Process Tree", "parent": "System", "child": "smss.exe", "pid": 996, "ppid": 4, "timestamp": "2025-08-17T15:41:50.007087"}
+{"event": "Untrusted Process Tree", "parent": "winlogon.exe", "child": "dwm.exe", "pid": 1112, "ppid": 1580, "timestamp": "2025-08-17T15:41:54.130069"}
+{"event": "Untrusted Process Tree", "parent": "explorer.exe", "child": "Microsoft.SharePoint.exe", "pid": 1516, "ppid": 12624, "timestamp": "2025-08-17T15:41:58.340193"}
+{"event": "Untrusted Process Tree", "parent": "wininit.exe", "child": "services.exe", "pid": 1600, "ppid": 1484, "timestamp": "2025-08-17T15:42:02.515382"}
+{"event": "Untrusted Process Tree", "parent": "services.exe", "child": "svchost.exe", "pid": 1616, "ppid": 1600, "timestamp": "2025-08-17T15:42:06.689536"}
+{"event": "Untrusted Process Tree", "parent": "wininit.exe", "child": "LsaIso.exe", "pid": 1644, "ppid": 1484, "timestamp": "2025-08-17T15:42:10.864298"}
+{"event": "Untrusted Process Tree", "parent": "wininit.exe", "child": "lsass.exe", "pid": 1652, "ppid": 1484, "timestamp": "2025-08-17T15:42:14.998403"}
+{"event": "Untrusted Process Tree", "parent": "services.exe", "child": "svchost.exe", "pid": 1680, "ppid": 1600, "timestamp": "2025-08-17T15:42:19.181131"}

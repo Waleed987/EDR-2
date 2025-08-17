@@ -1,0 +1,17 @@
+event_type,module,features.score,features.cpu,features.uptime,features.duration,features.filename,features.hash,features.registry_key,features.ip,features.domain,features.asn,features.country,features.parent_process,features.process_name,label
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,wininit.exe,lsass.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,Registry,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,cursor.exe,Cursor.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,dax3api.exe,DAX3API.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,ShellHost.exe,6.0

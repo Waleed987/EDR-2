@@ -1,0 +1,73 @@
+event_type,module,features.score,features.cpu,features.uptime,features.duration,features.filename,features.hash,features.registry_key,features.ip,features.domain,features.asn,features.country,features.parent_process,features.process_name,label
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,108.177.15.188,wr-in-f188.1e100.net,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,svchost.exe,backgroundTaskHost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,34.200.126.19,ec2-34-200-126-19.compute-1.amazonaws.com,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,104.18.39.21,Unknown,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system idle process,System,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,unknown,wininit.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,34.200.126.19,ec2-34-200-126-19.compute-1.amazonaws.com,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,108.177.15.188,wr-in-f188.1e100.net,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,wininit.exe,LsaIso.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,104.18.39.21,Unknown,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,wininit.exe,services.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,unknown,csrss.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system idle process,System Idle Process,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,104.18.39.21,Unknown,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system idle process,System Idle Process,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,Registry,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,backgroundTaskHost.exe,6.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,Cursor.exe,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,brave.exe,brave.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,chatgpt.exe,ChatGPT.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,sihost.exe,ShellHost.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,brave.exe,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,smss.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,100.28.137.184,ec2-100-28-137-184.compute-1.amazonaws.com,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system idle process,System,1.0
