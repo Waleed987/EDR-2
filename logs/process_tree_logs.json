@@ -411,3 +411,19 @@
 {"event": "Untrusted Process Tree", "parent": "services.exe", "child": "svchost.exe", "pid": 1680, "ppid": 1600, "timestamp": "2025-08-17T16:03:27.752431"}
 {"event": "Untrusted Process Tree", "parent": "services.exe", "child": "svchost.exe", "pid": 1724, "ppid": 1600, "timestamp": "2025-08-17T16:03:31.906479"}
 {"event": "Untrusted Process Tree", "parent": "services.exe", "child": "svchost.exe", "pid": 1780, "ppid": 1600, "timestamp": "2025-08-17T16:03:36.050854"}
+{"event": "Untrusted Process Tree", "parent": "System Idle Process", "child": "System Idle Process", "pid": 0, "ppid": 0, "timestamp": "2025-08-17T19:55:37.961893"}
+{"event": "Untrusted Process Tree", "parent": "System Idle Process", "child": "System", "pid": 4, "ppid": 0, "timestamp": "2025-08-17T19:55:43.822373"}
+{"event": "Untrusted Process Tree", "parent": "System", "child": "", "pid": 308, "ppid": 4, "timestamp": "2025-08-17T19:55:47.990155"}
+{"event": "Untrusted Process Tree", "parent": "System", "child": "Registry", "pid": 352, "ppid": 4, "timestamp": "2025-08-17T19:55:52.167429"}
+{"event": "Untrusted Process Tree", "parent": "svchost.exe", "child": "TabTip.exe", "pid": 576, "ppid": 2548, "timestamp": "2025-08-17T19:55:56.321892"}
+{"event": "Untrusted Process Tree", "parent": "services.exe", "child": "svchost.exe", "pid": 908, "ppid": 1600, "timestamp": "2025-08-17T19:56:00.468852"}
+{"event": "Untrusted Process Tree", "parent": "services.exe", "child": "svchost.exe", "pid": 976, "ppid": 1600, "timestamp": "2025-08-17T19:56:04.626251"}
+{"event": "Untrusted Process Tree", "parent": "System", "child": "smss.exe", "pid": 996, "ppid": 4, "timestamp": "2025-08-17T19:56:08.739217"}
+{"event": "Untrusted Process Tree", "parent": "Cursor.exe", "child": "conhost.exe", "pid": 1520, "ppid": 14036, "timestamp": "2025-08-17T19:56:12.913411"}
+{"event": "Untrusted Process Tree", "parent": "wininit.exe", "child": "services.exe", "pid": 1600, "ppid": 1484, "timestamp": "2025-08-17T19:56:17.040895"}
+{"event": "Untrusted Process Tree", "parent": "wininit.exe", "child": "LsaIso.exe", "pid": 1644, "ppid": 1484, "timestamp": "2025-08-17T19:56:21.216104"}
+{"event": "Untrusted Process Tree", "parent": "wininit.exe", "child": "lsass.exe", "pid": 1652, "ppid": 1484, "timestamp": "2025-08-17T19:56:25.373332"}
+{"event": "Untrusted Process Tree", "parent": "services.exe", "child": "svchost.exe", "pid": 1680, "ppid": 1600, "timestamp": "2025-08-17T19:56:29.542285"}
+{"event": "Untrusted Process Tree", "parent": "services.exe", "child": "svchost.exe", "pid": 1724, "ppid": 1600, "timestamp": "2025-08-17T19:56:33.719254"}
+{"event": "Untrusted Process Tree", "parent": "services.exe", "child": "svchost.exe", "pid": 1732, "ppid": 1600, "timestamp": "2025-08-17T19:56:37.855041"}
+{"event": "Untrusted Process Tree", "parent": "services.exe", "child": "svchost.exe", "pid": 1780, "ppid": 1600, "timestamp": "2025-08-17T19:56:42.016372"}
