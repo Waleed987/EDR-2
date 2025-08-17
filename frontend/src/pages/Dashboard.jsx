@@ -58,6 +58,9 @@ function Dashboard() {
   });
   const [selectedLog, setSelectedLog] = useState(null);
   const [showLogDetails, setShowLogDetails] = useState(false);
+  const [showProcessModal, setShowProcessModal] = useState(false);
+  const [modalType, setModalType] = useState('');
+  const [modalData, setModalData] = useState([]);
   const intervalRef = useRef(null);
 
   // Countdown timer for next update
@@ -102,6 +105,16 @@ function Dashboard() {
     6: '#7C2D12'  // Brown - Extreme
   };
 
+  // Severity level descriptions
+  const severityDescriptions = {
+    1: 'Low',
+    2: 'Medium',
+    3: 'Medium-High',
+    4: 'High',
+    5: 'Critical',
+    6: 'Extreme'
+  };
+
   // Handle real-time toggle
   const handleRealTimeToggle = () => {
     setIsRealTime(!isRealTime);
@@ -110,6 +123,39 @@ function Dashboard() {
       setCountdown(5);
       fetchLogs();
     }
+  };
+
+  // Handle modal display for different data types
+  const handleCardClick = (type) => {
+    let data = [];
+    let title = '';
+    
+    switch (type) {
+      case 'suspicious':
+        data = logs.endpoint.filter(log => log.event.includes('Suspicious'));
+        title = 'Suspicious Processes';
+        break;
+      case 'network':
+        data = logs.endpoint.filter(log => log.event.includes('Network'));
+        title = 'Network Connections';
+        break;
+      case 'autorun':
+        data = logs.endpoint.filter(log => log.event.includes('Autorun'));
+        title = 'Autorun Entries';
+        break;
+      default:
+        return;
+    }
+    
+    setModalType(title);
+    setModalData(data);
+    setShowProcessModal(true);
+  };
+
+  const closeProcessModal = () => {
+    setShowProcessModal(false);
+    setModalType('');
+    setModalData([]);
   };
 
   // Fetch logs from backend
@@ -172,7 +218,7 @@ function Dashboard() {
 
     setStats({
       totalEvents: allLogs.length,
-      highSeverity: logs.severity.filter(log => log.score >= 4).length,
+      highSeverity: logs.severity.filter(log => (log.score || log.severity) >= 4).length,
       suspiciousProcesses: logs.endpoint.filter(log => log.event.includes('Suspicious')).length,
       networkConnections: logs.endpoint.filter(log => log.event.includes('Network')).length,
       autorunEntries: logs.endpoint.filter(log => log.event.includes('Autorun')).length
@@ -240,18 +286,38 @@ function Dashboard() {
 
   // Chart data preparation
   const getSeverityChartData = () => {
-    const severityCounts = {};
-    const sortedSeverityLogs = sortLogsByTimestamp([...logs.severity]);
-    sortedSeverityLogs.forEach(log => {
-      const score = log.score;
-      severityCounts[score] = (severityCounts[score] || 0) + 1;
-    });
-    
-    return Object.entries(severityCounts).map(([score, count]) => ({
-      score: `Level ${score}`,
-      count,
-      color: severityColors[parseInt(score)] || '#6B7280'
-    }));
+    try {
+      const severityCounts = {};
+      const sortedSeverityLogs = sortLogsByTimestamp([...logs.severity]);
+      
+      // Count severity scores from logs
+      sortedSeverityLogs.forEach(log => {
+        // Handle both 'score' and 'severity' fields for compatibility
+        const score = log.score || log.severity;
+        if (score !== undefined && score !== null && !isNaN(score)) {
+          const numericScore = parseInt(score);
+          if (numericScore >= 1 && numericScore <= 6) {
+            severityCounts[numericScore] = (severityCounts[numericScore] || 0) + 1;
+          }
+        }
+      });
+      
+      // Ensure all severity levels are represented, even if count is 0
+      const allSeverityLevels = [1, 2, 3, 4, 5, 6];
+      const chartData = allSeverityLevels.map(level => ({
+        score: `Level ${level} (${severityDescriptions[level]})`,
+        count: severityCounts[level] || 0,
+        color: severityColors[level] || '#6B7280'
+      }));
+      
+      // Filter out levels with 0 count for cleaner display
+      const finalData = chartData.filter(entry => entry.count > 0);
+      
+      return finalData;
+    } catch (error) {
+      console.error('Error preparing severity chart data:', error);
+      return [];
+    }
   };
 
   const getEventTypeChartData = () => {
@@ -354,68 +420,136 @@ function Dashboard() {
             </div>
           </div>
 
-          <div className="bg-white rounded-lg shadow p-6">
-            <div className="flex items-center">
-              <div className="flex-shrink-0">
-                <Monitor className="h-8 w-8 text-yellow-600" />
-              </div>
-              <div className="ml-4">
-                <p className="text-sm font-medium text-gray-500">Suspicious Processes</p>
-                <p className="text-2xl font-semibold text-yellow-600">{stats.suspiciousProcesses}</p>
-              </div>
-            </div>
-          </div>
+                     <div 
+             className="bg-white rounded-lg shadow p-6 cursor-pointer hover:shadow-lg transition-shadow duration-200"
+             onClick={() => handleCardClick('suspicious')}
+           >
+             <div className="flex items-center justify-between">
+               <div className="flex items-center">
+                 <div className="flex-shrink-0">
+                   <Monitor className="h-8 w-8 text-yellow-600" />
+                 </div>
+                 <div className="ml-4">
+                   <p className="text-sm font-medium text-gray-500">Suspicious Processes</p>
+                   <p className="text-2xl font-semibold text-yellow-600">{stats.suspiciousProcesses}</p>
+                 </div>
+               </div>
+               <div className="text-yellow-400">
+                 <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                 </svg>
+               </div>
+             </div>
+           </div>
 
-          <div className="bg-white rounded-lg shadow p-6">
-            <div className="flex items-center">
-              <div className="flex-shrink-0">
-                <Network className="h-8 w-8 text-purple-600" />
-              </div>
-              <div className="ml-4">
-                <p className="text-sm font-medium text-gray-500">Network Connections</p>
-                <p className="text-2xl font-semibold text-purple-600">{stats.networkConnections}</p>
-              </div>
-            </div>
-          </div>
+                     <div 
+             className="bg-white rounded-lg shadow p-6 cursor-pointer hover:shadow-lg transition-shadow duration-200"
+             onClick={() => handleCardClick('network')}
+           >
+             <div className="flex items-center justify-between">
+               <div className="flex items-center">
+                 <div className="flex-shrink-0">
+                   <Network className="h-8 w-8 text-purple-600" />
+                 </div>
+                 <div className="ml-4">
+                   <p className="text-sm font-medium text-gray-500">Network Connections</p>
+                   <p className="text-2xl font-semibold text-purple-600">{stats.networkConnections}</p>
+                 </div>
+               </div>
+               <div className="text-purple-400">
+                 <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                 </svg>
+               </div>
+             </div>
+           </div>
 
-          <div className="bg-white rounded-lg shadow p-6">
-            <div className="flex items-center">
-              <div className="flex-shrink-0">
-                <Zap className="h-8 w-8 text-green-600" />
-              </div>
-              <div className="ml-4">
-                <p className="text-sm font-medium text-gray-500">Autorun Entries</p>
-                <p className="text-2xl font-semibold text-green-600">{stats.autorunEntries}</p>
-              </div>
-            </div>
-          </div>
-        </div>
+                     <div 
+             className="bg-white rounded-lg shadow p-6 cursor-pointer hover:shadow-lg transition-shadow duration-200"
+             onClick={() => handleCardClick('autorun')}
+           >
+             <div className="flex items-center justify-between">
+               <div className="flex items-center">
+                 <div className="flex-shrink-0">
+                   <Zap className="h-8 w-8 text-green-600" />
+                 </div>
+                 <div className="ml-4">
+                   <p className="text-sm font-medium text-gray-500">Autorun Entries</p>
+                   <p className="text-2xl font-semibold text-green-600">{stats.autorunEntries}</p>
+                 </div>
+               </div>
+               <div className="text-green-400">
+                 <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                 </svg>
+               </div>
+             </div>
+           </div>
+                 </div>
 
-        {/* Charts Section */}
+         {/* Hint text for clickable cards */}
+         <div className="text-center mb-4">
+           <p className="text-sm text-gray-500">
+             💡 Click on the statistics cards above to view detailed information
+           </p>
+         </div>
+
+         {/* Charts Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
           {/* Severity Distribution */}
           <div className="bg-white rounded-lg shadow p-6">
             <h3 className="text-lg font-medium text-gray-900 mb-4">Threat Severity Distribution</h3>
-            <ResponsiveContainer width="100%" height={300}>
-              <PieChart>
-                <Pie
-                  data={getSeverityChartData()}
-                  cx="50%"
-                  cy="50%"
-                  labelLine={false}
-                  label={({ score, count }) => `${score}: ${count}`}
-                  outerRadius={80}
-                  fill="#8884d8"
-                  dataKey="count"
-                >
-                  {getSeverityChartData().map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={entry.color} />
-                  ))}
-                </Pie>
-                <Tooltip />
-                <Legend />
-              </PieChart>
-            </ResponsiveContainer>
+            {(() => {
+              const chartData = getSeverityChartData();
+              const totalSeverityEvents = chartData.reduce((sum, entry) => sum + entry.count, 0);
+              
+              if (chartData.length === 0) {
+                return (
+                  <div className="flex items-center justify-center h-[300px] text-gray-500">
+                    <div className="text-center">
+                      <div className="text-2xl mb-2">📊</div>
+                      <div>No severity data available</div>
+                      <div className="text-sm">Check if severity logs are being generated</div>
+                    </div>
+                  </div>
+                );
+              }
+              
+              return (
+                <>
+                  <div className="mb-4 text-sm text-gray-600">
+                    Total severity events: <span className="font-semibold">{totalSeverityEvents}</span>
+                  </div>
+                  <ResponsiveContainer width="100%" height={300}>
+                    <PieChart>
+                      <Pie
+                        data={chartData}
+                        cx="50%"
+                        cy="50%"
+                        labelLine={false}
+                        label={({ score, count }) => `${score}: ${count}`}
+                        outerRadius={80}
+                        fill="#8884d8"
+                        dataKey="count"
+                        animationDuration={1000}
+                        animationBegin={0}
+                      >
+                        {chartData.map((entry, index) => (
+                          <Cell key={`cell-${index}`} fill={entry.color} />
+                        ))}
+                      </Pie>
+                      <Tooltip 
+                        formatter={(value, name, props) => {
+                          const percentage = ((value / totalSeverityEvents) * 100).toFixed(1);
+                          return [`${value} (${percentage}%)`, props.payload.score];
+                        }}
+                      />
+                      <Legend />
+                    </PieChart>
+                  </ResponsiveContainer>
+                </>
+              );
+            })()}
           </div>
 
           {/* Network Activity Over Time */}
@@ -567,32 +701,183 @@ function Dashboard() {
         </div>
       </div>
 
-      {/* Log Details Modal */}
-      {showLogDetails && selectedLog && (
-        <div className="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50">
-          <div className="relative top-20 mx-auto p-5 border w-11/12 md:w-3/4 lg:w-1/2 shadow-lg rounded-md bg-white">
-            <div className="mt-3">
-              <div className="flex justify-between items-center mb-4">
-                <h3 className="text-lg font-medium text-gray-900">Log Details</h3>
-                <button
-                  onClick={() => setShowLogDetails(false)}
-                  className="text-gray-400 hover:text-gray-600"
-                >
-                  <span className="sr-only">Close</span>
-                  <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                  </svg>
-                </button>
-              </div>
-              <div className="bg-gray-50 p-4 rounded-md">
-                <pre className="text-sm text-gray-800 whitespace-pre-wrap">
-                  {JSON.stringify(selectedLog, null, 2)}
-                </pre>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
+             {/* Log Details Modal */}
+       {showLogDetails && selectedLog && (
+         <div className="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50">
+           <div className="relative top-20 mx-auto p-5 border w-11/12 md:w-3/4 lg:w-1/2 shadow-lg rounded-md bg-white">
+             <div className="mt-3">
+               <div className="flex justify-between items-center mb-4">
+                 <h3 className="text-lg font-medium text-gray-900">Log Details</h3>
+                 <button
+                   onClick={() => setShowLogDetails(false)}
+                   className="text-gray-400 hover:text-gray-600"
+                 >
+                   <span className="sr-only">Close</span>
+                   <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                   </svg>
+                 </button>
+               </div>
+               <div className="bg-gray-50 p-4 rounded-md">
+                 <pre className="text-sm text-gray-800 whitespace-pre-wrap">
+                   {JSON.stringify(selectedLog, null, 2)}
+                 </pre>
+               </div>
+             </div>
+           </div>
+         </div>
+       )}
+
+       {/* Process Details Modal */}
+       {showProcessModal && (
+         <div className="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full z-50">
+           <div className="relative top-20 mx-auto p-5 border w-11/12 md:w-3/4 lg:w-1/2 shadow-lg rounded-md bg-white">
+             <div className="mt-3">
+               <div className="flex justify-between items-center mb-4">
+                 <h3 className="text-lg font-medium text-gray-900">{modalType}</h3>
+                 <button
+                   onClick={closeProcessModal}
+                   className="text-gray-400 hover:text-gray-600"
+                 >
+                   <span className="sr-only">Close</span>
+                   <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                   </svg>
+                 </button>
+               </div>
+               
+               {modalData.length === 0 ? (
+                 <div className="text-center py-8 text-gray-500">
+                   <div className="text-2xl mb-2">📋</div>
+                   <div>No {modalType.toLowerCase()} found</div>
+                 </div>
+               ) : (
+                 <div className="max-h-96 overflow-y-auto">
+                   <div className="bg-gray-50 p-4 rounded-md">
+                     <div className="space-y-3">
+                       {modalData.map((item, index) => (
+                         <div key={index} className="border-b border-gray-200 pb-3 last:border-b-0">
+                           <div className="flex justify-between items-start">
+                             <div className="flex-1">
+                               <div className="font-medium text-gray-900 flex items-center">
+                                 <span className="mr-2">
+                                   {item.event?.includes('Suspicious') ? '⚠️' : 
+                                    item.event?.includes('Network') ? '🌐' : 
+                                    item.event?.includes('Autorun') ? '🚀' : '📋'}
+                                 </span>
+                                 {item.event || item.event_type || 'Unknown Event'}
+                               </div>
+                               
+                               {/* Process/Connection Details */}
+                               {item.details && (
+                                 <div className="text-sm text-gray-600 mt-2 space-y-1">
+                                   {item.details.name && (
+                                     <div className="flex items-center">
+                                       <span className="font-medium text-gray-700 w-20">Process:</span>
+                                       <span className="font-mono bg-gray-200 px-2 py-1 rounded text-xs">{item.details.name}</span>
+                                     </div>
+                                   )}
+                                   {item.details.pid && (
+                                     <div className="flex items-center">
+                                       <span className="font-medium text-gray-700 w-20">PID:</span>
+                                       <span className="font-mono bg-blue-100 px-2 py-1 rounded text-xs">{item.details.pid}</span>
+                                     </div>
+                                   )}
+                                   {item.details.local_addr && (
+                                     <div className="flex items-center">
+                                       <span className="font-medium text-gray-700 w-20">Local:</span>
+                                       <span className="font-mono bg-green-100 px-2 py-1 rounded text-xs">{item.details.local_addr}</span>
+                                     </div>
+                                   )}
+                                   {item.details.remote_addr && (
+                                     <div className="flex items-center">
+                                       <span className="font-medium text-gray-700 w-20">Remote:</span>
+                                       <span className="font-mono bg-red-100 px-2 py-1 rounded text-xs">{item.details.remote_addr}</span>
+                                     </div>
+                                   )}
+                                   {item.details.port && (
+                                     <div className="flex items-center">
+                                       <span className="font-medium text-gray-700 w-20">Port:</span>
+                                       <span className="font-mono bg-purple-100 px-2 py-1 rounded text-xs">{item.details.port}</span>
+                                     </div>
+                                   )}
+                                   {item.details.task && (
+                                     <div className="flex items-center">
+                                       <span className="font-medium text-gray-700 w-20">Task:</span>
+                                       <span className="font-mono bg-yellow-100 px-2 py-1 rounded text-xs break-all">{item.details.task}</span>
+                                     </div>
+                                   )}
+                                 </div>
+                               )}
+                               
+                               {/* Alternative data structure */}
+                               {item.data && (
+                                 <div className="text-sm text-gray-600 mt-2 space-y-1">
+                                   {item.data.name && (
+                                     <div className="flex items-center">
+                                       <span className="font-medium text-gray-700 w-20">Name:</span>
+                                       <span className="font-mono bg-gray-200 px-2 py-1 rounded text-xs">{item.data.name}</span>
+                                     </div>
+                                   )}
+                                   {item.data.pid && (
+                                     <div className="flex items-center">
+                                       <span className="font-medium text-gray-700 w-20">PID:</span>
+                                       <span className="font-mono bg-blue-100 px-2 py-1 rounded text-xs">{item.data.pid}</span>
+                                     </div>
+                                   )}
+                                   {item.data.local_addr && (
+                                     <div className="flex items-center">
+                                       <span className="font-medium text-gray-700 w-20">Local:</span>
+                                       <span className="font-mono bg-green-100 px-2 py-1 rounded text-xs">{item.data.local_addr}</span>
+                                     </div>
+                                   )}
+                                   {item.data.remote_addr && (
+                                     <div className="flex items-center">
+                                       <span className="font-medium text-gray-700 w-20">Remote:</span>
+                                       <span className="font-mono bg-red-100 px-2 py-1 rounded text-xs">{item.data.remote_addr}</span>
+                                     </div>
+                                   )}
+                                   {item.data.port && (
+                                     <div className="flex items-center">
+                                       <span className="font-medium text-gray-700 w-20">Port:</span>
+                                       <span className="font-mono bg-purple-100 px-2 py-1 rounded text-xs">{item.data.port}</span>
+                                     </div>
+                                   )}
+                                   {item.data.task && (
+                                     <div className="flex items-center">
+                                       <span className="font-medium text-gray-700 w-20">Task:</span>
+                                       <span className="font-mono bg-yellow-100 px-2 py-1 rounded text-xs break-all">{item.data.task}</span>
+                                     </div>
+                                   )}
+                                 </div>
+                               )}
+                               
+                               {/* Show raw data if no structured data available */}
+                               {!item.details && !item.data && (
+                                 <div className="text-sm text-gray-500 mt-2 italic">
+                                   No detailed information available
+                                 </div>
+                               )}
+                             </div>
+                             
+                             {/* Timestamp */}
+                             <div className="text-xs text-gray-500 ml-4 flex-shrink-0">
+                               <div className="bg-white px-2 py-1 rounded border">
+                                 {item.time ? new Date(item.time).toLocaleTimeString() : 
+                                  item.timestamp ? new Date(item.timestamp).toLocaleTimeString() : 'N/A'}
+                               </div>
+                             </div>
+                           </div>
+                         </div>
+                       ))}
+                     </div>
+                   </div>
+                 </div>
+               )}
+             </div>
+           </div>
+         </div>
+       )}
     </div>
   );
 }
