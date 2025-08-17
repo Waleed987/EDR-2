@@ -823,6 +823,12 @@ Process Created,endpoint_monitor,Sun Aug 17 23:51:15 2025,smss.exe,,992.0,,,,,,,
 Network Connection,endpoint_monitor,Sun Aug 17 23:51:15 2025,,,19196.0,,,,,,,3.212.128.131,,,,,1
 Suspicious Network,endpoint_monitor,Sun Aug 17 23:51:19 2025,,,19196.0,,,,,,,3.212.128.131,,,,,1
 Network Connection,endpoint_monitor,Sun Aug 17 23:51:23 2025,,,4288.0,,,,,,,127.0.0.1,,,,,1
+Process Created,endpoint_monitor,Mon Aug 18 00:07:39 2025,System Idle Process,,,,,,,,,,,,,,1
+Network Connection,endpoint_monitor,Mon Aug 18 00:07:39 2025,,,3268.0,,,,,,,108.177.15.188,,,,,1
+Process Created,endpoint_monitor,Mon Aug 18 00:07:44 2025,System,,4.0,,,,,,,,,,,,1
+Suspicious Network,endpoint_monitor,Mon Aug 18 00:07:44 2025,,,3268.0,,,,,,,108.177.15.188,,,,,1
+Network Connection,endpoint_monitor,Mon Aug 18 00:07:49 2025,,,8924.0,,,,,,,127.0.0.1,,,,,1
+Process Created,endpoint_monitor,Mon Aug 18 00:07:49 2025,,,308.0,,,,,,,,,,,,1
 Suspicious Scheduled Task,severity_score,1753373556.3270888,,,,,,,,,,,,,,4.0,4
 Suspicious Scheduled Task,severity_score,1753373564.6856947,,,,,,,,,,,,,,4.0,4
 Suspicious Scheduled Task,severity_score,1753373568.7767053,,,,,,,,,,,,,,4.0,4
@@ -3070,3 +3076,15 @@ Suspicious Network,severity_score,1755456679.8474882,,,,,,,,,,,,,,7.0,7
 Autorun Entry Detected,severity_score,1755456683.312902,,,,,,,,,,,,,,6.0,6
 Untrusted Process Tree,severity_score,1755456683.3359015,,,,,,,,,,,,,,7.0,7
 Network Connection,severity_score,1755456683.9518766,,,,,,,,,,,,,,4.0,4
+Process Created,severity_score,1755457659.2199037,,,,,,,,,,,,,,1.0,1
+Untrusted Process Tree,severity_score,1755457659.221177,,,,,,,,,,,,,,7.0,7
+Autorun Entry Detected,severity_score,1755457659.2270627,,,,,,,,,,,,,,6.0,6
+Network Connection,severity_score,1755457659.5309827,,,,,,,,,,,,,,4.0,4
+Autorun Entry Detected,severity_score,1755457664.882605,,,,,,,,,,,,,,6.0,6
+Suspicious Network,severity_score,1755457664.9166555,,,,,,,,,,,,,,7.0,7
+Untrusted Process Tree,severity_score,1755457664.91564,,,,,,,,,,,,,,7.0,7
+Process Created,severity_score,1755457664.9130208,,,,,,,,,,,,,,1.0,1
+Autorun Entry Detected,severity_score,1755457668.9618583,,,,,,,,,,,,,,6.0,6
+Untrusted Process Tree,severity_score,1755457669.0036998,,,,,,,,,,,,,,7.0,7
+Process Created,severity_score,1755457669.026805,,,,,,,,,,,,,,1.0,1
+Network Connection,severity_score,1755457669.0248046,,,,,,,,,,,,,,4.0,4

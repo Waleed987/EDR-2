@@ -1,462 +1,464 @@
 event_type,module,features.score,features.cpu,features.uptime,features.duration,features.filename,features.hash,features.registry_key,features.ip,features.domain,features.asn,features.country,features.parent_process,features.process_name,label
-Suspicious Network,endpoint_monitor,,,,,,,,172.64.155.209,,,,,,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,ipf_uf.exe,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,System,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
 Process Created,severity_score,1.0,,,,,,,,,,,,,1
 Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,smss.exe,1
-File Modified,severity_score,5.0,,,,,,,,,,,,,5
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Network,endpoint_monitor,,,,,,,,3.219.106.235,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,python.exe,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,AggregatorHost.exe,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,System Idle Process,1
 Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,endpoint_monitor,,,,,,,,103.255.66.228,,,,,,1
-Network Connection,endpoint_monitor,,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Network,endpoint_monitor,,,,,,,,,,,,,,1
-Suspicious Network,endpoint_monitor,,,,,,,,3.233.158.25,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,dwm.exe,1
-Suspicious Network,endpoint_monitor,,,,,,,,23.210.250.106,,,,,,1
-Suspicious Network,endpoint_monitor,,,,,,,,20.50.88.245,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,WUDFCompanionHost.exe,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Network Connection,endpoint_monitor,,,,,,,,172.64.148.235,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,endpoint_monitor,,,,,,,,104.26.8.156,,,,,,1
-Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Process Modules,endpoint_monitor,,,,,,,,,,,,,Cursor.exe,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-System File Touched,severity_score,5.0,,,,,,,,,,,,,5
-Process Created,endpoint_monitor,,,,,,,,,,,,,ShellHost.exe,1
-Network Connection,endpoint_monitor,,,,,,,,3.85.154.110,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,System Idle Process,1
-Network Connection,endpoint_monitor,,,,,,,,,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,smss.exe,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,endpoint_monitor,,,,,,,,4.213.25.240,,,,,,1
-Network Connection,endpoint_monitor,,,,,,,,135.171.2.152,,,,,,1
-Network Connection,endpoint_monitor,,,,,,,,,,,,,,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,Registry,1
-Suspicious Network,endpoint_monitor,,,,,,,,20.50.88.241,,,,,,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Process Created,endpoint_monitor,,,,,,,,,,,,,smss.exe,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,services.exe,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,endpoint_monitor,,,,,,,,3.231.121.68,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,endpoint_monitor,,,,,,,,3.231.121.68,,,,,,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Process Created,endpoint_monitor,,,,,,,,,,,,,MpDefenderCoreService.exe,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,Registry,1
-Suspicious Network,endpoint_monitor,,,,,,,,185.199.109.133,,,,,,1
-Network Connection,endpoint_monitor,,,,,,,,103.255.66.228,,,,,,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,AsusSoftwareManager.exe,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,Microsoft.SharePoint.exe,1
+Network Connection,endpoint_monitor,,,,,,,,34.194.72.156,,,,,,1
 Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
 Process Created,endpoint_monitor,,,,,,,,,,,,,fontdrvhost.exe,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,endpoint_monitor,,,,,,,,,,,,,ChatGPT.exe,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Time-Based Execution Window,severity_score,5.0,,,,,,,,,,,,,5
-Process Created,endpoint_monitor,,,,,,,,,,,,,System,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Network,endpoint_monitor,,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
 Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,endpoint_monitor,,,,,,,,44.194.235.184,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,endpoint_monitor,,,,,,,,50.16.65.112,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,endpoint_monitor,,,,,,,,20.192.44.80,,,,,,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
 Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,mysqld.exe,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,msedgewebview2.exe,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,Registry,1
 Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
 Process Created,severity_score,1.0,,,,,,,,,,,,,1
 Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,OffloadItemService.exe,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Suspicious Network,endpoint_monitor,,,,,,,,57.144.153.32,,,,,,1
-Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
 Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-System File Touched,severity_score,5.0,,,,,,,,,,,,,5
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Network Connection,endpoint_monitor,,,,,,,,20.72.205.209,,,,,,1
 Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Network,endpoint_monitor,,,,,,,,104.18.19.125,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
 Process Created,endpoint_monitor,,,,,,,,,,,,,Cursor.exe,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
 Network Connection,severity_score,4.0,,,,,,,,,,,,,4
 Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-File Modified,severity_score,5.0,,,,,,,,,,,,,5
-System File Touched,severity_score,5.0,,,,,,,,,,,,,5
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Network Connection,endpoint_monitor,,,,,,,,13.95.31.18,,,,,,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Process Created,endpoint_monitor,,,,,,,,,,,,,Registry,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
 Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+System File Touched,severity_score,5.0,,,,,,,,,,,,,5
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+File Modified,severity_score,5.0,,,,,,,,,,,,,5
 Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
 Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,fontdrvhost.exe,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
 System File Touched,severity_score,5.0,,,,,,,,,,,,,5
+Network Connection,endpoint_monitor,,,,,,,,3.221.137.92,,,,,,1
+Suspicious Network,endpoint_monitor,,,,,,,,,,,,,,1
 Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Process Modules,endpoint_monitor,,,,,,,,,,,,,pwsh.exe,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,services.exe,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Network,endpoint_monitor,,,,,,,,3.210.224.158,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-System File Touched,severity_score,5.0,,,,,,,,,,,,,5
-Time-Based Execution Window,severity_score,5.0,,,,,,,,,,,,,5
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,AsusOptimization.exe,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
 Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,endpoint_monitor,,,,,,,,,,,,,WUDFHost.exe,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Network Connection,endpoint_monitor,,,,,,,,142.250.202.170,,,,,,1
 Process Created,severity_score,1.0,,,,,,,,,,,,,1
 Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
 Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Process Created,endpoint_monitor,,,,,,,,,,,,,System Idle Process,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,fontdrvhost.exe,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-File Modified,severity_score,5.0,,,,,,,,,,,,,5
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-File Modified,severity_score,5.0,,,,,,,,,,,,,5
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Network Connection,endpoint_monitor,,,,,,,,20.50.88.242,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Suspicious Process Modules,endpoint_monitor,,,,,,,,,,,,,conhost.exe,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Network,endpoint_monitor,,,,,,,,13.89.179.10,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-File Modified,severity_score,5.0,,,,,,,,,,,,,5
-Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-System File Touched,severity_score,5.0,,,,,,,,,,,,,5
-Process Created,endpoint_monitor,,,,,,,,,,,,,AggregatorHost.exe,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Network Connection,endpoint_monitor,,,,,,,,185.199.109.133,,,,,,1
 Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,System Idle Process,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Time-Based Execution Window,severity_score,5.0,,,,,,,,,,,,,5
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,endpoint_monitor,,,,,,,,52.44.103.30,,,,,,1
-Network Connection,endpoint_monitor,,,,,,,,20.189.173.10,,,,,,1
-Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-System File Touched,severity_score,5.0,,,,,,,,,,,,,5
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Network Connection,endpoint_monitor,,,,,,,,54.156.29.38,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,endpoint_monitor,,,,,,,,,,,,,warp-svc.exe,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,mongod.exe,1
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-System File Touched,severity_score,5.0,,,,,,,,,,,,,5
-Network Connection,endpoint_monitor,,,,,,,,20.192.44.80,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,csrss.exe,1
-Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Suspicious Network,endpoint_monitor,,,,,,,,20.192.44.80,,,,,,1
 Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
 Suspicious Network,endpoint_monitor,,,,,,,,20.192.44.80,,,,,,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,System Idle Process,1
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Network Connection,endpoint_monitor,,,,,,,,172.64.148.235,,,,,,1
+Suspicious Network,endpoint_monitor,,,,,,,,162.159.192.1,,,,,,1
+Suspicious Process Modules,endpoint_monitor,,,,,,,,,,,,,Cursor.exe,1
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
+Suspicious Process Modules,endpoint_monitor,,,,,,,,,,,,,Microsoft.SharePoint.exe,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+File Modified,severity_score,5.0,,,,,,,,,,,,,5
+Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,endpoint_monitor,,,,,,,,,,,,,dwm.exe,1
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,Registry,1
+Suspicious Network,endpoint_monitor,,,,,,,,50.16.65.112,,,,,,1
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+System File Touched,severity_score,5.0,,,,,,,,,,,,,5
+File Modified,severity_score,5.0,,,,,,,,,,,,,5
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,System,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+System File Touched,severity_score,5.0,,,,,,,,,,,,,5
 Process Created,severity_score,1.0,,,,,,,,,,,,,1
 Network Connection,severity_score,4.0,,,,,,,,,,,,,4
 Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,endpoint_monitor,,,,,,,,,,,,,conhost.exe,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+System File Touched,severity_score,5.0,,,,,,,,,,,,,5
 Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Process Modules,endpoint_monitor,,,,,,,,,,,,,conhost.exe,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,dwm.exe,1
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Process Created,endpoint_monitor,,,,,,,,,,,,,ChatGPT.exe,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,System Idle Process,1
 Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
 Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
 Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
 Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,AggregatorHost.exe,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
 Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Network Connection,endpoint_monitor,,,,,,,,23.195.39.6,,,,,,1
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
 Network Connection,severity_score,4.0,,,,,,,,,,,,,4
 File Modified,severity_score,5.0,,,,,,,,,,,,,5
-Process Created,endpoint_monitor,,,,,,,,,,,,,conhost.exe,1
+Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
 Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Network Connection,endpoint_monitor,,,,,,,,13.89.179.10,,,,,,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
 Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,endpoint_monitor,,,,,,,,,,,,,wlanext.exe,1
 Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
+Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
+Network Connection,endpoint_monitor,,,,,,,,103.255.66.228,,,,,,1
 Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-System File Touched,severity_score,5.0,,,,,,,,,,,,,5
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,endpoint_monitor,,,,,,,,162.159.192.1,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,conhost.exe,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
 File Modified,severity_score,5.0,,,,,,,,,,,,,5
 Suspicious Process Modules,endpoint_monitor,,,,,,,,,,,,,Microsoft.SharePoint.exe,1
-Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,msedgewebview2.exe,1
+Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
 Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,conhost.exe,1
+Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,fontdrvhost.exe,1
+Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,Registry,1
 Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
+Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Time-Based Execution Window,severity_score,5.0,,,,,,,,,,,,,5
+Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,endpoint_monitor,,,,,,,,,,,,,MpDefenderCoreService.exe,1
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,endpoint_monitor,,,,,,,,,,,,,WUDFHost.exe,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
 Process Created,severity_score,1.0,,,,,,,,,,,,,1
 Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Network Connection,endpoint_monitor,,,,,,,,57.144.149.33,,,,,,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
+Network Connection,endpoint_monitor,,,,,,,,104.18.19.125,,,,,,1
+Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
+Time-Based Execution Window,severity_score,5.0,,,,,,,,,,,,,5
 Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,endpoint_monitor,,,,,,,,,,,,,Cursor.exe,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Suspicious Parent Process,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,endpoint_monitor,,,,,,,,,,,,,System Idle Process,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,endpoint_monitor,,,,,,,,,,,,,csrss.exe,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,endpoint_monitor,,,,,,,,,,,,,System Idle Process,1
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
 File Modified,severity_score,5.0,,,,,,,,,,,,,5
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Network Connection,endpoint_monitor,,,,,,,,4.213.25.240,,,,,,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,endpoint_monitor,,,,,,,,,,,,,Microsoft.SharePoint.exe,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Suspicious Network,endpoint_monitor,,,,,,,,13.89.179.10,,,,,,1
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
+File Modified,severity_score,5.0,,,,,,,,,,,,,5
+Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Network Connection,endpoint_monitor,,,,,,,,13.95.31.18,,,,,,1
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,endpoint_monitor,,,,,,,,,,,,,,1
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Suspicious Scheduled Task,severity_score,4.0,,,,,,,,,,,,,4
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Suspicious Network,endpoint_monitor,,,,,,,,20.50.88.245,,,,,,1
+Time-Based Execution Window,severity_score,5.0,,,,,,,,,,,,,5
+Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,endpoint_monitor,,,,,,,,,,,,,csrss.exe,1
 Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
 Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,fontdrvhost.exe,1
+Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+System File Touched,severity_score,5.0,,,,,,,,,,,,,5
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Suspicious Network,endpoint_monitor,,,,,,,,20.192.44.80,,,,,,1
 Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
+Suspicious Process Modules,endpoint_monitor,,,,,,,,,,,,,Cursor.exe,1
+Suspicious Network,endpoint_monitor,,,,,,,,108.177.15.188,,,,,,1
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
 Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,LsaIso.exe,1
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Suspicious Network,endpoint_monitor,,,,,,,,103.217.177.98,,,,,,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,endpoint_monitor,,,,,,,,,,,,,,1
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Network Connection,endpoint_monitor,,,,,,,,44.215.235.209,,,,,,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
 Process Created,endpoint_monitor,,,,,,,,,,,,,System,1
 Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,wlanext.exe,1
-Network Connection,endpoint_monitor,,,,,,,,20.192.44.80,,,,,,1
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
+Network Connection,endpoint_monitor,,,,,,,,20.189.173.10,,,,,,1
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Network Connection,endpoint_monitor,,,,,,,,104.18.39.21,,,,,,1
 Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,ipf_uf.exe,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,OffloadItemService.exe,1
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Suspicious Process Modules,endpoint_monitor,,,,,,,,,,,,,chrome.exe,1
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Suspicious Network,endpoint_monitor,,,,,,,,4.213.25.240,,,,,,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Time-Based Execution Window,severity_score,5.0,,,,,,,,,,,,,5
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Suspicious Network,endpoint_monitor,,,,,,,,,,,,,,1
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Network Connection,endpoint_monitor,,,,,,,,172.64.155.209,,,,,,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
+Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
+Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,ApplicationFrameHost.exe,1
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Suspicious Network,endpoint_monitor,,,,,,,,104.18.32.47,,,,,,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,python.exe,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Suspicious Process Modules,endpoint_monitor,,,,,,,,,,,,,ChatGPT.exe,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+File Modified,severity_score,5.0,,,,,,,,,,,,,5
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,endpoint_monitor,,,,,,,,,,,,,warp-svc.exe,1
+Suspicious Network,endpoint_monitor,,,,,,,,172.64.155.209,,,,,,1
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Network Connection,endpoint_monitor,,,,,,,,,,,,,,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,smss.exe,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Suspicious Network,endpoint_monitor,,,,,,,,23.195.39.65,,,,,,1
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,endpoint_monitor,,,,,,,,,,,,,Cursor.exe,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+File Modified,severity_score,5.0,,,,,,,,,,,,,5
+Network Connection,endpoint_monitor,,,,,,,,20.50.88.242,,,,,,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
+Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
+Suspicious Process Modules,endpoint_monitor,,,,,,,,,,,,,Microsoft.SharePoint.exe,1
+Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+System File Touched,severity_score,5.0,,,,,,,,,,,,,5
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Suspicious Network,endpoint_monitor,,,,,,,,162.159.192.1,,,,,,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Process Created,endpoint_monitor,,,,,,,,,,,,,wininit.exe,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Network Connection,severity_score,4.0,,,,,,,,,,,,,4
+Process Created,endpoint_monitor,,,,,,,,,,,,,mysqld.exe,1
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
+Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
+Suspicious Process Modules,endpoint_monitor,,,,,,,,,,,,,AsusScreenXpertReunion.exe,1
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+File Modified,severity_score,5.0,,,,,,,,,,,,,5
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Process Created,severity_score,1.0,,,,,,,,,,,,,1
+Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
+Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
+Process Created,endpoint_monitor,,,,,,,,,,,,,,1
+Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1

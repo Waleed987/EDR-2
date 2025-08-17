@@ -292,6 +292,7 @@ def optimize_model():
 
 def main():
     """Main training pipeline"""
+    import time
     start_time = time.time()
     
     print("=" * 80)
@@ -356,7 +357,6 @@ def main():
         print("Press Ctrl+C to close immediately, or wait for auto-close.")
         
         # Keep console open for a while so user can see results
-        import time
         try:
             for i in range(30, 0, -1):
                 print(f"⏱️  Auto-closing in {i} seconds...", end="\r")
@@ -387,7 +387,6 @@ if __name__ == "__main__":
             print("Press Ctrl+C to close immediately.")
             
             # Keep console open longer on failure
-            import time
             try:
                 for i in range(60, 0, -1):
                     print(f"⏱️  Auto-closing in {i} seconds...", end="\r")
@@ -406,7 +405,6 @@ if __name__ == "__main__":
         print("Press Ctrl+C to close immediately.")
         
         # Keep console open even longer on critical error
-        import time
         try:
             for i in range(120, 0, -1):
                 print(f"⏱️  Auto-closing in {i} seconds...", end="\r")
