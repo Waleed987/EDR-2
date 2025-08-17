@@ -6,7 +6,7 @@ import time
 import json
 import os
 
-SCORE_LOG_FILE = "D:/CyberSecurity-Learning-Materials/EDR project/logs/severity_scores.json"
+SCORE_LOG_FILE = "C:/Users/pc/Desktop/EDR-2/logs/severity_scores.json"
 
 def score_event(event_type, data):
     score = 0

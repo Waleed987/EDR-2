@@ -7,7 +7,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
 
 
-NORMALIZED_CSV_PATH = "D:/CyberSecurity-Learning-Materials/EDR project/logs/normalized_logs.csv"
+NORMALIZED_CSV_PATH = "C:/Users/pc/Desktop/EDR-2/logs/normalized_logs.csv"
 OUTPUT_DIR = "dataset"
 
 

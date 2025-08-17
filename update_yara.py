@@ -2,7 +2,7 @@ import subprocess
 import os
 
 def update_signaturebase():
-    repo_dir = "D:/CyberSecurity-Learning-Materials/EDR project/agent/signature-base"
+    repo_dir = "C:/Users/pc/Desktop/EDR-2/agent/signature-base"
     if os.path.exists(repo_dir):
         subprocess.run(["git", "-C", repo_dir, "pull"])
         print("[+] SignatureBase rules updated.")

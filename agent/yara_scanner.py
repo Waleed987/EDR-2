@@ -13,10 +13,10 @@ except Exception as e:
     yara_available = False
 
 # ------------------ CONFIG ------------------ #
-YARA_RULES_DIR = ["D:/CyberSecurity-Learning-Materials/EDR project/agent/signature-base/yara"]
+YARA_RULES_DIR = ["C:/Users/pc/Desktop/EDR-2/agent/signature-base/yara"]
 
-TARGET_DIRS = ["C:/Users/ahmad/Downloads", "C:/Users/ahmad/Desktop"]
-LOG_FILE = "D:/CyberSecurity-Learning-Materials/EDR project/logs/yara_logs.json"
+TARGET_DIRS = ["C:/Users/pc/Downloads", "C:/Users/pc/Desktop"]
+LOG_FILE = "C:/Users/pc/Desktop/EDR-2/logs/yara_logs.json"
 
 # ------------------ Load Rules ------------------ #
 def load_yara_rules():

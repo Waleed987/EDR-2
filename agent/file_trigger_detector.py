@@ -21,7 +21,7 @@ SUSPICIOUS_FILES = [
 
 TRIGGER_TIME_WINDOW = 3  # seconds
 SUSPICIOUS_EXECUTABLES = ["powershell.exe", "cmd.exe", "wscript.exe", "mshta.exe"]
-LOG_FILE = "D:/CyberSecurity-Learning-Materials/EDR project/logs/file_trigger_logs.json"
+LOG_FILE = "C:/Users/pc/Desktop/EDR-2/logs/file_trigger_logs.json"
 
 # ------------------ HELPERS ------------------ #
 def get_recent_processes(after_time):

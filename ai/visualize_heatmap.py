@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import os
 
 # ---------- CONFIG ----------
-FEATURES_PATH = "D:/CyberSecurity-Learning-Materials/EDR project/ai/dataset/features.csv"
+FEATURES_PATH = "C:/Users/pc/Desktop/EDR-2/ai/dataset/features.csv"
 
 # ---------- LOAD FEATURES ----------
 try:

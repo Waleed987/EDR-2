@@ -8,7 +8,7 @@ import os
 # ---------- Configuration ----------
 MONGO_URI = "mongodb://localhost:27017"
 DB_NAME = "edr_logs"
-OUTPUT_JSON_PATH = "D:/CyberSecurity-Learning-Materials/EDR project/logs/normalized_logs.json"
+OUTPUT_JSON_PATH = "C:/Users/pc/Desktop/EDR-2/logs/normalized_logs.json"
 OUTPUT_CSV_PATH = OUTPUT_JSON_PATH.replace(".json", ".csv")
 
 # ---------- Collection Map ----------

@@ -41,7 +41,7 @@ def is_ip_trusted(ip):
 
 #----------------------------------------------------------------------#
 
-log_file = "D:/CyberSecurity-Learning-Materials/EDR project/logs/endpoint_logs.json"
+log_file = "C:/Users/pc/Desktop/EDR-2/logs/endpoint_logs.json"
 os.makedirs(os.path.dirname(log_file), exist_ok=True)
 
 # ------------------ PROCESS MONITORING ------------------
@@ -337,10 +337,10 @@ if __name__ == "__main__":
     # Ensure all referenced directories exist
     required_dirs = [
         os.path.dirname(log_file),
-        "D:/CyberSecurity-Learning-Materials/EDR project/logs",
-        "D:/CyberSecurity-Learning-Materials/EDR project/agent/signature-base/yara",
-        "C:/Users/ahmad/Downloads",
-        "C:/Users/ahmad/Desktop"
+        "C:/Users/pc/Desktop/EDR-2/logs",
+        "C:/Users/pc/Desktop/EDR-2/agent/signature-base/yara",
+        "C:/Users/pc/Downloads",
+        "C:/Users/pc/Desktop"
     ]
     for d in required_dirs:
         try:

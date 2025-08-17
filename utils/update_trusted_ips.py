@@ -5,7 +5,7 @@ import sys
 import os
 
 # ----------- Setup Log File Redirect (FIRST) -----------
-log_path = "D:/CyberSecurity-Learning-Materials/EDR project/update_log.txt"
+log_path = "C:/Users/pc/Desktop/EDR-2/update_log.txt"
 os.makedirs(os.path.dirname(log_path), exist_ok=True)
 
 sys.stdout = open(log_path, "a")
@@ -75,7 +75,7 @@ def main():
     print(f"[+] Fetched {len(trusted_ips)} total trusted IPs")
 
     # Save JSON
-    output_path = "D:/CyberSecurity Learning Materials/EDR project/agent/trusted_ips.json"
+    output_path = "C:/Users/pc/Desktop/EDR-2/agent/trusted_ips.json"
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     try:

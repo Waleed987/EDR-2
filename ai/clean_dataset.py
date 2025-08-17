@@ -18,7 +18,7 @@ def clean_dataset():
             print(f"[+] Removed: {path}")
     
     # Check if normalized logs exist
-    normalized_path = "D:/CyberSecurity-Learning-Materials/EDR project/logs/normalized_logs.csv"
+    normalized_path = "C:/Users/pc/Desktop/EDR-2/logs/normalized_logs.csv"
     if not os.path.exists(normalized_path):
         print(f"[!] Normalized logs not found: {normalized_path}")
         print("[!] Please run: python ai/log_normalizer.py first")

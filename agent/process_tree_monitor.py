@@ -10,8 +10,8 @@ from severity_scoring import score_event
 from realtime_decision import decide_action
 
 # ------------------ CONFIG ------------------ #
-BASELINE_PATH = "D:/CyberSecurity-Learning-Materials/EDR project/baseline/trusted_process_relationships.json"
-LOG_PATH = "D:/CyberSecurity-Learning-Materials/EDR project/logs/process_tree_logs.json"
+BASELINE_PATH = "C:/Users/pc/Desktop/EDR-2/baseline/trusted_process_relationships.json"
+LOG_PATH = "C:/Users/pc/Desktop/EDR-2/logs/process_tree_logs.json"
 CHECK_INTERVAL = 30  # seconds
 
 # ------------------ HELPERS ------------------ #

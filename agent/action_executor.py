@@ -4,7 +4,7 @@ import time
 import psutil
 
 
-QUARANTINE_DIR = "D:/CyberSecurity-Learning-Materials/EDR project/quarantine"
+QUARANTINE_DIR = "C:/Users/pc/Desktop/EDR-2/quarantine"
 
 
 def ensure_quarantine_dir():

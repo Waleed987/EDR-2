@@ -20,12 +20,12 @@ from realtime_decision import decide_action
 IDLE_CPU_THRESHOLD = 1.0  # percent
 IDLE_CHECK_INTERVAL = 5  # seconds
 TASK_QUERY_INTERVAL = 60  # seconds
-BASELINE_PATH = "D:/CyberSecurity-Learning-Materials/EDR project/baseline/baseline.json"
+BASELINE_PATH = "C:/Users/pc/Desktop/EDR-2/baseline/baseline.json"
 SLEEP_THRESHOLD = 300  # seconds
 EXECUTION_PATTERN_WINDOW = 7  # days
 EXECUTION_TIME_VARIANCE = 2  # minutes
 TASK_SCHEDULE_CHECK_HOURS = [2, 3, 4, 5]  # suspicious times
-LOG_BOMB_LOG = "D:/CyberSecurity-Learning-Materials/EDR project/logs/logic_bomb_logs.json"
+LOG_BOMB_LOG = "C:/Users/pc/Desktop/EDR-2/logs/logic_bomb_logs.json"
 
 # ------------------ Helpers ------------------ #
 def load_baseline():
@@ -161,7 +161,7 @@ def send_alert(event_type, data):
     
 if __name__ == "__main__":
     print("[*] Logic Bomb Detector Running...")
-    scan_scripts_for_sleep("D:/CyberSecurity Learning Materials/EDR project/scripts")
+    scan_scripts_for_sleep("C:/Users/pc/Desktop/EDR-2/scripts")
     
     WATCH_PATHS = ["C:/Users/ahmad/Desktop/Logic bombs exapmles", "C:/Users/ahmad/Documents"]
    

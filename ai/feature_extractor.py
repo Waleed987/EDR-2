@@ -4,7 +4,7 @@ from sklearn.impute import SimpleImputer
 import os
 
 # ------------------ CONFIG ------------------ #
-NORMALIZED_CSV_PATH = "D:/CyberSecurity-Learning-Materials/EDR project/logs/normalized_logs.csv"
+NORMALIZED_CSV_PATH = "C:/Users/pc/Desktop/EDR-2/logs/normalized_logs.csv"
 FEATURE_OUTPUT_PATH = "dataset/features.csv"
 LABEL_OUTPUT_PATH = "dataset/labels.csv"
 

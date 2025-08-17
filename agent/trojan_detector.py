@@ -16,8 +16,8 @@ from realtime_decision import decide_action
 
 # === CONFIGURATION ===
 DOWNLOAD_FOLDER = os.path.join(os.path.expanduser("~"), "Downloads")
-LOG_DIR = "D:/CyberSecurity-Learning-Materials/EDR project/detections_api/logs"
-LOG_FILE = "D:/CyberSecurity-Learning-Materials/EDR project/detections_api/logs/download_log.json"
+LOG_DIR = "C:/Users/pc/Desktop/EDR-2/detections_api/logs"
+LOG_FILE = "C:/Users/pc/Desktop/EDR-2/logs/download_log.json"
 MONGO_URI = "mongodb://localhost:27017/"
 DB_NAME = "edr_logs"
 COLLECTION_NAME = "download_logs"
