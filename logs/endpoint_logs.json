@@ -396,3 +396,41 @@
 {"event": "Suspicious Process Modules", "details": {"pid": 1516, "name": "Microsoft.SharePoint.exe"}, "time": "Sun Aug 17 15:42:14 2025"}
 {"event": "Suspicious Network", "details": {"pid": 10108, "process": "WUDFHost.exe", "local_addr": "127.0.0.1:49723", "remote_addr": "127.0.0.1:49722", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Sun Aug 17 15:42:18 2025"}
 {"event": "Process Created", "details": {"pid": 1580, "name": "winlogon.exe", "parent": "unknown"}, "time": "Sun Aug 17 15:42:19 2025"}
+{"event": "Process Created", "details": {"pid": 0, "name": "System Idle Process", "parent": "system idle process"}, "time": "Sun Aug 17 16:02:32 2025"}
+{"event": "Autorun Entry Detected", "details": {"OneDrive": "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background"}, "time": "Sun Aug 17 16:02:32 2025"}
+{"event": "Network Connection", "details": {"pid": 19348, "process": "Cursor.exe", "local_addr": "127.0.0.1:57919", "remote_addr": "127.0.0.1:57918", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Sun Aug 17 16:02:32 2025"}
+{"event": "Autorun Entry Detected", "details": {"Docker Desktop": "C:\\Program Files\\Docker\\Docker\\Docker Desktop.exe -Autostart"}, "time": "Sun Aug 17 16:02:37 2025"}
+{"event": "Process Created", "details": {"pid": 4, "name": "System", "parent": "system idle process"}, "time": "Sun Aug 17 16:02:38 2025"}
+{"event": "Suspicious Network", "details": {"pid": 19348, "process": "Cursor.exe", "local_addr": "127.0.0.1:57919", "remote_addr": "127.0.0.1:57918", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Sun Aug 17 16:02:38 2025"}
+{"event": "Autorun Entry Detected", "details": {"utweb": "\"C:\\Users\\pc\\AppData\\Roaming\\uTorrent Web\\utweb.exe\" /MINIMIZED"}, "time": "Sun Aug 17 16:02:42 2025"}
+{"event": "Process Created", "details": {"pid": 308, "name": "", "parent": "system"}, "time": "Sun Aug 17 16:02:42 2025"}
+{"event": "Autorun Entry Detected", "details": {"Figma Agent": "\"C:\\Users\\pc\\AppData\\Local\\FigmaAgent\\figma_agent.exe\""}, "time": "Sun Aug 17 16:02:46 2025"}
+{"event": "Process Created", "details": {"pid": 352, "name": "Registry", "parent": "system"}, "time": "Sun Aug 17 16:02:46 2025"}
+{"event": "Network Connection", "details": {"pid": 19348, "process": "Cursor.exe", "local_addr": "192.168.100.148:57849", "remote_addr": "104.18.18.125:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Sun Aug 17 16:02:46 2025"}
+{"event": "Autorun Entry Detected", "details": {"Microsoft.Lists": "C:\\Program Files\\Microsoft OneDrive\\25.137.0715.0001\\Microsoft.SharePoint.exe"}, "time": "Sun Aug 17 16:02:50 2025"}
+{"event": "Process Created", "details": {"pid": 976, "name": "svchost.exe", "parent": "services.exe"}, "time": "Sun Aug 17 16:02:50 2025"}
+{"event": "Suspicious Network", "details": {"pid": 19348, "process": "Cursor.exe", "local_addr": "192.168.100.148:57849", "remote_addr": "104.18.18.125:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Sun Aug 17 16:02:50 2025"}
+{"event": "Autorun Entry Detected", "details": {"IDMan": "C:\\Program Files (x86)\\Internet Download Manager\\IDMan.exe /onboot"}, "time": "Sun Aug 17 16:02:54 2025"}
+{"event": "Process Created", "details": {"pid": 996, "name": "smss.exe", "parent": "system"}, "time": "Sun Aug 17 16:02:54 2025"}
+{"event": "Network Connection", "details": {"pid": 16372, "process": "WhatsApp.exe", "local_addr": "192.168.100.148:50790", "remote_addr": "57.144.149.33:80", "status": "ESTABLISHED", "trusted": false, "domain": "whatsapp-chatd-edge-shv-02-mct1.facebook.com"}, "time": "Sun Aug 17 16:02:54 2025"}
+{"event": "Autorun Entry Detected", "details": {"Upwork": "C:\\Users\\pc\\AppData\\Local\\Programs\\upwork\\Upwork.exe"}, "time": "Sun Aug 17 16:02:58 2025"}
+{"event": "Process Created", "details": {"pid": 1108, "name": "svchost.exe", "parent": "services.exe"}, "time": "Sun Aug 17 16:02:58 2025"}
+{"event": "Suspicious Network", "details": {"pid": 16372, "process": "WhatsApp.exe", "local_addr": "192.168.100.148:50790", "remote_addr": "57.144.149.33:80", "status": "ESTABLISHED", "trusted": false, "domain": "whatsapp-chatd-edge-shv-02-mct1.facebook.com", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Sun Aug 17 16:02:59 2025"}
+{"event": "Process Created", "details": {"pid": 1112, "name": "dwm.exe", "parent": "winlogon.exe"}, "time": "Sun Aug 17 16:03:02 2025"}
+{"event": "Process Created", "details": {"pid": 1380, "name": "csrss.exe", "parent": "unknown"}, "time": "Sun Aug 17 16:03:07 2025"}
+{"event": "Network Connection", "details": {"pid": 5052, "process": "warp-svc.exe", "local_addr": "192.168.100.148:57838", "remote_addr": "162.159.192.1:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Sun Aug 17 16:03:07 2025"}
+{"event": "Process Created", "details": {"pid": 1484, "name": "wininit.exe", "parent": "unknown"}, "time": "Sun Aug 17 16:03:11 2025"}
+{"event": "Suspicious Network", "details": {"pid": 5052, "process": "warp-svc.exe", "local_addr": "192.168.100.148:57838", "remote_addr": "162.159.192.1:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Sun Aug 17 16:03:11 2025"}
+{"event": "Process Created", "details": {"pid": 1492, "name": "csrss.exe", "parent": "unknown"}, "time": "Sun Aug 17 16:03:15 2025"}
+{"event": "Network Connection", "details": {"pid": 14832, "process": "Cursor.exe", "local_addr": "192.168.100.148:57844", "remote_addr": "3.85.154.110:443", "status": "ESTABLISHED", "trusted": false, "domain": "ec2-3-85-154-110.compute-1.amazonaws.com"}, "time": "Sun Aug 17 16:03:16 2025"}
+{"event": "Process Created", "details": {"pid": 1516, "name": "Microsoft.SharePoint.exe", "parent": "explorer.exe"}, "time": "Sun Aug 17 16:03:19 2025"}
+{"event": "Suspicious Network", "details": {"pid": 14832, "process": "Cursor.exe", "local_addr": "192.168.100.148:57844", "remote_addr": "3.85.154.110:443", "status": "ESTABLISHED", "trusted": false, "domain": "ec2-3-85-154-110.compute-1.amazonaws.com", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Sun Aug 17 16:03:21 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 1516, "name": "Microsoft.SharePoint.exe"}, "time": "Sun Aug 17 16:03:23 2025"}
+{"event": "Network Connection", "details": {"pid": 7032, "process": "mysqld.exe", "local_addr": "127.0.0.1:49672", "remote_addr": "127.0.0.1:49673", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Sun Aug 17 16:03:25 2025"}
+{"event": "Process Created", "details": {"pid": 1580, "name": "winlogon.exe", "parent": "unknown"}, "time": "Sun Aug 17 16:03:27 2025"}
+{"event": "Suspicious Network", "details": {"pid": 7032, "process": "mysqld.exe", "local_addr": "127.0.0.1:49672", "remote_addr": "127.0.0.1:49673", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Sun Aug 17 16:03:29 2025"}
+{"event": "Process Created", "details": {"pid": 1600, "name": "services.exe", "parent": "wininit.exe"}, "time": "Sun Aug 17 16:03:31 2025"}
+{"event": "Autorun Entry Detected", "details": {"OneDrive": "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background"}, "time": "Sun Aug 17 16:03:32 2025"}
+{"event": "Network Connection", "details": {"pid": 15268, "process": "python3.12.exe", "local_addr": "127.0.0.1:57909", "remote_addr": "127.0.0.1:27017", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Sun Aug 17 16:03:33 2025"}
+{"event": "Process Created", "details": {"pid": 1616, "name": "svchost.exe", "parent": "services.exe"}, "time": "Sun Aug 17 16:03:36 2025"}
+{"event": "Autorun Entry Detected", "details": {"Docker Desktop": "C:\\Program Files\\Docker\\Docker\\Docker Desktop.exe -Autostart"}, "time": "Sun Aug 17 16:03:36 2025"}
