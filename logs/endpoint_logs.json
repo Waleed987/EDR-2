@@ -876,3 +876,9 @@
 {"event": "Suspicious Network", "details": {"pid": 22344, "process": "WhatsApp.exe", "local_addr": "192.168.100.148:64127", "remote_addr": "103.217.177.98:443", "status": "ESTABLISHED", "trusted": false, "domain": "host-217-177-98.tes.com.pk", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Sun Aug 17 20:23:21 2025"}
 {"event": "Suspicious Process Modules", "details": {"pid": 7252, "name": "Microsoft.SharePoint.exe"}, "time": "Sun Aug 17 20:23:23 2025"}
 {"event": "Process Created", "details": {"pid": 7780, "name": "postgres.exe", "parent": "pg_ctl.exe"}, "time": "Sun Aug 17 20:23:27 2025"}
+{"event": "Network Connection", "details": {"pid": 22344, "process": "WhatsApp.exe", "local_addr": "192.168.100.148:64124", "remote_addr": "103.255.66.228:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Sun Aug 17 20:23:29 2025"}
+{"event": "Process Created", "details": {"pid": 7796, "name": "svchost.exe", "parent": "services.exe"}, "time": "Sun Aug 17 20:23:31 2025"}
+{"event": "Suspicious Network", "details": {"pid": 22344, "process": "WhatsApp.exe", "local_addr": "192.168.100.148:64124", "remote_addr": "103.255.66.228:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Sun Aug 17 20:23:33 2025"}
+{"event": "Autorun Entry Detected", "details": {"OneDrive": "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background"}, "time": "Sun Aug 17 20:23:33 2025"}
+{"event": "Process Created", "details": {"pid": 7816, "name": "conhost.exe", "parent": "postgres.exe"}, "time": "Sun Aug 17 20:23:35 2025"}
+{"event": "Autorun Entry Detected", "details": {"Docker Desktop": "C:\\Program Files\\Docker\\Docker\\Docker Desktop.exe -Autostart"}, "time": "Sun Aug 17 20:23:40 2025"}

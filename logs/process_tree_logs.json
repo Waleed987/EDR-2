@@ -605,3 +605,5 @@
 {"event": "Untrusted Process Tree", "parent": "services.exe", "child": "WUDFHost.exe", "pid": 10108, "ppid": 1600, "timestamp": "2025-08-17T20:23:19.032167"}
 {"event": "Untrusted Process Tree", "parent": "AsusOptimization.exe", "child": "AsusOptimizationStartupTask.exe", "pid": 10252, "ppid": 3792, "timestamp": "2025-08-17T20:23:23.165713"}
 {"event": "Untrusted Process Tree", "parent": "services.exe", "child": "WUDFHost.exe", "pid": 10296, "ppid": 1600, "timestamp": "2025-08-17T20:23:27.305553"}
+{"event": "Untrusted Process Tree", "parent": "chrome.exe", "child": "cmd.exe", "pid": 10356, "ppid": 12060, "timestamp": "2025-08-17T20:23:31.430530"}
+{"event": "Untrusted Process Tree", "parent": "services.exe", "child": "svchost.exe", "pid": 10552, "ppid": 1600, "timestamp": "2025-08-17T20:23:35.555101"}
