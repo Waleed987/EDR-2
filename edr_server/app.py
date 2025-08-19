@@ -404,6 +404,251 @@ def get_process_logs(process_name):
         'logs': f'Logs for {process_name} would be displayed here.\nThis feature can be enhanced to read actual log files.'
     }), 200
 
+# YARA Scanner API endpoints
+@app.route("/api/yara/logs", methods=["GET"])
+def get_yara_logs():
+    """Get YARA scan results"""
+    try:
+        yara_log_file = os.path.join(LOGS_DIR, 'yara_logs.json')
+        if os.path.exists(yara_log_file):
+            with open(yara_log_file, 'r') as f:
+                logs = []
+                for line in f:
+                    if line.strip():
+                        try:
+                            log = json.loads(line.strip())
+                            logs.append(log)
+                        except json.JSONDecodeError:
+                            continue
+                return jsonify(logs), 200
+        return jsonify([]), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/api/yara/rules", methods=["GET"])
+def get_yara_rules():
+    """Get available YARA rules"""
+    try:
+        rules_dir = os.path.join(PROJECT_ROOT, 'agent', 'yara_rules')
+        rules = []
+        if os.path.exists(rules_dir):
+            for filename in os.listdir(rules_dir):
+                if filename.endswith('.yar') or filename.endswith('.yara'):
+                    rule_path = os.path.join(rules_dir, filename)
+                    try:
+                        with open(rule_path, 'r') as f:
+                            content = f.read()
+                            rules.append({
+                                'filename': filename,
+                                'path': rule_path,
+                                'size': os.path.getsize(rule_path),
+                                'modified': datetime.fromtimestamp(os.path.getmtime(rule_path)).isoformat(),
+                                'content_preview': content[:200] + "..." if len(content) > 200 else content
+                            })
+                    except Exception as e:
+                        rules.append({
+                            'filename': filename,
+                            'path': rule_path,
+                            'error': str(e)
+                        })
+        return jsonify(rules), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+# VirusTotal API endpoints
+@app.route("/api/virustotal/results", methods=["GET"])
+def get_virustotal_results():
+    """Get VirusTotal scan results"""
+    try:
+        vt_results_file = os.path.join(PROJECT_ROOT, 'detections_api', 'logs', 'vt_results.json')
+        if os.path.exists(vt_results_file):
+            with open(vt_results_file, 'r') as f:
+                results = json.load(f)
+                return jsonify(results), 200
+        return jsonify([]), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/api/virustotal/scan", methods=["POST"])
+def trigger_virustotal_scan():
+    """Trigger VirusTotal scan"""
+    try:
+        # Run the VT checker script
+        vt_script_path = os.path.join(PROJECT_ROOT, 'detections_api', 'vt_checker.py')
+        result = subprocess.run(['python', vt_script_path], 
+                              capture_output=True, text=True, timeout=300)
+        
+        return jsonify({
+            'status': 'completed',
+            'stdout': result.stdout,
+            'stderr': result.stderr,
+            'return_code': result.returncode
+        }), 200
+    except subprocess.TimeoutExpired:
+        return jsonify({'error': 'Scan timeout after 5 minutes'}), 408
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+# AI/ML Model API endpoints
+@app.route("/api/ai/models", methods=["GET"])
+def get_ai_models():
+    """Get AI model information"""
+    try:
+        models_dir = os.path.join(PROJECT_ROOT, 'models')
+        ai_models_dir = os.path.join(PROJECT_ROOT, 'ai', 'models')
+        
+        models = []
+        
+        # Check both model directories
+        for models_path in [models_dir, ai_models_dir]:
+            if os.path.exists(models_path):
+                for filename in os.listdir(models_path):
+                    if filename.endswith('.joblib'):
+                        model_path = os.path.join(models_path, filename)
+                        stat = os.stat(model_path)
+                        models.append({
+                            'name': filename,
+                            'path': model_path,
+                            'size': stat.st_size,
+                            'created': datetime.fromtimestamp(stat.st_ctime).isoformat(),
+                            'modified': datetime.fromtimestamp(stat.st_mtime).isoformat(),
+                            'type': 'baseline' if 'baseline' in filename else 'optimized' if 'optimized' in filename else 'unknown'
+                        })
+        
+        return jsonify(models), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/api/ai/train", methods=["POST"])
+def trigger_ai_training():
+    """Trigger AI model training"""
+    try:
+        training_script = os.path.join(PROJECT_ROOT, 'ai', 'complete_training_pipeline.py')
+        
+        # Start training in background
+        process = subprocess.Popen(
+            ['python', training_script],
+            cwd=PROJECT_ROOT,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True
+        )
+        
+        # Store process for monitoring
+        PROCESS_STORE['ai_training_manual'] = {
+            'process': process,
+            'start_time': time.time(),
+            'description': 'Manual AI Training',
+            'logs': []
+        }
+        
+        return jsonify({
+            'status': 'started',
+            'pid': process.pid,
+            'message': 'AI training started in background'
+        }), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/api/ai/predictions", methods=["GET"])
+def get_ai_predictions():
+    """Get recent AI predictions from logs"""
+    try:
+        # Look for ML predictions in endpoint logs
+        endpoint_logs = []
+        log_file = os.path.join(LOGS_DIR, 'endpoint_logs.json')
+        if os.path.exists(log_file):
+            with open(log_file, 'r') as f:
+                for line in f:
+                    if line.strip():
+                        try:
+                            log = json.loads(line.strip())
+                            # Look for logs with ML predictions
+                            if ('ml_action' in log.get('data', {}) or 
+                                'ml_confidence' in log.get('data', {})):
+                                endpoint_logs.append(log)
+                        except json.JSONDecodeError:
+                            continue
+        
+        return jsonify(endpoint_logs), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+# Real-time Alerts API endpoints
+@app.route("/api/alerts/high-severity", methods=["GET"])
+def get_high_severity_alerts():
+    """Get high severity alerts"""
+    try:
+        alerts = []
+        
+        # Check severity logs for high severity events
+        severity_file = os.path.join(LOGS_DIR, 'severity_scores.json')
+        if os.path.exists(severity_file):
+            with open(severity_file, 'r') as f:
+                for line in f:
+                    if line.strip():
+                        try:
+                            log = json.loads(line.strip())
+                            score = log.get('data', {}).get('score', 0)
+                            if score >= 6:  # High severity threshold
+                                alerts.append({
+                                    **log,
+                                    'alert_type': 'high_severity',
+                                    'severity_level': 'critical' if score >= 8 else 'high'
+                                })
+                        except json.JSONDecodeError:
+                            continue
+        
+        # Sort by timestamp (most recent first)
+        alerts.sort(key=lambda x: x.get('timestamp', 0), reverse=True)
+        return jsonify(alerts[:50]), 200  # Return latest 50 alerts
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/api/alerts/malware", methods=["GET"])
+def get_malware_alerts():
+    """Get malware detection alerts"""
+    try:
+        alerts = []
+        
+        # Check YARA logs
+        yara_file = os.path.join(LOGS_DIR, 'yara_logs.json')
+        if os.path.exists(yara_file):
+            with open(yara_file, 'r') as f:
+                for line in f:
+                    if line.strip():
+                        try:
+                            log = json.loads(line.strip())
+                            alerts.append({
+                                **log,
+                                'alert_type': 'malware_detection',
+                                'source': 'yara'
+                            })
+                        except json.JSONDecodeError:
+                            continue
+        
+        # Check VirusTotal results
+        vt_file = os.path.join(PROJECT_ROOT, 'detections_api', 'logs', 'vt_results.json')
+        if os.path.exists(vt_file):
+            with open(vt_file, 'r') as f:
+                try:
+                    vt_results = json.load(f)
+                    for result in vt_results:
+                        if result.get('vt_result', {}).get('malicious_count', 0) > 0:
+                            alerts.append({
+                                'timestamp': result.get('timestamp'),
+                                'event': 'Malware Detected',
+                                'data': result,
+                                'alert_type': 'malware_detection',
+                                'source': 'virustotal'
+                            })
+                except json.JSONDecodeError:
+                    pass
+        
+        return jsonify(alerts), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 @app.errorhandler(404)
 def not_found(error):
     return jsonify({"error": "Not found"}), 404

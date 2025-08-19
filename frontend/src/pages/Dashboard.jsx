@@ -376,13 +376,43 @@ function Dashboard() {
                   </span>
                 )}
               </div>
-              <Link
-                to="/control"
-                className="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
-              >
-                <Settings className="h-4 w-4" />
-                <span>Process Control</span>
-              </Link>
+              <div className="flex items-center space-x-2">
+                <Link
+                  to="/alerts"
+                  className="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-white bg-red-600 rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500"
+                >
+                  <AlertTriangle className="h-4 w-4" />
+                  <span>Alerts</span>
+                </Link>
+                <Link
+                  to="/yara"
+                  className="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+                  <Shield className="h-4 w-4" />
+                  <span>YARA</span>
+                </Link>
+                <Link
+                  to="/virustotal"
+                  className="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+                  <Network className="h-4 w-4" />
+                  <span>VirusTotal</span>
+                </Link>
+                <Link
+                  to="/ai-models"
+                  className="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+                  <Zap className="h-4 w-4" />
+                  <span>AI Models</span>
+                </Link>
+                <Link
+                  to="/control"
+                  className="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+                  <Settings className="h-4 w-4" />
+                  <span>Process Control</span>
+                </Link>
+              </div>
               <button
                 onClick={handleRealTimeToggle}
                 className="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
