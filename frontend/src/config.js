@@ -27,6 +27,10 @@ export const API_ENDPOINTS = {
   ALERTS: {
     HIGH_SEVERITY: `${API_BASE_URL}/api/alerts/high-severity`,
     MALWARE: `${API_BASE_URL}/api/alerts/malware`
+  },
+  ACTIONS: {
+    BLOCKED: `${API_BASE_URL}/api/actions/blocked`,
+    QUARANTINE: `${API_BASE_URL}/api/actions/quarantine`
   }
 };
 

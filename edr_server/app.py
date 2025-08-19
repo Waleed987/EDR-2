@@ -574,6 +574,140 @@ def get_ai_predictions():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+# Auto-Response Actions API endpoints
+@app.route("/api/actions/blocked", methods=["GET"])
+def get_blocked_actions():
+    """Get auto-blocked/killed processes and quarantined files"""
+    try:
+        blocked_actions = []
+        
+        # Check endpoint logs for ML actions that resulted in blocking
+        log_file = os.path.join(LOGS_DIR, 'endpoint_logs.json')
+        if os.path.exists(log_file):
+            with open(log_file, 'r') as f:
+                for line in f:
+                    if line.strip():
+                        try:
+                            log = json.loads(line.strip())
+                            data = log.get('data', {})
+                            # Look for logs where ML decided to block
+                            if data.get('ml_action') == 'block':
+                                blocked_actions.append({
+                                    **log,
+                                    'action_type': 'auto_block',
+                                    'blocked_reason': 'ML Detection',
+                                    'confidence': data.get('ml_confidence', 0),
+                                    'severity': data.get('severity', 0),
+                                    'target_type': 'process' if data.get('pid') else 'file' if data.get('file') or data.get('path') else 'unknown'
+                                })
+                        except json.JSONDecodeError:
+                            continue
+        
+        # Check process tree logs for blocked processes
+        process_tree_file = os.path.join(LOGS_DIR, 'process_tree_logs.json')
+        if os.path.exists(process_tree_file):
+            with open(process_tree_file, 'r') as f:
+                for line in f:
+                    if line.strip():
+                        try:
+                            log = json.loads(line.strip())
+                            data = log.get('data', {})
+                            if data.get('ml_action') == 'block':
+                                blocked_actions.append({
+                                    **log,
+                                    'action_type': 'auto_block',
+                                    'blocked_reason': 'Untrusted Process Tree',
+                                    'confidence': data.get('ml_confidence', 0),
+                                    'severity': data.get('severity', 0),
+                                    'target_type': 'process'
+                                })
+                        except json.JSONDecodeError:
+                            continue
+        
+        # Check logic bomb logs for blocked processes
+        logic_bomb_file = os.path.join(LOGS_DIR, 'logic_bomb_logs.json')
+        if os.path.exists(logic_bomb_file):
+            with open(logic_bomb_file, 'r') as f:
+                for line in f:
+                    if line.strip():
+                        try:
+                            log = json.loads(line.strip())
+                            data = log.get('data', {})
+                            if data.get('ml_action') == 'block':
+                                blocked_actions.append({
+                                    **log,
+                                    'action_type': 'auto_block',
+                                    'blocked_reason': 'Logic Bomb Detection',
+                                    'confidence': data.get('ml_confidence', 0),
+                                    'severity': data.get('severity', 0),
+                                    'target_type': 'process'
+                                })
+                        except json.JSONDecodeError:
+                            continue
+        
+        # Check file trigger logs for blocked processes
+        file_trigger_file = os.path.join(LOGS_DIR, 'file_trigger_logs.json')
+        if os.path.exists(file_trigger_file):
+            with open(file_trigger_file, 'r') as f:
+                for line in f:
+                    if line.strip():
+                        try:
+                            log = json.loads(line.strip())
+                            data = log.get('data', {})
+                            if data.get('ml_action') == 'block':
+                                blocked_actions.append({
+                                    **log,
+                                    'action_type': 'auto_block',
+                                    'blocked_reason': 'File Trigger Detection',
+                                    'confidence': data.get('ml_confidence', 0),
+                                    'severity': data.get('severity', 0),
+                                    'target_type': 'process'
+                                })
+                        except json.JSONDecodeError:
+                            continue
+        
+        # Sort by timestamp (most recent first)
+        blocked_actions.sort(key=lambda x: x.get('timestamp', 0), reverse=True)
+        return jsonify(blocked_actions[:100]), 200  # Return latest 100 blocked actions
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/api/actions/quarantine", methods=["GET"])
+def get_quarantine_info():
+    """Get quarantine directory information"""
+    try:
+        quarantine_dir = os.path.join(PROJECT_ROOT, 'quarantine')
+        quarantine_files = []
+        
+        if os.path.exists(quarantine_dir):
+            for filename in os.listdir(quarantine_dir):
+                file_path = os.path.join(quarantine_dir, filename)
+                if os.path.isfile(file_path):
+                    stat = os.stat(file_path)
+                    # Parse timestamp from filename (format: timestamp_originalname)
+                    timestamp_str = filename.split('_')[0] if '_' in filename else '0'
+                    original_name = filename[len(timestamp_str)+1:] if '_' in filename else filename
+                    
+                    quarantine_files.append({
+                        'quarantine_filename': filename,
+                        'original_filename': original_name,
+                        'quarantine_path': file_path,
+                        'size': stat.st_size,
+                        'quarantined_at': timestamp_str,
+                        'modified': datetime.fromtimestamp(stat.st_mtime).isoformat()
+                    })
+        
+        # Sort by quarantine time (most recent first)
+        quarantine_files.sort(key=lambda x: int(x.get('quarantined_at', 0)), reverse=True)
+        
+        return jsonify({
+            'quarantine_directory': quarantine_dir,
+            'total_files': len(quarantine_files),
+            'files': quarantine_files
+        }), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 # Real-time Alerts API endpoints
 @app.route("/api/alerts/high-severity", methods=["GET"])
 def get_high_severity_alerts():

@@ -25,6 +25,8 @@ import {
 function AlertSystem() {
   const [highSeverityAlerts, setHighSeverityAlerts] = useState([]);
   const [malwareAlerts, setMalwareAlerts] = useState([]);
+  const [blockedActions, setBlockedActions] = useState([]);
+  const [quarantineInfo, setQuarantineInfo] = useState({ files: [], total_files: 0 });
   const [loading, setLoading] = useState(false);
   const [lastUpdate, setLastUpdate] = useState(new Date());
   const [searchTerm, setSearchTerm] = useState('');
@@ -36,6 +38,8 @@ function AlertSystem() {
     totalAlerts: 0,
     criticalAlerts: 0,
     malwareDetections: 0,
+    blockedActions: 0,
+    quarantinedFiles: 0,
     recentAlerts: 0,
     resolvedAlerts: 0
   });
@@ -60,13 +64,35 @@ function AlertSystem() {
     }
   };
 
+  // Fetch blocked actions
+  const fetchBlockedActions = async () => {
+    try {
+      const response = await axios.get(API_ENDPOINTS.ACTIONS.BLOCKED);
+      setBlockedActions(response.data || []);
+    } catch (error) {
+      console.error('Error fetching blocked actions:', error);
+    }
+  };
+
+  // Fetch quarantine information
+  const fetchQuarantineInfo = async () => {
+    try {
+      const response = await axios.get(API_ENDPOINTS.ACTIONS.QUARANTINE);
+      setQuarantineInfo(response.data || { files: [], total_files: 0 });
+    } catch (error) {
+      console.error('Error fetching quarantine info:', error);
+    }
+  };
+
   // Fetch all alerts
   const fetchAllAlerts = async () => {
     try {
       setLoading(true);
       await Promise.all([
         fetchHighSeverityAlerts(),
-        fetchMalwareAlerts()
+        fetchMalwareAlerts(),
+        fetchBlockedActions(),
+        fetchQuarantineInfo()
       ]);
       setLastUpdate(new Date());
     } catch (error) {
@@ -98,6 +124,8 @@ function AlertSystem() {
       totalAlerts: allAlerts.length,
       criticalAlerts,
       malwareDetections,
+      blockedActions: blockedActions.length,
+      quarantinedFiles: quarantineInfo.total_files || 0,
       recentAlerts,
       resolvedAlerts: 0 // Would be tracked in a real system
     });
@@ -107,7 +135,8 @@ function AlertSystem() {
   const getAllAlerts = () => {
     const combined = [
       ...highSeverityAlerts.map(alert => ({ ...alert, category: 'high_severity' })),
-      ...malwareAlerts.map(alert => ({ ...alert, category: 'malware' }))
+      ...malwareAlerts.map(alert => ({ ...alert, category: 'malware' })),
+      ...blockedActions.map(action => ({ ...action, category: 'auto_response' }))
     ];
     
     // Sort by timestamp (most recent first)
@@ -200,10 +229,19 @@ function AlertSystem() {
     }
   }, [isRealTime]);
 
+  // Format file size
+  const formatFileSize = (bytes) => {
+    if (bytes === 0) return '0 B';
+    const k = 1024;
+    const sizes = ['B', 'KB', 'MB', 'GB'];
+    const i = Math.floor(Math.log(bytes) / Math.log(k));
+    return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+  };
+
   // Update stats when alerts change
   useEffect(() => {
     calculateStats();
-  }, [highSeverityAlerts, malwareAlerts]);
+  }, [highSeverityAlerts, malwareAlerts, blockedActions, quarantineInfo]);
 
   const filteredAlerts = getFilteredAlerts();
 
@@ -259,7 +297,7 @@ function AlertSystem() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         {/* Statistics Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-6 mb-8">
           <div className="bg-white rounded-lg shadow p-6">
             <div className="flex items-center">
               <div className="flex-shrink-0">
@@ -292,6 +330,30 @@ function AlertSystem() {
               <div className="ml-4">
                 <p className="text-sm font-medium text-gray-500">Malware</p>
                 <p className="text-2xl font-semibold text-purple-600">{stats.malwareDetections}</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-lg shadow p-6">
+            <div className="flex items-center">
+              <div className="flex-shrink-0">
+                <XCircle className="h-8 w-8 text-red-800" />
+              </div>
+              <div className="ml-4">
+                <p className="text-sm font-medium text-gray-500">Auto-Blocked</p>
+                <p className="text-2xl font-semibold text-red-800">{stats.blockedActions}</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-lg shadow p-6">
+            <div className="flex items-center">
+              <div className="flex-shrink-0">
+                <Shield className="h-8 w-8 text-indigo-600" />
+              </div>
+              <div className="ml-4">
+                <p className="text-sm font-medium text-gray-500">Quarantined</p>
+                <p className="text-2xl font-semibold text-indigo-600">{stats.quarantinedFiles}</p>
               </div>
             </div>
           </div>
@@ -345,6 +407,7 @@ function AlertSystem() {
                 <option value="all">All Alerts</option>
                 <option value="high_severity">High Severity</option>
                 <option value="malware">Malware Detection</option>
+                <option value="auto_response">Auto-Response Actions</option>
               </select>
             </div>
           </div>
@@ -352,6 +415,98 @@ function AlertSystem() {
             Showing {filteredAlerts.length} of {stats.totalAlerts} alerts
           </div>
         </div>
+
+        {/* Auto-Response Actions Summary */}
+        {(blockedActions.length > 0 || quarantineInfo.total_files > 0) && (
+          <div className="bg-white rounded-lg shadow p-6 mb-8">
+            <h3 className="text-lg font-medium text-gray-900 mb-4">🛡️ Recent Auto-Response Actions</h3>
+            
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+              {/* Blocked Actions */}
+              {blockedActions.length > 0 && (
+                <div>
+                  <h4 className="text-md font-medium text-red-800 mb-3 flex items-center">
+                    <XCircle className="h-5 w-5 mr-2" />
+                    Auto-Blocked Threats ({blockedActions.length})
+                  </h4>
+                  <div className="space-y-3 max-h-60 overflow-y-auto">
+                    {blockedActions.slice(0, 5).map((action, index) => (
+                      <div key={index} className="border border-red-200 rounded-lg p-3 bg-red-50">
+                        <div className="flex justify-between items-start">
+                          <div className="flex-1">
+                            <div className="font-medium text-red-900 text-sm">
+                              {action.event || action.event_type || 'Auto-Blocked Threat'}
+                            </div>
+                            <div className="text-xs text-red-700 mt-1">
+                              <span className="bg-red-200 px-2 py-1 rounded">
+                                {action.blocked_reason}
+                              </span>
+                              <span className="bg-blue-200 text-blue-800 px-2 py-1 rounded ml-2">
+                                {Math.round((action.confidence || 0) * 100)}% confidence
+                              </span>
+                            </div>
+                            {action.target_type === 'process' && action.data?.name && (
+                              <div className="text-xs text-gray-600 mt-1">
+                                Process: {action.data.name} {action.data?.pid && `(PID: ${action.data.pid})`}
+                              </div>
+                            )}
+                          </div>
+                          <div className="text-xs text-gray-500 ml-2">
+                            {getRelativeTime(action.timestamp || action.time)}
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                    {blockedActions.length > 5 && (
+                      <div className="text-center text-sm text-gray-500">
+                        +{blockedActions.length - 5} more blocked actions
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )}
+              
+              {/* Quarantined Files */}
+              {quarantineInfo.total_files > 0 && (
+                <div>
+                  <h4 className="text-md font-medium text-indigo-800 mb-3 flex items-center">
+                    <Shield className="h-5 w-5 mr-2" />
+                    Quarantined Files ({quarantineInfo.total_files})
+                  </h4>
+                  <div className="space-y-3 max-h-60 overflow-y-auto">
+                    {quarantineInfo.files.slice(0, 5).map((file, index) => (
+                      <div key={index} className="border border-indigo-200 rounded-lg p-3 bg-indigo-50">
+                        <div className="flex justify-between items-start">
+                          <div className="flex-1">
+                            <div className="font-medium text-indigo-900 text-sm truncate" title={file.original_filename}>
+                              {file.original_filename}
+                            </div>
+                            <div className="text-xs text-indigo-700 mt-1">
+                              <span className="bg-indigo-200 px-2 py-1 rounded">
+                                Size: {formatFileSize(file.size)}
+                              </span>
+                            </div>
+                            <div className="text-xs text-gray-600 mt-1">
+                              Quarantine: {file.quarantine_filename}
+                            </div>
+                          </div>
+                          <div className="text-xs text-gray-500 ml-2">
+                            {new Date(parseInt(file.quarantined_at) * 1000).toLocaleDateString()}
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                    {quarantineInfo.files.length > 5 && (
+                      <div className="text-center text-sm text-gray-500">
+                        +{quarantineInfo.files.length - 5} more quarantined files
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
 
         {/* Alerts List */}
         <div className="bg-white rounded-lg shadow overflow-hidden">
@@ -421,6 +576,41 @@ function AlertSystem() {
                               {alert.data?.pid && (
                                 <div>PID: {alert.data.pid}</div>
                               )}
+                            </div>
+                          )}
+
+                          {alert.category === 'auto_response' && (
+                            <div className="text-sm text-gray-600">
+                              <div className="flex items-center space-x-2">
+                                <XCircle className="h-4 w-4 text-red-800" />
+                                <span className="font-semibold text-red-800">AUTO-BLOCKED BY ML</span>
+                              </div>
+                              <div className="mt-2 space-y-1">
+                                <div className="flex items-center space-x-2">
+                                  <span className="text-xs font-medium bg-red-100 text-red-800 px-2 py-1 rounded">
+                                    {alert.blocked_reason}
+                                  </span>
+                                  <span className="text-xs font-medium bg-blue-100 text-blue-800 px-2 py-1 rounded">
+                                    Confidence: {Math.round((alert.confidence || 0) * 100)}%
+                                  </span>
+                                </div>
+                                {alert.target_type === 'process' && alert.data?.name && (
+                                  <div>
+                                    <span className="font-medium">Killed Process:</span> {alert.data.name}
+                                    {alert.data?.pid && <span> (PID: {alert.data.pid})</span>}
+                                  </div>
+                                )}
+                                {alert.target_type === 'file' && (alert.data?.file || alert.data?.path) && (
+                                  <div>
+                                    <span className="font-medium">Quarantined File:</span> {alert.data.file || alert.data.path}
+                                  </div>
+                                )}
+                                {alert.data?.parent && (
+                                  <div>
+                                    <span className="font-medium">Parent Process:</span> {alert.data.parent}
+                                  </div>
+                                )}
+                              </div>
                             </div>
                           )}
                           

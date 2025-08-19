@@ -1471,3 +1471,63 @@
 {"event": "Autorun Entry Detected", "details": {"Upwork": "C:\\Users\\pc\\AppData\\Local\\Programs\\upwork\\Upwork.exe"}, "time": "Tue Aug 19 22:06:18 2025"}
 {"event": "Suspicious Network", "details": {"pid": 23304, "process": "Cursor.exe", "local_addr": "192.168.100.148:50267", "remote_addr": "34.200.126.19:443", "status": "ESTABLISHED", "trusted": false, "domain": "ec2-34-200-126-19.compute-1.amazonaws.com", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Tue Aug 19 22:06:19 2025"}
 {"event": "Process Created", "details": {"pid": 6424, "name": "oracle.exe", "parent": "services.exe"}, "time": "Tue Aug 19 22:06:22 2025"}
+{"event": "Process Created", "details": {"pid": 6460, "name": "svchost.exe", "parent": "services.exe"}, "time": "Tue Aug 19 22:06:26 2025"}
+{"event": "Process Created", "details": {"pid": 6536, "name": "conhost.exe", "parent": "cursor.exe"}, "time": "Tue Aug 19 22:06:30 2025"}
+{"event": "Network Connection", "details": {"pid": 3184, "process": "git-remote-https.exe", "local_addr": "192.168.100.148:50328", "remote_addr": "20.207.73.82:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Tue Aug 19 22:06:32 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 6536, "name": "conhost.exe"}, "time": "Tue Aug 19 22:06:34 2025"}
+{"event": "Suspicious Network", "details": {"pid": 3184, "process": "git-remote-https.exe", "local_addr": "192.168.100.148:50328", "remote_addr": "20.207.73.82:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Tue Aug 19 22:06:36 2025"}
+{"event": "Process Created", "details": {"pid": 6564, "name": "msedgewebview2.exe", "parent": "msedgewebview2.exe"}, "time": "Tue Aug 19 22:06:38 2025"}
+{"event": "Network Connection", "details": {"pid": 23304, "process": "Cursor.exe", "local_addr": "192.168.100.148:50317", "remote_addr": "54.167.84.212:443", "status": "ESTABLISHED", "trusted": false, "domain": "ec2-54-167-84-212.compute-1.amazonaws.com"}, "time": "Tue Aug 19 22:06:42 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 6564, "name": "msedgewebview2.exe"}, "time": "Tue Aug 19 22:06:42 2025"}
+{"event": "Suspicious Network", "details": {"pid": 23304, "process": "Cursor.exe", "local_addr": "192.168.100.148:50317", "remote_addr": "54.167.84.212:443", "status": "ESTABLISHED", "trusted": false, "domain": "ec2-54-167-84-212.compute-1.amazonaws.com", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Tue Aug 19 22:06:46 2025"}
+{"event": "Process Created", "details": {"pid": 6724, "name": "NgcIso.exe", "parent": "svchost.exe"}, "time": "Tue Aug 19 22:06:46 2025"}
+{"event": "Process Created", "details": {"pid": 7096, "name": "svchost.exe", "parent": "services.exe"}, "time": "Tue Aug 19 22:06:50 2025"}
+{"event": "Autorun Entry Detected", "details": {"OneDrive": "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background"}, "time": "Tue Aug 19 22:06:52 2025"}
+{"event": "Process Created", "details": {"pid": 7108, "name": "backgroundTaskHost.exe", "parent": "svchost.exe"}, "time": "Tue Aug 19 22:06:55 2025"}
+{"event": "Network Connection", "details": {"pid": 14588, "process": "pwsh.exe", "local_addr": "192.168.100.148:50286", "remote_addr": "20.50.88.244:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Tue Aug 19 22:06:55 2025"}
+{"event": "Autorun Entry Detected", "details": {"Docker Desktop": "C:\\Program Files\\Docker\\Docker\\Docker Desktop.exe -Autostart"}, "time": "Tue Aug 19 22:06:56 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 7108, "name": "backgroundTaskHost.exe"}, "time": "Tue Aug 19 22:06:59 2025"}
+{"event": "Suspicious Network", "details": {"pid": 14588, "process": "pwsh.exe", "local_addr": "192.168.100.148:50286", "remote_addr": "20.50.88.244:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Tue Aug 19 22:06:59 2025"}
+{"event": "Autorun Entry Detected", "details": {"utweb": "\"C:\\Users\\pc\\AppData\\Roaming\\uTorrent Web\\utweb.exe\" /MINIMIZED"}, "time": "Tue Aug 19 22:07:01 2025"}
+{"event": "Process Created", "details": {"pid": 7180, "name": "mysqld.exe", "parent": "mysqld.exe"}, "time": "Tue Aug 19 22:07:03 2025"}
+{"event": "Autorun Entry Detected", "details": {"Figma Agent": "\"C:\\Users\\pc\\AppData\\Local\\FigmaAgent\\figma_agent.exe\""}, "time": "Tue Aug 19 22:07:05 2025"}
+{"event": "Process Created", "details": {"pid": 7248, "name": "pwsh.exe", "parent": "cursor.exe"}, "time": "Tue Aug 19 22:07:07 2025"}
+{"event": "Autorun Entry Detected", "details": {"Microsoft.Lists": "C:\\Program Files\\Microsoft OneDrive\\25.137.0715.0001\\Microsoft.SharePoint.exe"}, "time": "Tue Aug 19 22:07:09 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 7248, "name": "pwsh.exe"}, "time": "Tue Aug 19 22:07:11 2025"}
+{"event": "Autorun Entry Detected", "details": {"IDMan": "C:\\Program Files (x86)\\Internet Download Manager\\IDMan.exe /onboot"}, "time": "Tue Aug 19 22:07:13 2025"}
+{"event": "Process Created", "details": {"pid": 7272, "name": "ctfmon.exe", "parent": "svchost.exe"}, "time": "Tue Aug 19 22:07:16 2025"}
+{"event": "Autorun Entry Detected", "details": {"Upwork": "C:\\Users\\pc\\AppData\\Local\\Programs\\upwork\\Upwork.exe"}, "time": "Tue Aug 19 22:07:17 2025"}
+{"event": "Network Connection", "details": {"pid": 4864, "process": "MpDefenderCoreService.exe", "local_addr": "192.168.100.148:49233", "remote_addr": "40.79.167.8:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Tue Aug 19 22:07:18 2025"}
+{"event": "Process Created", "details": {"pid": 7524, "name": "cmd.exe", "parent": "cursor.exe"}, "time": "Tue Aug 19 22:07:20 2025"}
+{"event": "Suspicious Network", "details": {"pid": 4864, "process": "MpDefenderCoreService.exe", "local_addr": "192.168.100.148:49233", "remote_addr": "40.79.167.8:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Tue Aug 19 22:07:22 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 7524, "name": "cmd.exe"}, "time": "Tue Aug 19 22:07:24 2025"}
+{"event": "Process Created", "details": {"pid": 7684, "name": "AppActions.exe", "parent": "svchost.exe"}, "time": "Tue Aug 19 22:07:28 2025"}
+{"event": "Network Connection", "details": {"pid": 9948, "process": "python3.12.exe", "local_addr": "127.0.0.1:5000", "remote_addr": "127.0.0.1:54409", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Tue Aug 19 22:07:31 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 7684, "name": "AppActions.exe"}, "time": "Tue Aug 19 22:07:32 2025"}
+{"event": "Suspicious Network", "details": {"pid": 9948, "process": "python3.12.exe", "local_addr": "127.0.0.1:5000", "remote_addr": "127.0.0.1:54409", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Tue Aug 19 22:07:35 2025"}
+{"event": "Process Created", "details": {"pid": 7688, "name": "svchost.exe", "parent": "services.exe"}, "time": "Tue Aug 19 22:07:36 2025"}
+{"event": "Process Created", "details": {"pid": 7940, "name": "svchost.exe", "parent": "services.exe"}, "time": "Tue Aug 19 22:07:40 2025"}
+{"event": "Process Created", "details": {"pid": 8080, "name": "svchost.exe", "parent": "services.exe"}, "time": "Tue Aug 19 22:07:45 2025"}
+{"event": "Network Connection", "details": {"pid": 23304, "process": "Cursor.exe", "local_addr": "192.168.100.148:54456", "remote_addr": "44.216.231.70:443", "status": "ESTABLISHED", "trusted": false, "domain": "ec2-44-216-231-70.compute-1.amazonaws.com"}, "time": "Tue Aug 19 22:07:45 2025"}
+{"event": "Process Created", "details": {"pid": 8196, "name": "svchost.exe", "parent": "services.exe"}, "time": "Tue Aug 19 22:07:49 2025"}
+{"event": "Suspicious Network", "details": {"pid": 23304, "process": "Cursor.exe", "local_addr": "192.168.100.148:54456", "remote_addr": "44.216.231.70:443", "status": "ESTABLISHED", "trusted": false, "domain": "ec2-44-216-231-70.compute-1.amazonaws.com", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Tue Aug 19 22:07:49 2025"}
+{"event": "Autorun Entry Detected", "details": {"OneDrive": "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background"}, "time": "Tue Aug 19 22:07:51 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 8196, "name": "svchost.exe"}, "time": "Tue Aug 19 22:07:53 2025"}
+{"event": "Autorun Entry Detected", "details": {"Docker Desktop": "C:\\Program Files\\Docker\\Docker\\Docker Desktop.exe -Autostart"}, "time": "Tue Aug 19 22:07:55 2025"}
+{"event": "Process Created", "details": {"pid": 8376, "name": "RuntimeBroker.exe", "parent": "svchost.exe"}, "time": "Tue Aug 19 22:07:57 2025"}
+{"event": "Autorun Entry Detected", "details": {"utweb": "\"C:\\Users\\pc\\AppData\\Roaming\\uTorrent Web\\utweb.exe\" /MINIMIZED"}, "time": "Tue Aug 19 22:07:59 2025"}
+{"event": "Network Connection", "details": {"pid": 23304, "process": "Cursor.exe", "local_addr": "192.168.100.148:54483", "remote_addr": "3.92.13.104:443", "status": "ESTABLISHED", "trusted": false, "domain": "ec2-3-92-13-104.compute-1.amazonaws.com"}, "time": "Tue Aug 19 22:08:00 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 8376, "name": "RuntimeBroker.exe"}, "time": "Tue Aug 19 22:08:01 2025"}
+{"event": "Autorun Entry Detected", "details": {"Figma Agent": "\"C:\\Users\\pc\\AppData\\Local\\FigmaAgent\\figma_agent.exe\""}, "time": "Tue Aug 19 22:08:03 2025"}
+{"event": "Suspicious Network", "details": {"pid": 23304, "process": "Cursor.exe", "local_addr": "192.168.100.148:54483", "remote_addr": "3.92.13.104:443", "status": "ESTABLISHED", "trusted": false, "domain": "ec2-3-92-13-104.compute-1.amazonaws.com", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Tue Aug 19 22:08:04 2025"}
+{"event": "Process Created", "details": {"pid": 8460, "name": "WUDFCompanionHost.exe", "parent": "services.exe"}, "time": "Tue Aug 19 22:08:05 2025"}
+{"event": "Autorun Entry Detected", "details": {"Microsoft.Lists": "C:\\Program Files\\Microsoft OneDrive\\25.137.0715.0001\\Microsoft.SharePoint.exe"}, "time": "Tue Aug 19 22:08:08 2025"}
+{"event": "Network Connection", "details": {"pid": 23304, "process": "Cursor.exe", "local_addr": "192.168.100.148:57120", "remote_addr": "44.194.235.184:443", "status": "ESTABLISHED", "trusted": false, "domain": "ec2-44-194-235-184.compute-1.amazonaws.com"}, "time": "Tue Aug 19 22:08:09 2025"}
+{"event": "Process Created", "details": {"pid": 8544, "name": "WidgetService.exe", "parent": "svchost.exe"}, "time": "Tue Aug 19 22:08:09 2025"}
+{"event": "Autorun Entry Detected", "details": {"IDMan": "C:\\Program Files (x86)\\Internet Download Manager\\IDMan.exe /onboot"}, "time": "Tue Aug 19 22:08:12 2025"}
+{"event": "Suspicious Network", "details": {"pid": 23304, "process": "Cursor.exe", "local_addr": "192.168.100.148:57120", "remote_addr": "44.194.235.184:443", "status": "ESTABLISHED", "trusted": false, "domain": "ec2-44-194-235-184.compute-1.amazonaws.com", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Tue Aug 19 22:08:13 2025"}
+{"event": "Suspicious Process Modules", "details": {"pid": 8544, "name": "WidgetService.exe"}, "time": "Tue Aug 19 22:08:14 2025"}
+{"event": "Autorun Entry Detected", "details": {"Upwork": "C:\\Users\\pc\\AppData\\Local\\Programs\\upwork\\Upwork.exe"}, "time": "Tue Aug 19 22:08:16 2025"}
+{"event": "Process Created", "details": {"pid": 8640, "name": "conhost.exe", "parent": "mysqld.exe"}, "time": "Tue Aug 19 22:08:18 2025"}
+{"event": "Process Created", "details": {"pid": 8644, "name": "postgres.exe", "parent": "postgres.exe"}, "time": "Tue Aug 19 22:08:22 2025"}
+{"event": "Network Connection", "details": {"pid": 17900, "process": "node.exe", "local_addr": "::1:5173", "remote_addr": "::1:52624", "status": "ESTABLISHED", "trusted": false, "domain": "xyz123"}, "time": "Tue Aug 19 22:08:22 2025"}
