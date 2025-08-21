@@ -1855,6 +1855,70 @@ Process Created,process_monitor,2025-08-21T15:00:59Z,1.0,svchost.exe,services.ex
 Process Created,process_monitor,2025-08-21T15:01:01Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:01Z
 Process Created,process_monitor,2025-08-21T15:01:03Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:03Z
 Process Created,process_monitor,2025-08-21T15:01:05Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:05Z
+Process Created,process_monitor,2025-08-21T15:01:08Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:08Z
+Process Created,process_monitor,2025-08-21T15:01:10Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:10Z
+Process Created,process_monitor,2025-08-21T15:01:12Z,1.0,fontdrvhost.exe,wininit.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:12Z
+Process Created,process_monitor,2025-08-21T15:01:14Z,1.0,Spotify.exe,unknown,,,,,,,,,,,,1.0,2025-08-21T15:01:14Z
+Process Created,process_monitor,2025-08-21T15:01:16Z,1.0,WUDFCompanionHost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:16Z
+Process Created,process_monitor,2025-08-21T15:01:18Z,1.0,ChatGPT.exe,chatgpt.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:18Z
+Process Created,process_monitor,2025-08-21T15:01:20Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:20Z
+Process Created,process_monitor,2025-08-21T15:01:22Z,1.0,AsusScreenXpertReunion.exe,asusscreenxpertui.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:22Z
+Process Created,process_monitor,2025-08-21T15:01:24Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:24Z
+Process Created,process_monitor,2025-08-21T15:01:26Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:26Z
+Process Created,process_monitor,2025-08-21T15:01:29Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:29Z
+Process Created,process_monitor,2025-08-21T15:01:31Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:31Z
+Process Created,process_monitor,2025-08-21T15:01:33Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:33Z
+Process Created,process_monitor,2025-08-21T15:01:35Z,1.0,WidgetService.exe,svchost.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:35Z
+Process Created,process_monitor,2025-08-21T15:01:37Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:37Z
+Process Created,process_monitor,2025-08-21T15:01:39Z,4.0,cmd.exe,unknown,,,,,,,,,,,,4.0,2025-08-21T15:01:39Z
+Process Created,process_monitor,2025-08-21T15:01:42Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:42Z
+Suspicious Process Modules,process_monitor,2025-08-21T15:01:43Z,6.0,cmd.exe,,,,,,,,,,,,,6.0,2025-08-21T15:01:43Z
+Process Created,process_monitor,2025-08-21T15:01:46Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:46Z
+Process Created,process_monitor,2025-08-21T15:01:48Z,1.0,ApplicationFrameHost.exe,svchost.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:48Z
+Process Created,process_monitor,2025-08-21T15:01:50Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:50Z
+Process Created,process_monitor,2025-08-21T15:01:50Z,1.0,System Idle Process,system idle process,,,,,,,,,,,,1.0,2025-08-21T15:01:50Z
+Process Created,process_monitor,2025-08-21T15:01:52Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:52Z
+Process Created,process_monitor,2025-08-21T15:01:54Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:54Z
+Process Created,process_monitor,2025-08-21T15:01:55Z,1.0,System,system idle process,,,,,,,,,,,,1.0,2025-08-21T15:01:55Z
+Process Created,process_monitor,2025-08-21T15:01:56Z,1.0,AsusOptimization.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:56Z
+Process Created,process_monitor,2025-08-21T15:01:58Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:01:58Z
+Process Created,process_monitor,2025-08-21T15:01:59Z,1.0,,system,,,,,,,,,,,,1.0,2025-08-21T15:01:59Z
+Process Created,process_monitor,2025-08-21T15:02:00Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:02:00Z
+Process Created,process_monitor,2025-08-21T15:02:02Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:02:02Z
+Process Created,process_monitor,2025-08-21T15:02:03Z,1.0,Registry,system,,,,,,,,,,,,1.0,2025-08-21T15:02:03Z
+Process Created,process_monitor,2025-08-21T15:02:04Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:02:04Z
+Process Created,process_monitor,2025-08-21T15:02:07Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:02:07Z
+Process Created,process_monitor,2025-08-21T15:02:07Z,1.0,smss.exe,system,,,,,,,,,,,,1.0,2025-08-21T15:02:07Z
+Process Created,process_monitor,2025-08-21T15:02:08Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:02:08Z
+Process Created,process_monitor,2025-08-21T15:02:11Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:02:11Z
+Process Created,process_monitor,2025-08-21T15:02:11Z,1.0,Spotify.exe,unknown,,,,,,,,,,,,1.0,2025-08-21T15:02:11Z
+Process Created,process_monitor,2025-08-21T15:02:12Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:02:12Z
+Process Created,process_monitor,2025-08-21T15:02:15Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:02:15Z
+Process Created,process_monitor,2025-08-21T15:02:16Z,1.0,csrss.exe,unknown,,,,,,,,,,,,1.0,2025-08-21T15:02:16Z
+Process Created,process_monitor,2025-08-21T15:02:17Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:02:17Z
+Process Created,process_monitor,2025-08-21T15:02:19Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:02:19Z
+Process Created,process_monitor,2025-08-21T15:02:20Z,1.0,wininit.exe,unknown,,,,,,,,,,,,1.0,2025-08-21T15:02:20Z
+Process Created,process_monitor,2025-08-21T15:02:21Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:02:21Z
+Process Created,process_monitor,2025-08-21T15:02:24Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:02:24Z
+Process Created,process_monitor,2025-08-21T15:02:24Z,1.0,services.exe,wininit.exe,,,,,,,,,,,,1.0,2025-08-21T15:02:24Z
+Process Created,process_monitor,2025-08-21T15:02:25Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:02:25Z
+Process Created,process_monitor,2025-08-21T15:02:28Z,1.0,OffloadItemService.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:02:28Z
+Process Created,process_monitor,2025-08-21T15:02:28Z,1.0,LsaIso.exe,wininit.exe,,,,,,,,,,,,1.0,2025-08-21T15:02:28Z
+Process Created,process_monitor,2025-08-21T15:02:29Z,1.0,pwsh.exe,cursor.exe,,,,,,,,,,,,1.0,2025-08-21T15:02:29Z
+Process Created,process_monitor,2025-08-21T15:02:32Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:02:32Z
+Process Created,process_monitor,2025-08-21T15:02:32Z,1.0,lsass.exe,wininit.exe,,,,,,,,,,,,1.0,2025-08-21T15:02:32Z
+Process Created,process_monitor,2025-08-21T15:02:33Z,1.0,MemCompression,system,,,,,,,,,,,,1.0,2025-08-21T15:02:33Z
+Process Created,process_monitor,2025-08-21T15:02:36Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:02:36Z
+Process Created,process_monitor,2025-08-21T15:02:38Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:02:38Z
+Process Created,process_monitor,2025-08-21T15:02:40Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T15:02:40Z
+Process Created,process_monitor,2025-08-21T15:05:24Z,1.0,System Idle Process,system idle process,,,,,,,,,,,,1.0,2025-08-21T15:05:24Z
+Process Created,process_monitor,2025-08-21T15:05:29Z,1.0,System,system idle process,,,,,,,,,,,,1.0,2025-08-21T15:05:29Z
+Process Created,process_monitor,2025-08-21T15:05:33Z,1.0,,system,,,,,,,,,,,,1.0,2025-08-21T15:05:33Z
+Process Created,process_monitor,2025-08-21T15:05:37Z,1.0,Registry,system,,,,,,,,,,,,1.0,2025-08-21T15:05:37Z
+Process Created,process_monitor,2025-08-21T15:05:41Z,1.0,smss.exe,system,,,,,,,,,,,,1.0,2025-08-21T15:05:41Z
+Process Created,process_monitor,2025-08-21T15:08:02Z,1.0,System Idle Process,system idle process,,,,,,,,,,,,1.0,2025-08-21T15:08:02Z
+Process Created,process_monitor,2025-08-21T15:08:07Z,1.0,System,system idle process,,,,,,,,,,,,1.0,2025-08-21T15:08:07Z
+Process Created,process_monitor,2025-08-21T15:37:28Z,1.0,System Idle Process,system idle process,,,,,,,,,,,,1.0,2025-08-21T15:37:28Z
 Autorun Entry Detected,autorun_monitor,2025-07-15T17:56:39Z,,,,,,,,,,,,,,,,2025-07-15T17:56:39Z
 Autorun Entry Detected,autorun_monitor,2025-07-15T17:56:41Z,,,,,,,,,,,,,,,,2025-07-15T17:56:41Z
 Autorun Entry Detected,autorun_monitor,2025-07-15T17:56:43Z,,,,,,,,,,,,,,,,2025-07-15T17:56:43Z
@@ -2783,6 +2847,46 @@ Autorun Entry Detected,autorun_monitor,2025-08-21T15:00:54Z,6.0,,,,,,,,,,,,,,6.0
 Autorun Entry Detected,autorun_monitor,2025-08-21T15:00:56Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:00:56Z
 Autorun Entry Detected,autorun_monitor,2025-08-21T15:00:58Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:00:58Z
 Autorun Entry Detected,autorun_monitor,2025-08-21T15:01:02Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:01:02Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:01:07Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:01:07Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:01:11Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:01:11Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:01:15Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:01:15Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:01:20Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:01:20Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:01:24Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:01:24Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:01:29Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:01:29Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:01:33Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:01:33Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:01:37Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:01:37Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:01:41Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:01:41Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:01:46Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:01:46Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:01:49Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:01:49Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:01:50Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:01:50Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:01:50Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:01:50Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:01:53Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:01:53Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:01:54Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:01:54Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:01:57Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:01:57Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:01:59Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:01:59Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:02:01Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:02:01Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:02:03Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:02:03Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:02:06Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:02:06Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:02:07Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:02:07Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:02:10Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:02:10Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:02:11Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:02:11Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:02:14Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:02:14Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:02:15Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:02:15Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:02:18Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:02:18Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:02:20Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:02:20Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:02:24Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:02:24Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:02:28Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:02:28Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:02:32Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:02:32Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:02:36Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:02:36Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:02:41Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:02:41Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:05:24Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:05:24Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:05:29Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:05:29Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:05:33Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:05:33Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:05:37Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:05:37Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:05:41Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:05:41Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:08:02Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:08:02Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:08:07Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:08:07Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T15:37:28Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:37:28Z
 Network Connection,network_monitor,2025-07-15T17:56:44Z,,,,,,,,,,,104.18.18.125,Unknown,,,,2025-07-15T17:56:44Z
 Network Connection,network_monitor,2025-07-15T17:56:47Z,,,,,,,,,,,52.3.69.132,ec2-52-3-69-132.compute-1.amazonaws.com,,,,2025-07-15T17:56:47Z
 Network Connection,network_monitor,2025-07-15T17:56:49Z,,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,2025-07-15T17:56:49Z
@@ -4205,6 +4309,60 @@ Suspicious Network,network_monitor,2025-08-21T15:00:59Z,7.0,,,,,,,,,,98.85.100.6
 Suspicious Network,network_monitor,2025-08-21T15:01:00Z,7.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,7.0,2025-08-21T15:01:00Z
 Network Connection,network_monitor,2025-08-21T15:01:03Z,4.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,4.0,2025-08-21T15:01:03Z
 Network Connection,network_monitor,2025-08-21T15:01:04Z,4.0,,,,,,,,,,35.186.224.41,41.224.186.35.bc.googleusercontent.com,,,4.0,2025-08-21T15:01:04Z
+Suspicious Network,network_monitor,2025-08-21T15:01:07Z,7.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,7.0,2025-08-21T15:01:07Z
+Suspicious Network,network_monitor,2025-08-21T15:01:08Z,7.0,,,,,,,,,,35.186.224.41,41.224.186.35.bc.googleusercontent.com,,,7.0,2025-08-21T15:01:08Z
+Network Connection,network_monitor,2025-08-21T15:01:11Z,4.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,4.0,2025-08-21T15:01:11Z
+Suspicious Network,network_monitor,2025-08-21T15:01:15Z,7.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,7.0,2025-08-21T15:01:15Z
+Network Connection,network_monitor,2025-08-21T15:01:18Z,4.0,,,,,,,,,,151.101.142.250,Unknown,,,4.0,2025-08-21T15:01:18Z
+Network Connection,network_monitor,2025-08-21T15:01:19Z,4.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,4.0,2025-08-21T15:01:19Z
+Suspicious Network,network_monitor,2025-08-21T15:01:22Z,7.0,,,,,,,,,,151.101.142.250,Unknown,,,7.0,2025-08-21T15:01:22Z
+Suspicious Network,network_monitor,2025-08-21T15:01:24Z,7.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,7.0,2025-08-21T15:01:24Z
+Network Connection,network_monitor,2025-08-21T15:01:26Z,4.0,,,,,,,,,,35.186.224.41,41.224.186.35.bc.googleusercontent.com,,,4.0,2025-08-21T15:01:26Z
+Network Connection,network_monitor,2025-08-21T15:01:28Z,4.0,,,,,,,,,,184.25.249.235,a184-25-249-235.deploy.static.akamaitechnologies.com,,,4.0,2025-08-21T15:01:28Z
+Suspicious Network,network_monitor,2025-08-21T15:01:30Z,7.0,,,,,,,,,,35.186.224.41,41.224.186.35.bc.googleusercontent.com,,,7.0,2025-08-21T15:01:30Z
+Suspicious Network,network_monitor,2025-08-21T15:01:32Z,7.0,,,,,,,,,,184.25.249.235,a184-25-249-235.deploy.static.akamaitechnologies.com,,,7.0,2025-08-21T15:01:32Z
+Network Connection,network_monitor,2025-08-21T15:01:34Z,4.0,,,,,,,,,,54.83.172.143,ec2-54-83-172-143.compute-1.amazonaws.com,,,4.0,2025-08-21T15:01:34Z
+Network Connection,network_monitor,2025-08-21T15:01:36Z,4.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,4.0,2025-08-21T15:01:36Z
+Suspicious Network,network_monitor,2025-08-21T15:01:39Z,7.0,,,,,,,,,,54.83.172.143,ec2-54-83-172-143.compute-1.amazonaws.com,,,7.0,2025-08-21T15:01:39Z
+Suspicious Network,network_monitor,2025-08-21T15:01:40Z,7.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,7.0,2025-08-21T15:01:40Z
+Network Connection,network_monitor,2025-08-21T15:01:43Z,4.0,,,,,,,,,,92.123.159.240,a92-123-159-240.deploy.static.akamaitechnologies.com,,,4.0,2025-08-21T15:01:43Z
+Suspicious Network,network_monitor,2025-08-21T15:01:47Z,7.0,,,,,,,,,,92.123.159.240,a92-123-159-240.deploy.static.akamaitechnologies.com,,,7.0,2025-08-21T15:01:47Z
+Network Connection,network_monitor,2025-08-21T15:01:49Z,4.0,,,,,,,,,,4.213.25.241,Unknown,,,4.0,2025-08-21T15:01:49Z
+Network Connection,network_monitor,2025-08-21T15:01:51Z,4.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,4.0,2025-08-21T15:01:51Z
+Suspicious Network,network_monitor,2025-08-21T15:01:53Z,7.0,,,,,,,,,,4.213.25.241,Unknown,,,7.0,2025-08-21T15:01:53Z
+Network Connection,network_monitor,2025-08-21T15:01:53Z,4.0,,,,,,,,,,52.123.128.14,Unknown,,,4.0,2025-08-21T15:01:53Z
+Suspicious Network,network_monitor,2025-08-21T15:01:55Z,7.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,7.0,2025-08-21T15:01:55Z
+Suspicious Network,network_monitor,2025-08-21T15:01:57Z,7.0,,,,,,,,,,52.123.128.14,Unknown,,,7.0,2025-08-21T15:01:57Z
+Network Connection,network_monitor,2025-08-21T15:01:58Z,4.0,,,,,,,,,,104.199.65.9,9.65.199.104.bc.googleusercontent.com,,,4.0,2025-08-21T15:01:58Z
+Suspicious Network,network_monitor,2025-08-21T15:02:02Z,7.0,,,,,,,,,,104.199.65.9,9.65.199.104.bc.googleusercontent.com,,,7.0,2025-08-21T15:02:02Z
+Network Connection,network_monitor,2025-08-21T15:02:04Z,4.0,,,,,,,,,,20.195.84.23,Unknown,,,4.0,2025-08-21T15:02:04Z
+Network Connection,network_monitor,2025-08-21T15:02:06Z,4.0,,,,,,,,,,20.195.84.23,Unknown,,,4.0,2025-08-21T15:02:06Z
+Network Connection,network_monitor,2025-08-21T15:02:06Z,4.0,,,,,,,,,,35.186.224.45,45.224.186.35.bc.googleusercontent.com,,,4.0,2025-08-21T15:02:06Z
+Suspicious Network,network_monitor,2025-08-21T15:02:08Z,7.0,,,,,,,,,,20.195.84.23,Unknown,,,7.0,2025-08-21T15:02:08Z
+Suspicious Network,network_monitor,2025-08-21T15:02:10Z,7.0,,,,,,,,,,20.195.84.23,Unknown,,,7.0,2025-08-21T15:02:10Z
+Suspicious Network,network_monitor,2025-08-21T15:02:11Z,7.0,,,,,,,,,,35.186.224.45,45.224.186.35.bc.googleusercontent.com,,,7.0,2025-08-21T15:02:11Z
+Network Connection,network_monitor,2025-08-21T15:02:14Z,4.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,4.0,2025-08-21T15:02:14Z
+Network Connection,network_monitor,2025-08-21T15:02:17Z,4.0,,,,,,,,,,151.101.142.248,Unknown,,,4.0,2025-08-21T15:02:17Z
+Suspicious Network,network_monitor,2025-08-21T15:02:19Z,7.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,7.0,2025-08-21T15:02:19Z
+Network Connection,network_monitor,2025-08-21T15:02:19Z,4.0,,,,,,,,,,151.101.142.250,Unknown,,,4.0,2025-08-21T15:02:19Z
+Suspicious Network,network_monitor,2025-08-21T15:02:21Z,7.0,,,,,,,,,,151.101.142.248,Unknown,,,7.0,2025-08-21T15:02:21Z
+Suspicious Network,network_monitor,2025-08-21T15:02:23Z,7.0,,,,,,,,,,151.101.142.250,Unknown,,,7.0,2025-08-21T15:02:23Z
+Network Connection,network_monitor,2025-08-21T15:02:25Z,4.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,4.0,2025-08-21T15:02:25Z
+Network Connection,network_monitor,2025-08-21T15:02:27Z,4.0,,,,,,,,,,151.101.142.250,Unknown,,,4.0,2025-08-21T15:02:27Z
+Suspicious Network,network_monitor,2025-08-21T15:02:29Z,7.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,7.0,2025-08-21T15:02:29Z
+Suspicious Network,network_monitor,2025-08-21T15:02:31Z,7.0,,,,,,,,,,151.101.142.250,Unknown,,,7.0,2025-08-21T15:02:31Z
+Network Connection,network_monitor,2025-08-21T15:02:32Z,4.0,,,,,,,,,,20.195.84.23,Unknown,,,4.0,2025-08-21T15:02:32Z
+Network Connection,network_monitor,2025-08-21T15:02:33Z,4.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,4.0,2025-08-21T15:02:33Z
+Suspicious Network,network_monitor,2025-08-21T15:02:36Z,7.0,,,,,,,,,,20.195.84.23,Unknown,,,7.0,2025-08-21T15:02:36Z
+Suspicious Network,network_monitor,2025-08-21T15:02:38Z,7.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,7.0,2025-08-21T15:02:38Z
+Network Connection,network_monitor,2025-08-21T15:02:40Z,4.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,4.0,2025-08-21T15:02:40Z
+Network Connection,network_monitor,2025-08-21T15:05:27Z,4.0,,,,,,,,,,104.18.18.125,Unknown,,,4.0,2025-08-21T15:05:27Z
+Suspicious Network,network_monitor,2025-08-21T15:05:32Z,7.0,,,,,,,,,,104.18.18.125,Unknown,,,7.0,2025-08-21T15:05:32Z
+Network Connection,network_monitor,2025-08-21T15:05:36Z,4.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,4.0,2025-08-21T15:05:36Z
+Suspicious Network,network_monitor,2025-08-21T15:05:40Z,7.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,7.0,2025-08-21T15:05:40Z
+Network Connection,network_monitor,2025-08-21T15:08:02Z,4.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,4.0,2025-08-21T15:08:02Z
+Suspicious Network,network_monitor,2025-08-21T15:08:07Z,7.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,7.0,2025-08-21T15:08:07Z
+Network Connection,network_monitor,2025-08-21T15:37:28Z,4.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,4.0,2025-08-21T15:37:28Z
 Untrusted Process Tree,process_tree,2025-08-17T00:48:57Z,7.0,,,,,,,,,,,,,,7.0,2025-08-17T00:48:57Z
 Untrusted Process Tree,process_tree,2025-08-17T00:49:01Z,7.0,,,,,,,,,,,,,,7.0,2025-08-17T00:49:01Z
 Untrusted Process Tree,process_tree,2025-08-17T00:49:05Z,7.0,,,,,,,,,,,,,,7.0,2025-08-17T00:49:05Z
@@ -5673,6 +5831,48 @@ Untrusted Process Tree,process_tree,2025-08-21T15:00:57Z,7.0,,,,,,,,,,,,,,7.0,20
 Untrusted Process Tree,process_tree,2025-08-21T15:00:59Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:00:59Z
 Untrusted Process Tree,process_tree,2025-08-21T15:01:01Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:01:01Z
 Untrusted Process Tree,process_tree,2025-08-21T15:01:04Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:01:04Z
+Untrusted Process Tree,process_tree,2025-08-21T15:01:08Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:01:08Z
+Untrusted Process Tree,process_tree,2025-08-21T15:01:12Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:01:12Z
+Untrusted Process Tree,process_tree,2025-08-21T15:01:16Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:01:16Z
+Untrusted Process Tree,process_tree,2025-08-21T15:01:20Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:01:20Z
+Untrusted Process Tree,process_tree,2025-08-21T15:01:24Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:01:24Z
+Untrusted Process Tree,process_tree,2025-08-21T15:01:29Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:01:29Z
+Untrusted Process Tree,process_tree,2025-08-21T15:01:33Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:01:33Z
+Untrusted Process Tree,process_tree,2025-08-21T15:01:37Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:01:37Z
+Untrusted Process Tree,process_tree,2025-08-21T15:01:42Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:01:42Z
+Untrusted Process Tree,process_tree,2025-08-21T15:01:46Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:01:46Z
+Untrusted Process Tree,process_tree,2025-08-21T15:01:50Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:01:50Z
+Untrusted Process Tree,process_tree,2025-08-21T15:01:50Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:01:50Z
+Untrusted Process Tree,process_tree,2025-08-21T15:01:54Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:01:54Z
+Untrusted Process Tree,process_tree,2025-08-21T15:01:55Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:01:55Z
+Untrusted Process Tree,process_tree,2025-08-21T15:01:58Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:01:58Z
+Untrusted Process Tree,process_tree,2025-08-21T15:01:59Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:01:59Z
+Untrusted Process Tree,process_tree,2025-08-21T15:02:02Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:02:02Z
+Untrusted Process Tree,process_tree,2025-08-21T15:02:03Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:02:03Z
+Untrusted Process Tree,process_tree,2025-08-21T15:02:07Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:02:07Z
+Untrusted Process Tree,process_tree,2025-08-21T15:02:07Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:02:07Z
+Untrusted Process Tree,process_tree,2025-08-21T15:02:11Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:02:11Z
+Untrusted Process Tree,process_tree,2025-08-21T15:02:11Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:02:11Z
+Untrusted Process Tree,process_tree,2025-08-21T15:02:15Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:02:15Z
+Untrusted Process Tree,process_tree,2025-08-21T15:02:16Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:02:16Z
+Untrusted Process Tree,process_tree,2025-08-21T15:02:19Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:02:19Z
+Untrusted Process Tree,process_tree,2025-08-21T15:02:20Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:02:20Z
+Untrusted Process Tree,process_tree,2025-08-21T15:02:24Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:02:24Z
+Untrusted Process Tree,process_tree,2025-08-21T15:02:24Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:02:24Z
+Untrusted Process Tree,process_tree,2025-08-21T15:02:28Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:02:28Z
+Untrusted Process Tree,process_tree,2025-08-21T15:02:28Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:02:28Z
+Untrusted Process Tree,process_tree,2025-08-21T15:02:32Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:02:32Z
+Untrusted Process Tree,process_tree,2025-08-21T15:02:32Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:02:32Z
+Untrusted Process Tree,process_tree,2025-08-21T15:02:36Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:02:36Z
+Untrusted Process Tree,process_tree,2025-08-21T15:02:40Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:02:40Z
+Untrusted Process Tree,process_tree,2025-08-21T15:05:24Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:05:24Z
+Untrusted Process Tree,process_tree,2025-08-21T15:05:29Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:05:29Z
+Untrusted Process Tree,process_tree,2025-08-21T15:05:33Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:05:33Z
+Untrusted Process Tree,process_tree,2025-08-21T15:05:37Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:05:37Z
+Untrusted Process Tree,process_tree,2025-08-21T15:05:41Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:05:41Z
+Untrusted Process Tree,process_tree,2025-08-21T15:08:02Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:08:02Z
+Untrusted Process Tree,process_tree,2025-08-21T15:08:07Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:08:07Z
+Untrusted Process Tree,process_tree,2025-08-21T15:37:28Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:37:28Z
 unknown,download,2025-07-20T15:13:12.060747,,,,,,,,,,,,,,,,2025-07-20T15:13:12.060747
 unknown,download,2025-07-20T20:32:37.567969,,,,,,,,,,,,,,,,2025-07-20T20:32:37.567969
 unknown,download,2025-07-20T20:58:55.284225,,,,,,,,,,,,,,,,2025-07-20T20:58:55.284225
@@ -10652,3 +10852,206 @@ Suspicious Network,severity_score,2025-08-21T15:01:05Z,,,,,,,,,,,,,,,,2025-08-21
 Untrusted Process Tree,severity_score,2025-08-21T15:01:06Z,,,,,,,,,,,,,,,,2025-08-21T15:01:06Z
 Process Created,severity_score,2025-08-21T15:01:06Z,,,,,,,,,,,,,,,,2025-08-21T15:01:06Z
 Suspicious Network,severity_score,2025-08-21T15:01:06Z,,,,,,,,,,,,,,,,2025-08-21T15:01:06Z
+Process Created,severity_score,2025-08-21T15:01:07Z,,,,,,,,,,,,,,,,2025-08-21T15:01:07Z
+Autorun Entry Detected,severity_score,2025-08-21T15:01:09Z,,,,,,,,,,,,,,,,2025-08-21T15:01:09Z
+Network Connection,severity_score,2025-08-21T15:01:09Z,,,,,,,,,,,,,,,,2025-08-21T15:01:09Z
+Untrusted Process Tree,severity_score,2025-08-21T15:01:10Z,,,,,,,,,,,,,,,,2025-08-21T15:01:10Z
+Process Created,severity_score,2025-08-21T15:01:10Z,,,,,,,,,,,,,,,,2025-08-21T15:01:10Z
+Process Created,severity_score,2025-08-21T15:01:12Z,,,,,,,,,,,,,,,,2025-08-21T15:01:12Z
+Autorun Entry Detected,severity_score,2025-08-21T15:01:13Z,,,,,,,,,,,,,,,,2025-08-21T15:01:13Z
+Suspicious Network,severity_score,2025-08-21T15:01:13Z,,,,,,,,,,,,,,,,2025-08-21T15:01:13Z
+Untrusted Process Tree,severity_score,2025-08-21T15:01:14Z,,,,,,,,,,,,,,,,2025-08-21T15:01:14Z
+Process Created,severity_score,2025-08-21T15:01:14Z,,,,,,,,,,,,,,,,2025-08-21T15:01:14Z
+Network Connection,severity_score,2025-08-21T15:01:15Z,,,,,,,,,,,,,,,,2025-08-21T15:01:15Z
+Process Created,severity_score,2025-08-21T15:01:16Z,,,,,,,,,,,,,,,,2025-08-21T15:01:16Z
+Network Connection,severity_score,2025-08-21T15:01:17Z,,,,,,,,,,,,,,,,2025-08-21T15:01:17Z
+Untrusted Process Tree,severity_score,2025-08-21T15:01:18Z,,,,,,,,,,,,,,,,2025-08-21T15:01:18Z
+Process Created,severity_score,2025-08-21T15:01:18Z,,,,,,,,,,,,,,,,2025-08-21T15:01:18Z
+Autorun Entry Detected,severity_score,2025-08-21T15:01:18Z,,,,,,,,,,,,,,,,2025-08-21T15:01:18Z
+Suspicious Network,severity_score,2025-08-21T15:01:20Z,,,,,,,,,,,,,,,,2025-08-21T15:01:20Z
+Process Created,severity_score,2025-08-21T15:01:20Z,,,,,,,,,,,,,,,,2025-08-21T15:01:20Z
+Suspicious Network,severity_score,2025-08-21T15:01:21Z,,,,,,,,,,,,,,,,2025-08-21T15:01:21Z
+Untrusted Process Tree,severity_score,2025-08-21T15:01:22Z,,,,,,,,,,,,,,,,2025-08-21T15:01:22Z
+Process Created,severity_score,2025-08-21T15:01:22Z,,,,,,,,,,,,,,,,2025-08-21T15:01:22Z
+Autorun Entry Detected,severity_score,2025-08-21T15:01:22Z,,,,,,,,,,,,,,,,2025-08-21T15:01:22Z
+Network Connection,severity_score,2025-08-21T15:01:24Z,,,,,,,,,,,,,,,,2025-08-21T15:01:24Z
+Process Created,severity_score,2025-08-21T15:01:24Z,,,,,,,,,,,,,,,,2025-08-21T15:01:24Z
+Network Connection,severity_score,2025-08-21T15:01:26Z,,,,,,,,,,,,,,,,2025-08-21T15:01:26Z
+Untrusted Process Tree,severity_score,2025-08-21T15:01:26Z,,,,,,,,,,,,,,,,2025-08-21T15:01:26Z
+Process Created,severity_score,2025-08-21T15:01:26Z,,,,,,,,,,,,,,,,2025-08-21T15:01:26Z
+Autorun Entry Detected,severity_score,2025-08-21T15:01:27Z,,,,,,,,,,,,,,,,2025-08-21T15:01:27Z
+Suspicious Network,severity_score,2025-08-21T15:01:28Z,,,,,,,,,,,,,,,,2025-08-21T15:01:28Z
+Process Created,severity_score,2025-08-21T15:01:28Z,,,,,,,,,,,,,,,,2025-08-21T15:01:28Z
+Suspicious Network,severity_score,2025-08-21T15:01:30Z,,,,,,,,,,,,,,,,2025-08-21T15:01:30Z
+Autorun Entry Detected,severity_score,2025-08-21T15:01:31Z,,,,,,,,,,,,,,,,2025-08-21T15:01:31Z
+Process Created,severity_score,2025-08-21T15:01:31Z,,,,,,,,,,,,,,,,2025-08-21T15:01:31Z
+Untrusted Process Tree,severity_score,2025-08-21T15:01:31Z,,,,,,,,,,,,,,,,2025-08-21T15:01:31Z
+Network Connection,severity_score,2025-08-21T15:01:32Z,,,,,,,,,,,,,,,,2025-08-21T15:01:32Z
+Process Created,severity_score,2025-08-21T15:01:33Z,,,,,,,,,,,,,,,,2025-08-21T15:01:33Z
+Network Connection,severity_score,2025-08-21T15:01:34Z,,,,,,,,,,,,,,,,2025-08-21T15:01:34Z
+Autorun Entry Detected,severity_score,2025-08-21T15:01:35Z,,,,,,,,,,,,,,,,2025-08-21T15:01:35Z
+Process Created,severity_score,2025-08-21T15:01:35Z,,,,,,,,,,,,,,,,2025-08-21T15:01:35Z
+Untrusted Process Tree,severity_score,2025-08-21T15:01:35Z,,,,,,,,,,,,,,,,2025-08-21T15:01:35Z
+Suspicious Network,severity_score,2025-08-21T15:01:36Z,,,,,,,,,,,,,,,,2025-08-21T15:01:36Z
+Process Created,severity_score,2025-08-21T15:01:37Z,,,,,,,,,,,,,,,,2025-08-21T15:01:37Z
+Suspicious Network,severity_score,2025-08-21T15:01:38Z,,,,,,,,,,,,,,,,2025-08-21T15:01:38Z
+Autorun Entry Detected,severity_score,2025-08-21T15:01:39Z,,,,,,,,,,,,,,,,2025-08-21T15:01:39Z
+Process Created,severity_score,2025-08-21T15:01:39Z,,,,,,,,,,,,,,,,2025-08-21T15:01:39Z
+Untrusted Process Tree,severity_score,2025-08-21T15:01:39Z,,,,,,,,,,,,,,,,2025-08-21T15:01:39Z
+Network Connection,severity_score,2025-08-21T15:01:41Z,,,,,,,,,,,,,,,,2025-08-21T15:01:41Z
+Suspicious Process Modules,severity_score,2025-08-21T15:01:41Z,,,,,,,,,,,,,,,,2025-08-21T15:01:41Z
+Autorun Entry Detected,severity_score,2025-08-21T15:01:44Z,,,,,,,,,,,,,,,,2025-08-21T15:01:44Z
+Process Created,severity_score,2025-08-21T15:01:44Z,,,,,,,,,,,,,,,,2025-08-21T15:01:44Z
+Untrusted Process Tree,severity_score,2025-08-21T15:01:44Z,,,,,,,,,,,,,,,,2025-08-21T15:01:44Z
+Suspicious Network,severity_score,2025-08-21T15:01:45Z,,,,,,,,,,,,,,,,2025-08-21T15:01:45Z
+Process Created,severity_score,2025-08-21T15:01:45Z,,,,,,,,,,,,,,,,2025-08-21T15:01:45Z
+Untrusted Process Tree,severity_score,2025-08-21T15:01:46Z,,,,,,,,,,,,,,,,2025-08-21T15:01:46Z
+Process Created,severity_score,2025-08-21T15:01:46Z,,,,,,,,,,,,,,,,2025-08-21T15:01:46Z
+Autorun Entry Detected,severity_score,2025-08-21T15:01:46Z,,,,,,,,,,,,,,,,2025-08-21T15:01:46Z
+Network Connection,severity_score,2025-08-21T15:01:47Z,,,,,,,,,,,,,,,,2025-08-21T15:01:47Z
+Autorun Entry Detected,severity_score,2025-08-21T15:01:47Z,,,,,,,,,,,,,,,,2025-08-21T15:01:47Z
+Autorun Entry Detected,severity_score,2025-08-21T15:01:48Z,,,,,,,,,,,,,,,,2025-08-21T15:01:48Z
+Process Created,severity_score,2025-08-21T15:01:48Z,,,,,,,,,,,,,,,,2025-08-21T15:01:48Z
+Untrusted Process Tree,severity_score,2025-08-21T15:01:48Z,,,,,,,,,,,,,,,,2025-08-21T15:01:48Z
+Network Connection,severity_score,2025-08-21T15:01:49Z,,,,,,,,,,,,,,,,2025-08-21T15:01:49Z
+Process Created,severity_score,2025-08-21T15:01:50Z,,,,,,,,,,,,,,,,2025-08-21T15:01:50Z
+Suspicious Network,severity_score,2025-08-21T15:01:51Z,,,,,,,,,,,,,,,,2025-08-21T15:01:51Z
+Autorun Entry Detected,severity_score,2025-08-21T15:01:51Z,,,,,,,,,,,,,,,,2025-08-21T15:01:51Z
+Network Connection,severity_score,2025-08-21T15:01:51Z,,,,,,,,,,,,,,,,2025-08-21T15:01:51Z
+Untrusted Process Tree,severity_score,2025-08-21T15:01:52Z,,,,,,,,,,,,,,,,2025-08-21T15:01:52Z
+Process Created,severity_score,2025-08-21T15:01:52Z,,,,,,,,,,,,,,,,2025-08-21T15:01:52Z
+Autorun Entry Detected,severity_score,2025-08-21T15:01:52Z,,,,,,,,,,,,,,,,2025-08-21T15:01:52Z
+Process Created,severity_score,2025-08-21T15:01:52Z,,,,,,,,,,,,,,,,2025-08-21T15:01:52Z
+Untrusted Process Tree,severity_score,2025-08-21T15:01:52Z,,,,,,,,,,,,,,,,2025-08-21T15:01:52Z
+Suspicious Network,severity_score,2025-08-21T15:01:53Z,,,,,,,,,,,,,,,,2025-08-21T15:01:53Z
+Process Created,severity_score,2025-08-21T15:01:54Z,,,,,,,,,,,,,,,,2025-08-21T15:01:54Z
+Autorun Entry Detected,severity_score,2025-08-21T15:01:55Z,,,,,,,,,,,,,,,,2025-08-21T15:01:55Z
+Suspicious Network,severity_score,2025-08-21T15:01:55Z,,,,,,,,,,,,,,,,2025-08-21T15:01:55Z
+Network Connection,severity_score,2025-08-21T15:01:56Z,,,,,,,,,,,,,,,,2025-08-21T15:01:56Z
+Process Created,severity_score,2025-08-21T15:01:56Z,,,,,,,,,,,,,,,,2025-08-21T15:01:56Z
+Untrusted Process Tree,severity_score,2025-08-21T15:01:56Z,,,,,,,,,,,,,,,,2025-08-21T15:01:56Z
+Autorun Entry Detected,severity_score,2025-08-21T15:01:57Z,,,,,,,,,,,,,,,,2025-08-21T15:01:57Z
+Process Created,severity_score,2025-08-21T15:01:57Z,,,,,,,,,,,,,,,,2025-08-21T15:01:57Z
+Untrusted Process Tree,severity_score,2025-08-21T15:01:57Z,,,,,,,,,,,,,,,,2025-08-21T15:01:57Z
+Process Created,severity_score,2025-08-21T15:01:58Z,,,,,,,,,,,,,,,,2025-08-21T15:01:58Z
+Autorun Entry Detected,severity_score,2025-08-21T15:01:59Z,,,,,,,,,,,,,,,,2025-08-21T15:01:59Z
+Suspicious Network,severity_score,2025-08-21T15:02:00Z,,,,,,,,,,,,,,,,2025-08-21T15:02:00Z
+Process Created,severity_score,2025-08-21T15:02:00Z,,,,,,,,,,,,,,,,2025-08-21T15:02:00Z
+Untrusted Process Tree,severity_score,2025-08-21T15:02:00Z,,,,,,,,,,,,,,,,2025-08-21T15:02:00Z
+Autorun Entry Detected,severity_score,2025-08-21T15:02:01Z,,,,,,,,,,,,,,,,2025-08-21T15:02:01Z
+Process Created,severity_score,2025-08-21T15:02:01Z,,,,,,,,,,,,,,,,2025-08-21T15:02:01Z
+Untrusted Process Tree,severity_score,2025-08-21T15:02:01Z,,,,,,,,,,,,,,,,2025-08-21T15:02:01Z
+Network Connection,severity_score,2025-08-21T15:02:02Z,,,,,,,,,,,,,,,,2025-08-21T15:02:02Z
+Process Created,severity_score,2025-08-21T15:02:02Z,,,,,,,,,,,,,,,,2025-08-21T15:02:02Z
+Autorun Entry Detected,severity_score,2025-08-21T15:02:04Z,,,,,,,,,,,,,,,,2025-08-21T15:02:04Z
+Network Connection,severity_score,2025-08-21T15:02:04Z,,,,,,,,,,,,,,,,2025-08-21T15:02:04Z
+Network Connection,severity_score,2025-08-21T15:02:04Z,,,,,,,,,,,,,,,,2025-08-21T15:02:04Z
+Process Created,severity_score,2025-08-21T15:02:05Z,,,,,,,,,,,,,,,,2025-08-21T15:02:05Z
+Untrusted Process Tree,severity_score,2025-08-21T15:02:05Z,,,,,,,,,,,,,,,,2025-08-21T15:02:05Z
+Autorun Entry Detected,severity_score,2025-08-21T15:02:05Z,,,,,,,,,,,,,,,,2025-08-21T15:02:05Z
+Process Created,severity_score,2025-08-21T15:02:05Z,,,,,,,,,,,,,,,,2025-08-21T15:02:05Z
+Untrusted Process Tree,severity_score,2025-08-21T15:02:05Z,,,,,,,,,,,,,,,,2025-08-21T15:02:05Z
+Suspicious Network,severity_score,2025-08-21T15:02:06Z,,,,,,,,,,,,,,,,2025-08-21T15:02:06Z
+Process Created,severity_score,2025-08-21T15:02:06Z,,,,,,,,,,,,,,,,2025-08-21T15:02:06Z
+Autorun Entry Detected,severity_score,2025-08-21T15:02:08Z,,,,,,,,,,,,,,,,2025-08-21T15:02:08Z
+Suspicious Network,severity_score,2025-08-21T15:02:08Z,,,,,,,,,,,,,,,,2025-08-21T15:02:08Z
+Suspicious Network,severity_score,2025-08-21T15:02:09Z,,,,,,,,,,,,,,,,2025-08-21T15:02:09Z
+Untrusted Process Tree,severity_score,2025-08-21T15:02:09Z,,,,,,,,,,,,,,,,2025-08-21T15:02:09Z
+Process Created,severity_score,2025-08-21T15:02:09Z,,,,,,,,,,,,,,,,2025-08-21T15:02:09Z
+Autorun Entry Detected,severity_score,2025-08-21T15:02:09Z,,,,,,,,,,,,,,,,2025-08-21T15:02:09Z
+Process Created,severity_score,2025-08-21T15:02:09Z,,,,,,,,,,,,,,,,2025-08-21T15:02:09Z
+Untrusted Process Tree,severity_score,2025-08-21T15:02:09Z,,,,,,,,,,,,,,,,2025-08-21T15:02:09Z
+Process Created,severity_score,2025-08-21T15:02:10Z,,,,,,,,,,,,,,,,2025-08-21T15:02:10Z
+Autorun Entry Detected,severity_score,2025-08-21T15:02:12Z,,,,,,,,,,,,,,,,2025-08-21T15:02:12Z
+Network Connection,severity_score,2025-08-21T15:02:12Z,,,,,,,,,,,,,,,,2025-08-21T15:02:12Z
+Untrusted Process Tree,severity_score,2025-08-21T15:02:13Z,,,,,,,,,,,,,,,,2025-08-21T15:02:13Z
+Process Created,severity_score,2025-08-21T15:02:13Z,,,,,,,,,,,,,,,,2025-08-21T15:02:13Z
+Autorun Entry Detected,severity_score,2025-08-21T15:02:13Z,,,,,,,,,,,,,,,,2025-08-21T15:02:13Z
+Untrusted Process Tree,severity_score,2025-08-21T15:02:13Z,,,,,,,,,,,,,,,,2025-08-21T15:02:13Z
+Process Created,severity_score,2025-08-21T15:02:14Z,,,,,,,,,,,,,,,,2025-08-21T15:02:14Z
+Process Created,severity_score,2025-08-21T15:02:15Z,,,,,,,,,,,,,,,,2025-08-21T15:02:15Z
+Network Connection,severity_score,2025-08-21T15:02:15Z,,,,,,,,,,,,,,,,2025-08-21T15:02:15Z
+Autorun Entry Detected,severity_score,2025-08-21T15:02:16Z,,,,,,,,,,,,,,,,2025-08-21T15:02:16Z
+Suspicious Network,severity_score,2025-08-21T15:02:17Z,,,,,,,,,,,,,,,,2025-08-21T15:02:17Z
+Network Connection,severity_score,2025-08-21T15:02:17Z,,,,,,,,,,,,,,,,2025-08-21T15:02:17Z
+Untrusted Process Tree,severity_score,2025-08-21T15:02:17Z,,,,,,,,,,,,,,,,2025-08-21T15:02:17Z
+Process Created,severity_score,2025-08-21T15:02:17Z,,,,,,,,,,,,,,,,2025-08-21T15:02:17Z
+Autorun Entry Detected,severity_score,2025-08-21T15:02:17Z,,,,,,,,,,,,,,,,2025-08-21T15:02:17Z
+Untrusted Process Tree,severity_score,2025-08-21T15:02:18Z,,,,,,,,,,,,,,,,2025-08-21T15:02:18Z
+Process Created,severity_score,2025-08-21T15:02:18Z,,,,,,,,,,,,,,,,2025-08-21T15:02:18Z
+Process Created,severity_score,2025-08-21T15:02:19Z,,,,,,,,,,,,,,,,2025-08-21T15:02:19Z
+Suspicious Network,severity_score,2025-08-21T15:02:19Z,,,,,,,,,,,,,,,,2025-08-21T15:02:19Z
+Suspicious Network,severity_score,2025-08-21T15:02:21Z,,,,,,,,,,,,,,,,2025-08-21T15:02:21Z
+Untrusted Process Tree,severity_score,2025-08-21T15:02:21Z,,,,,,,,,,,,,,,,2025-08-21T15:02:21Z
+Process Created,severity_score,2025-08-21T15:02:21Z,,,,,,,,,,,,,,,,2025-08-21T15:02:21Z
+Untrusted Process Tree,severity_score,2025-08-21T15:02:22Z,,,,,,,,,,,,,,,,2025-08-21T15:02:22Z
+Process Created,severity_score,2025-08-21T15:02:22Z,,,,,,,,,,,,,,,,2025-08-21T15:02:22Z
+Autorun Entry Detected,severity_score,2025-08-21T15:02:22Z,,,,,,,,,,,,,,,,2025-08-21T15:02:22Z
+Process Created,severity_score,2025-08-21T15:02:23Z,,,,,,,,,,,,,,,,2025-08-21T15:02:23Z
+Network Connection,severity_score,2025-08-21T15:02:23Z,,,,,,,,,,,,,,,,2025-08-21T15:02:23Z
+Network Connection,severity_score,2025-08-21T15:02:25Z,,,,,,,,,,,,,,,,2025-08-21T15:02:25Z
+Untrusted Process Tree,severity_score,2025-08-21T15:02:26Z,,,,,,,,,,,,,,,,2025-08-21T15:02:26Z
+Process Created,severity_score,2025-08-21T15:02:26Z,,,,,,,,,,,,,,,,2025-08-21T15:02:26Z
+Untrusted Process Tree,severity_score,2025-08-21T15:02:26Z,,,,,,,,,,,,,,,,2025-08-21T15:02:26Z
+Autorun Entry Detected,severity_score,2025-08-21T15:02:26Z,,,,,,,,,,,,,,,,2025-08-21T15:02:26Z
+Process Created,severity_score,2025-08-21T15:02:26Z,,,,,,,,,,,,,,,,2025-08-21T15:02:26Z
+Process Created,severity_score,2025-08-21T15:02:27Z,,,,,,,,,,,,,,,,2025-08-21T15:02:27Z
+Suspicious Network,severity_score,2025-08-21T15:02:27Z,,,,,,,,,,,,,,,,2025-08-21T15:02:27Z
+Suspicious Network,severity_score,2025-08-21T15:02:29Z,,,,,,,,,,,,,,,,2025-08-21T15:02:29Z
+Untrusted Process Tree,severity_score,2025-08-21T15:02:30Z,,,,,,,,,,,,,,,,2025-08-21T15:02:30Z
+Process Created,severity_score,2025-08-21T15:02:30Z,,,,,,,,,,,,,,,,2025-08-21T15:02:30Z
+Network Connection,severity_score,2025-08-21T15:02:30Z,,,,,,,,,,,,,,,,2025-08-21T15:02:30Z
+Autorun Entry Detected,severity_score,2025-08-21T15:02:30Z,,,,,,,,,,,,,,,,2025-08-21T15:02:30Z
+Untrusted Process Tree,severity_score,2025-08-21T15:02:30Z,,,,,,,,,,,,,,,,2025-08-21T15:02:30Z
+Process Created,severity_score,2025-08-21T15:02:30Z,,,,,,,,,,,,,,,,2025-08-21T15:02:30Z
+Process Created,severity_score,2025-08-21T15:02:31Z,,,,,,,,,,,,,,,,2025-08-21T15:02:31Z
+Network Connection,severity_score,2025-08-21T15:02:31Z,,,,,,,,,,,,,,,,2025-08-21T15:02:31Z
+Network Connection,severity_score,2025-08-21T15:02:33Z,,,,,,,,,,,,,,,,2025-08-21T15:02:33Z
+Untrusted Process Tree,severity_score,2025-08-21T15:02:34Z,,,,,,,,,,,,,,,,2025-08-21T15:02:34Z
+Process Created,severity_score,2025-08-21T15:02:34Z,,,,,,,,,,,,,,,,2025-08-21T15:02:34Z
+Suspicious Network,severity_score,2025-08-21T15:02:34Z,,,,,,,,,,,,,,,,2025-08-21T15:02:34Z
+Autorun Entry Detected,severity_score,2025-08-21T15:02:34Z,,,,,,,,,,,,,,,,2025-08-21T15:02:34Z
+Process Created,severity_score,2025-08-21T15:02:34Z,,,,,,,,,,,,,,,,2025-08-21T15:02:34Z
+Untrusted Process Tree,severity_score,2025-08-21T15:02:34Z,,,,,,,,,,,,,,,,2025-08-21T15:02:34Z
+Process Created,severity_score,2025-08-21T15:02:35Z,,,,,,,,,,,,,,,,2025-08-21T15:02:35Z
+Suspicious Network,severity_score,2025-08-21T15:02:36Z,,,,,,,,,,,,,,,,2025-08-21T15:02:36Z
+Process Created,severity_score,2025-08-21T15:02:38Z,,,,,,,,,,,,,,,,2025-08-21T15:02:38Z
+Untrusted Process Tree,severity_score,2025-08-21T15:02:38Z,,,,,,,,,,,,,,,,2025-08-21T15:02:38Z
+Network Connection,severity_score,2025-08-21T15:02:38Z,,,,,,,,,,,,,,,,2025-08-21T15:02:38Z
+Autorun Entry Detected,severity_score,2025-08-21T15:02:38Z,,,,,,,,,,,,,,,,2025-08-21T15:02:38Z
+Process Created,severity_score,2025-08-21T15:02:40Z,,,,,,,,,,,,,,,,2025-08-21T15:02:40Z
+Process Created,severity_score,2025-08-21T15:05:21Z,,,,,,,,,,,,,,,,2025-08-21T15:05:21Z
+Untrusted Process Tree,severity_score,2025-08-21T15:05:21Z,,,,,,,,,,,,,,,,2025-08-21T15:05:21Z
+Autorun Entry Detected,severity_score,2025-08-21T15:05:21Z,,,,,,,,,,,,,,,,2025-08-21T15:05:21Z
+Network Connection,severity_score,2025-08-21T15:05:25Z,,,,,,,,,,,,,,,,2025-08-21T15:05:25Z
+Untrusted Process Tree,severity_score,2025-08-21T15:05:26Z,,,,,,,,,,,,,,,,2025-08-21T15:05:26Z
+Autorun Entry Detected,severity_score,2025-08-21T15:05:26Z,,,,,,,,,,,,,,,,2025-08-21T15:05:26Z
+Process Created,severity_score,2025-08-21T15:05:26Z,,,,,,,,,,,,,,,,2025-08-21T15:05:26Z
+Suspicious Network,severity_score,2025-08-21T15:05:29Z,,,,,,,,,,,,,,,,2025-08-21T15:05:29Z
+Untrusted Process Tree,severity_score,2025-08-21T15:05:31Z,,,,,,,,,,,,,,,,2025-08-21T15:05:31Z
+Autorun Entry Detected,severity_score,2025-08-21T15:05:31Z,,,,,,,,,,,,,,,,2025-08-21T15:05:31Z
+Process Created,severity_score,2025-08-21T15:05:31Z,,,,,,,,,,,,,,,,2025-08-21T15:05:31Z
+Network Connection,severity_score,2025-08-21T15:05:34Z,,,,,,,,,,,,,,,,2025-08-21T15:05:34Z
+Untrusted Process Tree,severity_score,2025-08-21T15:05:35Z,,,,,,,,,,,,,,,,2025-08-21T15:05:35Z
+Process Created,severity_score,2025-08-21T15:05:35Z,,,,,,,,,,,,,,,,2025-08-21T15:05:35Z
+Autorun Entry Detected,severity_score,2025-08-21T15:05:35Z,,,,,,,,,,,,,,,,2025-08-21T15:05:35Z
+Suspicious Network,severity_score,2025-08-21T15:05:38Z,,,,,,,,,,,,,,,,2025-08-21T15:05:38Z
+Autorun Entry Detected,severity_score,2025-08-21T15:05:39Z,,,,,,,,,,,,,,,,2025-08-21T15:05:39Z
+Untrusted Process Tree,severity_score,2025-08-21T15:05:39Z,,,,,,,,,,,,,,,,2025-08-21T15:05:39Z
+Process Created,severity_score,2025-08-21T15:05:39Z,,,,,,,,,,,,,,,,2025-08-21T15:05:39Z
+Process Created,severity_score,2025-08-21T15:07:58Z,,,,,,,,,,,,,,,,2025-08-21T15:07:58Z
+Untrusted Process Tree,severity_score,2025-08-21T15:07:58Z,,,,,,,,,,,,,,,,2025-08-21T15:07:58Z
+Autorun Entry Detected,severity_score,2025-08-21T15:07:58Z,,,,,,,,,,,,,,,,2025-08-21T15:07:58Z
+Network Connection,severity_score,2025-08-21T15:07:58Z,,,,,,,,,,,,,,,,2025-08-21T15:07:58Z
+Untrusted Process Tree,severity_score,2025-08-21T15:08:04Z,,,,,,,,,,,,,,,,2025-08-21T15:08:04Z
+Autorun Entry Detected,severity_score,2025-08-21T15:08:04Z,,,,,,,,,,,,,,,,2025-08-21T15:08:04Z
+Process Created,severity_score,2025-08-21T15:08:04Z,,,,,,,,,,,,,,,,2025-08-21T15:08:04Z
+Suspicious Network,severity_score,2025-08-21T15:08:04Z,,,,,,,,,,,,,,,,2025-08-21T15:08:04Z
+Process Created,severity_score,2025-08-21T15:08:09Z,,,,,,,,,,,,,,,,2025-08-21T15:08:09Z
+Untrusted Process Tree,severity_score,2025-08-21T15:08:09Z,,,,,,,,,,,,,,,,2025-08-21T15:08:09Z
+Autorun Entry Detected,severity_score,2025-08-21T15:08:09Z,,,,,,,,,,,,,,,,2025-08-21T15:08:09Z
+Network Connection,severity_score,2025-08-21T15:08:10Z,,,,,,,,,,,,,,,,2025-08-21T15:08:10Z
+Untrusted Process Tree,severity_score,2025-08-21T15:37:24Z,,,,,,,,,,,,,,,,2025-08-21T15:37:24Z
+Autorun Entry Detected,severity_score,2025-08-21T15:37:24Z,,,,,,,,,,,,,,,,2025-08-21T15:37:24Z
+Process Created,severity_score,2025-08-21T15:37:24Z,,,,,,,,,,,,,,,,2025-08-21T15:37:24Z
+Network Connection,severity_score,2025-08-21T15:37:24Z,,,,,,,,,,,,,,,,2025-08-21T15:37:24Z

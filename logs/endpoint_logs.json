@@ -2739,3 +2739,33 @@ ABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "
 {"event": "Suspicious Network", "details": {"pid": 11220, "process": "java.exe", "local_addr": "127.0.0.1:58790", "remote_addr": "127.0.0.1:58795", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 21 15:02:43 2025"}
 {"event": "Process Created", "details": {"pid": 2888, "name": "svchost.exe", "parent": "services.exe"}, "time": "Thu Aug 21 15:02:43 2025"}
 {"event": "Autorun Entry Detected", "details": {"IDMan": "C:\\Program Files (x86)\\Internet Download Manager\\IDMan.exe /onboot"}, "time": "Thu Aug 21 15:02:43 2025"}
+{"event": "Process Created", "details": {"pid": 0, "name": "System Idle Process", "parent": "system idle process"}, "time": "Thu Aug 21 15:37:24 2025"}
+{"event": "Autorun Entry Detected", "details": {"OneDrive": "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background"}, "time": "Thu Aug 21 15:37:24 2025"}
+{"event": "Network Connection", "details": {"pid": 7712, "process": "python3.12.exe", "local_addr": "127.0.0.1:5000", "remote_addr": "127.0.0.1:54466", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal"}, "time": "Thu Aug 21 15:37:24 2025"}
+{"event": "Autorun Entry Detected", "details": {"Docker Desktop": "C:\\Program Files\\Docker\\Docker\\Docker Desktop.exe -Autostart"}, "time": "Thu Aug 21 15:37:30 2025"}
+{"event": "Process Created", "details": {"pid": 4, "name": "System", "parent": "system idle process"}, "time": "Thu Aug 21 15:37:30 2025"}
+{"event": "Suspicious Network", "details": {"pid": 7712, "process": "python3.12.exe", "local_addr": "127.0.0.1:5000", "remote_addr": "127.0.0.1:54466", "status": "ESTABLISHED", "trusted": false, "domain": "kubernetes.docker.internal", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 21 15:37:30 2025"}
+{"event": "Process Created", "details": {"pid": 0, "name": "System Idle Process", "parent": "system idle process"}, "time": "Thu Aug 21 16:14:28 2025"}
+{"event": "Autorun Entry Detected", "details": {"OneDrive": "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background"}, "time": "Thu Aug 21 16:14:28 2025"}
+{"event": "Network Connection", "details": {"pid": 5984, "process": "OneDrive.exe", "local_addr": "192.168.100.148:59195", "remote_addr": "20.20.44.224:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Thu Aug 21 16:14:33 2025"}
+{"event": "Autorun Entry Detected", "details": {"Docker Desktop": "C:\\Program Files\\Docker\\Docker\\Docker Desktop.exe -Autostart"}, "time": "Thu Aug 21 16:14:34 2025"}
+{"event": "Process Created", "details": {"pid": 4, "name": "System", "parent": "system idle process"}, "time": "Thu Aug 21 16:14:34 2025"}
+{"event": "Suspicious Network", "details": {"pid": 5984, "process": "OneDrive.exe", "local_addr": "192.168.100.148:59195", "remote_addr": "20.20.44.224:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 21 16:14:37 2025"}
+{"event": "Autorun Entry Detected", "details": {"utweb": "\"C:\\Users\\pc\\AppData\\Roaming\\uTorrent Web\\utweb.exe\" /MINIMIZED"}, "time": "Thu Aug 21 16:14:39 2025"}
+{"event": "Process Created", "details": {"pid": 308, "name": "", "parent": "system"}, "time": "Thu Aug 21 16:14:39 2025"}
+{"event": "Autorun Entry Detected", "details": {"Figma Agent": "\"C:\\Users\\pc\\AppData\\Local\\FigmaAgent\\figma_agent.exe\""}, "time": "Thu Aug 21 16:14:43 2025"}
+{"event": "Process Created", "details": {"pid": 352, "name": "Registry", "parent": "system"}, "time": "Thu Aug 21 16:14:43 2025"}
+{"event": "Network Connection", "details": {"pid": 5984, "process": "OneDrive.exe", "local_addr": "192.168.100.148:52367", "remote_addr": "4.213.25.240:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Thu Aug 21 16:14:46 2025"}
+{"event": "Autorun Entry Detected", "details": {"Microsoft.Lists": "C:\\Program Files\\Microsoft OneDrive\\25.140.0720.0001\\Microsoft.SharePoint.exe"}, "time": "Thu Aug 21 16:14:47 2025"}
+{"event": "Process Created", "details": {"pid": 992, "name": "smss.exe", "parent": "system"}, "time": "Thu Aug 21 16:14:47 2025"}
+{"event": "Suspicious Network", "details": {"pid": 5984, "process": "OneDrive.exe", "local_addr": "192.168.100.148:52367", "remote_addr": "4.213.25.240:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 21 16:14:50 2025"}
+{"event": "Process Created", "details": {"pid": 1388, "name": "csrss.exe", "parent": "unknown"}, "time": "Thu Aug 21 16:14:52 2025"}
+{"event": "Autorun Entry Detected", "details": {"IDMan": "C:\\Program Files (x86)\\Internet Download Manager\\IDMan.exe /onboot"}, "time": "Thu Aug 21 16:14:52 2025"}
+{"event": "Process Created", "details": {"pid": 0, "name": "System Idle Process", "parent": "system idle process"}, "time": "Thu Aug 21 16:15:06 2025"}
+{"event": "Autorun Entry Detected", "details": {"OneDrive": "\"C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe\" /background"}, "time": "Thu Aug 21 16:15:06 2025"}
+{"event": "Network Connection", "details": {"pid": 17280, "process": "ChatGPT.exe", "local_addr": "192.168.100.148:52345", "remote_addr": "104.18.32.47:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown"}, "time": "Thu Aug 21 16:15:11 2025"}
+{"event": "Process Created", "details": {"pid": 4, "name": "System", "parent": "system idle process"}, "time": "Thu Aug 21 16:15:12 2025"}
+{"event": "Autorun Entry Detected", "details": {"Docker Desktop": "C:\\Program Files\\Docker\\Docker\\Docker Desktop.exe -Autostart"}, "time": "Thu Aug 21 16:15:12 2025"}
+{"event": "Suspicious Network", "details": {"pid": 17280, "process": "ChatGPT.exe", "local_addr": "192.168.100.148:52345", "remote_addr": "104.18.32.47:443", "status": "ESTABLISHED", "trusted": false, "domain": "Unknown", "reason": "Untrusted IP / Suspicious port / Unknown process"}, "time": "Thu Aug 21 16:15:15 2025"}
+{"event": "Autorun Entry Detected", "details": {"utweb": "\"C:\\Users\\pc\\AppData\\Roaming\\uTorrent Web\\utweb.exe\" /MINIMIZED"}, "time": "Thu Aug 21 16:15:16 2025"}
+{"event": "Process Created", "details": {"pid": 308, "name": "", "parent": "system"}, "time": "Thu Aug 21 16:15:16 2025"}

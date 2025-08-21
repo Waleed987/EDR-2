@@ -217,7 +217,7 @@ function ProcessControl() {
       description: 'Complete ML pipeline: log normalization → feature extraction → training → optimization',
       icon: <Brain className="h-8 w-8" />,
       color: 'purple',
-      details: 'Runs the full AI pipeline from raw logs to trained models with real-time progress',
+      details: 'Runs the full AI pipeline from raw logs to trained models with real-time progress. Can also be started from AI Model Manager page.',
       actions: [
         'Opens in new console window with detailed progress',
         'Step 1: Normalizes logs from JSON files',

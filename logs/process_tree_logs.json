@@ -1354,3 +1354,14 @@
 {"event": "Untrusted Process Tree", "parent": "wininit.exe", "child": "fontdrvhost.exe", "pid": 1816, "ppid": 1492, "timestamp": "2025-08-21T15:02:34.934948"}
 {"event": "Untrusted Process Tree", "parent": "services.exe", "child": "svchost.exe", "pid": 2968, "ppid": 1608, "timestamp": "2025-08-21T15:02:38.789040"}
 {"event": "Untrusted Process Tree", "parent": "cmd.exe", "child": "python3.12.exe", "pid": 3324, "ppid": 13236, "timestamp": "2025-08-21T15:02:43.035526"}
+{"event": "Untrusted Process Tree", "parent": "System Idle Process", "child": "System Idle Process", "pid": 0, "ppid": 0, "timestamp": "2025-08-21T15:37:24.280356"}
+{"event": "Untrusted Process Tree", "parent": "System Idle Process", "child": "System", "pid": 4, "ppid": 0, "timestamp": "2025-08-21T15:37:30.443058"}
+{"event": "Untrusted Process Tree", "parent": "System Idle Process", "child": "System Idle Process", "pid": 0, "ppid": 0, "timestamp": "2025-08-21T16:14:28.791388"}
+{"event": "Untrusted Process Tree", "parent": "System Idle Process", "child": "System", "pid": 4, "ppid": 0, "timestamp": "2025-08-21T16:14:34.741743"}
+{"event": "Untrusted Process Tree", "parent": "System", "child": "", "pid": 308, "ppid": 4, "timestamp": "2025-08-21T16:14:39.115334"}
+{"event": "Untrusted Process Tree", "parent": "System", "child": "Registry", "pid": 352, "ppid": 4, "timestamp": "2025-08-21T16:14:43.524894"}
+{"event": "Untrusted Process Tree", "parent": "System", "child": "smss.exe", "pid": 992, "ppid": 4, "timestamp": "2025-08-21T16:14:47.868183"}
+{"event": "Untrusted Process Tree", "parent": "wininit.exe", "child": "services.exe", "pid": 1608, "ppid": 1492, "timestamp": "2025-08-21T16:14:52.194753"}
+{"event": "Untrusted Process Tree", "parent": "System Idle Process", "child": "System Idle Process", "pid": 0, "ppid": 0, "timestamp": "2025-08-21T16:15:06.501731"}
+{"event": "Untrusted Process Tree", "parent": "System Idle Process", "child": "System", "pid": 4, "ppid": 0, "timestamp": "2025-08-21T16:15:12.520405"}
+{"event": "Untrusted Process Tree", "parent": "System", "child": "", "pid": 308, "ppid": 4, "timestamp": "2025-08-21T16:15:16.789661"}

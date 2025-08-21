@@ -66,13 +66,17 @@ function AIModelManager() {
   const triggerTraining = async () => {
     try {
       setTraining(true);
-      setTrainingOutput('Starting AI training pipeline...\n');
+      setTrainingOutput('Starting AI Training Pipeline Orchestrator...\n');
       
-      const response = await axios.post(API_ENDPOINTS.AI.TRAIN);
+      // Use the process control API to start the AI training pipeline
+      const response = await axios.post(`${API_ENDPOINTS.BASE}/api/processes/start`, {
+        process: 'ai_training'
+      });
       
-      if (response.data.status === 'started') {
-        setTrainingOutput(prev => prev + `Training started with PID: ${response.data.pid}\n`);
-        setTrainingOutput(prev => prev + 'Training is running in the background. Check the console for detailed progress.\n');
+      if (response.data.pid) {
+        setTrainingOutput(prev => prev + `Pipeline started with PID: ${response.data.pid}\n`);
+        setTrainingOutput(prev => prev + 'New terminal window opened with pipeline orchestrator running.\n');
+        setTrainingOutput(prev => prev + 'Check the terminal window for real-time output.\n');
         
         // Refresh models after training starts
         setTimeout(() => {
@@ -199,7 +203,7 @@ function AIModelManager() {
                 className="flex items-center space-x-2 px-4 py-2 text-sm font-medium text-white bg-purple-600 rounded-md hover:bg-purple-700 disabled:opacity-50"
               >
                 <Play className={`h-4 w-4 ${training ? 'animate-spin' : ''}`} />
-                <span>{training ? 'Training...' : 'Start Training'}</span>
+                <span>{training ? 'Starting...' : 'Start AI Pipeline'}</span>
               </button>
               <button
                 onClick={() => {
@@ -286,7 +290,7 @@ function AIModelManager() {
         {/* Training Output */}
         {trainingOutput && (
           <div className="bg-gray-900 text-green-400 p-4 rounded-lg mb-8 font-mono text-sm">
-            <h3 className="text-white font-bold mb-2">Training Output:</h3>
+            <h3 className="text-white font-bold mb-2">Pipeline Status:</h3>
             <pre className="whitespace-pre-wrap max-h-64 overflow-y-auto">
               {trainingOutput}
             </pre>

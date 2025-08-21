@@ -230,9 +230,9 @@ def start_process_internal(process_name):
             'show_console': True
         },
         'ai_training': {
-            'cmd': ['python', 'ai/test_console.py'],
+            'cmd': ['python', 'agent/pipeline_orchestrator.py'],
             'cwd': PROJECT_ROOT,
-            'description': 'AI Training Test',
+            'description': 'AI Training Pipeline Orchestrator',
             'show_console': True
         }
     }
