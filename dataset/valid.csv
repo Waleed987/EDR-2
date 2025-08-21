@@ -1,464 +1,736 @@
 event_type,module,features.score,features.cpu,features.uptime,features.duration,features.filename,features.hash,features.registry_key,features.ip,features.domain,features.asn,features.country,features.parent_process,features.process_name,label
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,endpoint_monitor,,,,,,,,34.194.72.156,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,endpoint_monitor,,,,,,,,,,,,,fontdrvhost.exe,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,Cursor.exe,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-System File Touched,severity_score,5.0,,,,,,,,,,,,,5
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-File Modified,severity_score,5.0,,,,,,,,,,,,,5
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-System File Touched,severity_score,5.0,,,,,,,,,,,,,5
-Network Connection,endpoint_monitor,,,,,,,,3.221.137.92,,,,,,1
-Suspicious Network,endpoint_monitor,,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Network Connection,endpoint_monitor,,,,,,,,142.250.202.170,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,endpoint_monitor,,,,,,,,185.199.109.133,,,,,,1
-Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Suspicious Network,endpoint_monitor,,,,,,,,20.192.44.80,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,endpoint_monitor,,,,,,,,20.192.44.80,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,System Idle Process,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,endpoint_monitor,,,,,,,,172.64.148.235,,,,,,1
-Suspicious Network,endpoint_monitor,,,,,,,,162.159.192.1,,,,,,1
-Suspicious Process Modules,endpoint_monitor,,,,,,,,,,,,,Cursor.exe,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Process Modules,endpoint_monitor,,,,,,,,,,,,,Microsoft.SharePoint.exe,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-File Modified,severity_score,5.0,,,,,,,,,,,,,5
-Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,endpoint_monitor,,,,,,,,,,,,,dwm.exe,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,Registry,1
-Suspicious Network,endpoint_monitor,,,,,,,,50.16.65.112,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-System File Touched,severity_score,5.0,,,,,,,,,,,,,5
-File Modified,severity_score,5.0,,,,,,,,,,,,,5
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,System,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-System File Touched,severity_score,5.0,,,,,,,,,,,,,5
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-System File Touched,severity_score,5.0,,,,,,,,,,,,,5
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,dwm.exe,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Process Created,endpoint_monitor,,,,,,,,,,,,,ChatGPT.exe,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,System Idle Process,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,AggregatorHost.exe,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,endpoint_monitor,,,,,,,,23.195.39.6,,,,,,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-File Modified,severity_score,5.0,,,,,,,,,,,,,5
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Network Connection,endpoint_monitor,,,,,,,,13.89.179.10,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,wlanext.exe,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Network Connection,endpoint_monitor,,,,,,,,103.255.66.228,,,,,,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-File Modified,severity_score,5.0,,,,,,,,,,,,,5
-Suspicious Process Modules,endpoint_monitor,,,,,,,,,,,,,Microsoft.SharePoint.exe,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,msedgewebview2.exe,1
-Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,conhost.exe,1
-Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,fontdrvhost.exe,1
-Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,Registry,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Time-Based Execution Window,severity_score,5.0,,,,,,,,,,,,,5
-Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,MpDefenderCoreService.exe,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,WUDFHost.exe,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Network Connection,endpoint_monitor,,,,,,,,104.18.19.125,,,,,,1
-Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
-Time-Based Execution Window,severity_score,5.0,,,,,,,,,,,,,5
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,Cursor.exe,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Parent Process,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,endpoint_monitor,,,,,,,,,,,,,System Idle Process,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,endpoint_monitor,,,,,,,,,,,,,csrss.exe,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,endpoint_monitor,,,,,,,,,,,,,System Idle Process,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-File Modified,severity_score,5.0,,,,,,,,,,,,,5
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Network Connection,endpoint_monitor,,,,,,,,4.213.25.240,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,endpoint_monitor,,,,,,,,,,,,,Microsoft.SharePoint.exe,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,endpoint_monitor,,,,,,,,13.89.179.10,,,,,,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-File Modified,severity_score,5.0,,,,,,,,,,,,,5
-Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,endpoint_monitor,,,,,,,,13.95.31.18,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Scheduled Task,severity_score,4.0,,,,,,,,,,,,,4
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,endpoint_monitor,,,,,,,,20.50.88.245,,,,,,1
-Time-Based Execution Window,severity_score,5.0,,,,,,,,,,,,,5
-Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,endpoint_monitor,,,,,,,,,,,,,csrss.exe,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-System File Touched,severity_score,5.0,,,,,,,,,,,,,5
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Network,endpoint_monitor,,,,,,,,20.192.44.80,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Suspicious Process Modules,endpoint_monitor,,,,,,,,,,,,,Cursor.exe,1
-Suspicious Network,endpoint_monitor,,,,,,,,108.177.15.188,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Network,endpoint_monitor,,,,,,,,103.217.177.98,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,endpoint_monitor,,,,,,,,44.215.235.209,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Process Created,endpoint_monitor,,,,,,,,,,,,,System,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Network Connection,endpoint_monitor,,,,,,,,20.189.173.10,,,,,,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Network Connection,endpoint_monitor,,,,,,,,104.18.39.21,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,ipf_uf.exe,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,OffloadItemService.exe,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Process Modules,endpoint_monitor,,,,,,,,,,,,,chrome.exe,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Network,endpoint_monitor,,,,,,,,4.213.25.240,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Time-Based Execution Window,severity_score,5.0,,,,,,,,,,,,,5
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Suspicious Network,endpoint_monitor,,,,,,,,,,,,,,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Suspicious Network,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Network Connection,endpoint_monitor,,,,,,,,172.64.155.209,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,ApplicationFrameHost.exe,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Network,endpoint_monitor,,,,,,,,104.18.32.47,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,python.exe,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Process Modules,endpoint_monitor,,,,,,,,,,,,,ChatGPT.exe,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-File Modified,severity_score,5.0,,,,,,,,,,,,,5
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,warp-svc.exe,1
-Suspicious Network,endpoint_monitor,,,,,,,,172.64.155.209,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,endpoint_monitor,,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,smss.exe,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Network,endpoint_monitor,,,,,,,,23.195.39.65,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,Cursor.exe,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-File Modified,severity_score,5.0,,,,,,,,,,,,,5
-Network Connection,endpoint_monitor,,,,,,,,20.50.88.242,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Suspicious Process Modules,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Process Modules,endpoint_monitor,,,,,,,,,,,,,Microsoft.SharePoint.exe,1
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-System File Touched,severity_score,5.0,,,,,,,,,,,,,5
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Suspicious Network,endpoint_monitor,,,,,,,,162.159.192.1,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Process Created,endpoint_monitor,,,,,,,,,,,,,wininit.exe,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Network Connection,endpoint_monitor,,,,,,,,127.0.0.1,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Network Connection,severity_score,4.0,,,,,,,,,,,,,4
-Process Created,endpoint_monitor,,,,,,,,,,,,,mysqld.exe,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Consistent Execution Time,severity_score,6.0,,,,,,,,,,,,,6
-Autorun Entry Detected,severity_score,6.0,,,,,,,,,,,,,6
-Suspicious Process Modules,endpoint_monitor,,,,,,,,,,,,,AsusScreenXpertReunion.exe,1
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-File Modified,severity_score,5.0,,,,,,,,,,,,,5
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Process Created,severity_score,1.0,,,,,,,,,,,,,1
-Suspicious Network,severity_score,7.0,,,,,,,,,,,,,7
-Untrusted Process Tree,severity_score,7.0,,,,,,,,,,,,,7
-Process Created,endpoint_monitor,,,,,,,,,,,,,,1
-Process Created,endpoint_monitor,,,,,,,,,,,,,svchost.exe,1
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,wininit.exe,services.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,svchost.exe,Widgets.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,Registry,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,104.18.32.47,Unknown,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,162.159.192.1,Unknown,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,,xyz123,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,20.192.44.80,Unknown,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,3.219.103.135,ec2-3-219-103-135.compute-1.amazonaws.com,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,52.87.16.202,ec2-52-87-16-202.compute-1.amazonaws.com,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,esbuild.exe,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,ipfsvc.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,172.64.148.235,Unknown,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,,xyz123,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system idle process,System,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,142.250.202.174,lcmcta-ae-in-f14.1e100.net,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,ApplicationFrameHost.exe,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,104.18.39.21,Unknown,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,AsusSystemAnalysis.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,142.250.202.226,lcmcta-ad-in-f2.1e100.net,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,54.235.252.103,ec2-54-235-252-103.compute-1.amazonaws.com,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,explorer.exe,Microsoft.SharePoint.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,wininit.exe,lsass.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,,xyz123,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,34.200.126.19,ec2-34-200-126-19.compute-1.amazonaws.com,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,Widgets.exe,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,MemCompression,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,Registry,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Network Connection,network_monitor,4.0,,,,,,,,xyz123,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Network Connection,network_monitor,4.0,,,,,,,162.159.192.1,Unknown,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,unknown,csrss.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,,xyz123,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,conhost.exe,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,unknown,AsusOLEDShifter.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,54.84.134.211,ec2-54-84-134-211.compute-1.amazonaws.com,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,svchost.exe,taskhostw.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,20.192.44.80,Unknown,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,Registry,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,103.217.177.98,host-217-177-98.tes.com.pk,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,135.171.2.152,Unknown,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,RuntimeBroker.exe,6.0
+Network Connection,network_monitor,4.0,,,,,,,52.204.153.99,ec2-52-204-153-99.compute-1.amazonaws.com,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system idle process,System Idle Process,1.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,18.207.77.13,ec2-18-207-77-13.compute-1.amazonaws.com,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,23.195.39.6,a23-195-39-6.deploy.static.akamaitechnologies.com,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,wininit.exe,fontdrvhost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,,1.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,2606,Unknown,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,103.255.66.228,Unknown,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,3.225.148.236,ec2-3-225-148-236.compute-1.amazonaws.com,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,unknown,csrss.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,chrome.exe,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,pwsh.exe,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,,xyz123,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,backgroundTaskHost.exe,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,svchost.exe,taskhostw.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,svchost.exe,TextInputHost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,162.159.192.1,Unknown,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system idle process,System Idle Process,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,74.125.206.188,wk-in-f188.1e100.net,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,20.189.173.18,Unknown,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,browserhost.exe,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,SearchIndexer.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,,xyz123,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,40.74.78.229,Unknown,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,unknown,csrss.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,WUDFCompanionHost.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Network Connection,network_monitor,4.0,,,,,,,20.50.88.233,Unknown,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,Registry,1.0
+Network Connection,network_monitor,4.0,,,,,,,54.84.134.211,ec2-54-84-134-211.compute-1.amazonaws.com,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,winlogon.exe,dwm.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,wininit.exe,services.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,unknown,csrss.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,,xyz123,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,brave.exe,brave.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,2a03,whatsapp-cdn6-shv-02-mct1.fbcdn.net,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,54.204.115.239,ec2-54-204-115-239.compute-1.amazonaws.com,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,20.192.44.80,Unknown,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,servicehost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,108.177.15.188,wr-in-f188.1e100.net,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,,xyz123,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,54.165.147.65,ec2-54-165-147-65.compute-1.amazonaws.com,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,cursor.exe,Cursor.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,2603,Unknown,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,Cursor.exe,6.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,ShellHost.exe,6.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,54.235.252.103,ec2-54-235-252-103.compute-1.amazonaws.com,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,172.217.169.238,mct01s10-in-f14.1e100.net,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,cursor.exe,conhost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,3.0,,,,,,,,,,,cmd.exe,conhost.exe,3.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,,xyz123,,,,,4.0
+Network Connection,network_monitor,4.0,,,,,,,2603,Unknown,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,unknown,wininit.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,chrome.exe,chrome.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,cursor.exe,Cursor.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,unknown,csrss.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,104.18.18.125,Unknown,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,svchost.exe,Widgets.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,35.186.224.24,24.224.186.35.bc.googleusercontent.com,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,SecurityHealthSystray.exe,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,WUDFCompanionHost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,Microsoft.SharePoint.exe,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,34.226.116.114,ec2-34-226-116-114.compute-1.amazonaws.com,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,cursor.exe,conhost.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Suspicious Network,network_monitor,7.0,,,,,,,104.18.39.21,Unknown,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,Cursor.exe,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,RstMwService.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,pwsh.exe,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,4.0,,,,,,,,,,,cursor.exe,cmd.exe,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,2a03,whatsapp-chatd-edge6-shv-02-mct1.facebook.com,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Network Connection,network_monitor,4.0,,,,,,,3.233.158.39,ec2-3-233-158-39.compute-1.amazonaws.com,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,WUDFCompanionHost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,54.204.242.15,ec2-54-204-242-15.compute-1.amazonaws.com,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,svchost.exe,taskhostw.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Network Connection,network_monitor,4.0,,,,,,,103.255.66.160,Unknown,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,WUDFCompanionHost.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Network Connection,network_monitor,4.0,,,,,,,40.74.78.229,Unknown,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,20.192.44.80,Unknown,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,AsusSystemAnalysis.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,13.95.31.18,Unknown,,,,,4.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,conhost.exe,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,svchost.exe,RuntimeBroker.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,svchost.exe,ctfmon.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,svchost.exe,RuntimeBroker.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,svchost.exe,TabTip.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Network Connection,network_monitor,4.0,,,,,,,172.64.155.209,Unknown,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,sihost.exe,ChatGPT.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,Cursor.exe,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,54.163.114.176,ec2-54-163-114-176.compute-1.amazonaws.com,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,162.159.192.1,Unknown,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,oracle.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,wininit.exe,services.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,OneDrive.exe,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,smss.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,162.159.192.1,Unknown,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,3.0,,,,,,,,,,,cmd.exe,conhost.exe,3.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,winlogon.exe,dwm.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,WUDFHost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,svchost.exe,UserOOBEBroker.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,20.192.44.80,Unknown,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,RtkAudUService64.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,GlideXService.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,svchost.exe,TabTip.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,Registry,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Network Connection,network_monitor,4.0,,,,,,,,xyz123,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,searchhost.exe,msedgewebview2.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,Cursor.exe,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,AsusSystemAnalysis.exe,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system idle process,System Idle Process,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,20.192.44.80,Unknown,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,2603,Unknown,,,,,4.0
+Network Connection,network_monitor,4.0,,,,,,,4.213.25.241,Unknown,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,57.144.149.33,whatsapp-chatd-edge-shv-02-mct1.facebook.com,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,cursor.exe,Cursor.exe,1.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,msedgewebview2.exe,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,MsMpEng.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,servicehost.exe,uihost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,wininit.exe,lsass.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,smss.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,,xyz123,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,svchost.exe,RuntimeBroker.exe,1.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,node.exe,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,cursor.exe,Cursor.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,spoolsv.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,35.186.224.41,41.224.186.35.bc.googleusercontent.com,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,104.18.39.21,Unknown,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Network Connection,network_monitor,4.0,,,,,,,20.190.146.35,Unknown,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,wininit.exe,services.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,unknown,csrss.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,conhost.exe,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,wslservice.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,WUDFCompanionHost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system idle process,System Idle Process,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,brave.exe,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,20.192.44.80,Unknown,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,winlogon.exe,dwm.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,wininit.exe,fontdrvhost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,unknown,winlogon.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,54.167.84.212,ec2-54-167-84-212.compute-1.amazonaws.com,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,searchhost.exe,msedgewebview2.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system idle process,System,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,3.228.119.73,ec2-3-228-119-73.compute-1.amazonaws.com,,,,,4.0
+Network Connection,network_monitor,4.0,,,,,,,,xyz123,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,,xyz123,,,,,4.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,3.225.148.236,ec2-3-225-148-236.compute-1.amazonaws.com,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,104.18.19.125,Unknown,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,AsusSwitch.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,23.210.250.106,a23-210-250-106.deploy.static.akamaitechnologies.com,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,44.216.231.70,ec2-44-216-231-70.compute-1.amazonaws.com,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system idle process,System Idle Process,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,54.83.172.143,ec2-54-83-172-143.compute-1.amazonaws.com,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,35.186.224.41,41.224.186.35.bc.googleusercontent.com,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,conhost.exe,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,Cursor.exe,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,162.159.192.1,Unknown,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,explorer.exe,SecurityHealthSystray.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,cursor.exe,Cursor.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,54.156.29.38,ec2-54-156-29-38.compute-1.amazonaws.com,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,104.18.19.125,Unknown,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,cmd.exe,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,2a00,pnfjra-am-in-x0e.1e100.net,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,MpDefenderCoreService.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,servicehost.exe,uihost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,Microsoft.SharePoint.exe,6.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Network Connection,network_monitor,4.0,,,,,,,,xyz123,,,,,4.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,GlideXNearService.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,20.189.173.8,Unknown,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Network Connection,network_monitor,4.0,,,,,,,173.194.76.188,ws-in-f188.1e100.net,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,92.123.159.240,a92-123-159-240.deploy.static.akamaitechnologies.com,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,23.210.250.82,a23-210-250-82.deploy.static.akamaitechnologies.com,,,,,4.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,Widgets.exe,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,svchost.exe,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,,xyz123,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,98.85.100.6,ec2-98-85-100-6.compute-1.amazonaws.com,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,44.195.8.207,ec2-44-195-8-207.compute-1.amazonaws.com,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,,xyz123,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,unknown,ICPS.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,,xyz123,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,unknown,csrss.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Network Connection,network_monitor,4.0,,,,,,,108.177.15.188,wr-in-f188.1e100.net,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,20.192.44.80,Unknown,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,57.144.149.33,whatsapp-chatd-edge-shv-02-mct1.facebook.com,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,cursor.exe,Cursor.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,dax3api.exe,DAX3API.exe,1.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,svchost.exe,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,svchost.exe,RtkAudUService64.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,Registry,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,chrome.exe,6.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Suspicious Network,network_monitor,7.0,,,,,,,,xyz123,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,java.exe,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,cursor.exe,Cursor.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,smss.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,IntelAudioService.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,2603,Unknown,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Network Connection,network_monitor,4.0,,,,,,,104.18.32.47,Unknown,,,,,4.0
+Suspicious Network,network_monitor,7.0,,,,,,,,xyz123,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,wininit.exe,fontdrvhost.exe,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,104.18.32.47,Unknown,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system idle process,System,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Network Connection,network_monitor,4.0,,,,,,,52.6.254.206,ec2-52-6-254-206.compute-1.amazonaws.com,,,,,4.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,,xyz123,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Process,process_monitor,6.0,,,,,,,,,,,,WMIRegistrationService.exe,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,AsusAppService.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,Registry,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,172.217.169.234,mct01s10-in-f10.1e100.net,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system,Registry,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,wininit.exe,fontdrvhost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system idle process,System Idle Process,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,svchost.exe,AggregatorHost.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,NisSrv.exe,1.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Suspicious Network,network_monitor,7.0,,,,,,,3.210.224.158,ec2-3-210-224-158.compute-1.amazonaws.com,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,GlideXServiceExt.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Suspicious Process,process_monitor,6.0,,,,,,,,,,,,WMIRegistrationService.exe,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Suspicious Network,network_monitor,7.0,,,,,,,,xyz123,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Process Created,process_monitor,1.0,,,,,,,,,,,unknown,wininit.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,ipf_uf.exe,ipf_helper.exe,1.0
+Process Created,process_monitor,1.0,,,,,,,,,,,system idle process,System,1.0
+Suspicious Network,network_monitor,7.0,,,,,,,54.227.142.80,ec2-54-227-142-80.compute-1.amazonaws.com,,,,,7.0
+Suspicious Process Modules,process_monitor,6.0,,,,,,,,,,,,SpotifyWidgetProvider.exe,6.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Untrusted Process Tree,process_tree,7.0,,,,,,,,,,,,,7.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,WUDFCompanionHost.exe,1.0
+Network Connection,network_monitor,4.0,,,,,,,,xyz123,,,,,4.0
+Process Created,process_monitor,1.0,,,,,,,,,,,services.exe,svchost.exe,1.0
+Autorun Entry Detected,autorun_monitor,6.0,,,,,,,,,,,,,6.0

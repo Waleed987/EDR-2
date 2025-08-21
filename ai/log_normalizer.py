@@ -109,12 +109,12 @@ def run_normalizer():
             all_logs.append(normalized)
             doc_count += 1
 
-        print(f"[✓] Processed {doc_count} docs from {collection_name}")
+        print(f"[+] Processed {doc_count} docs from {collection_name}")
 
     # Save structured JSON logs
     with open(OUTPUT_JSON_PATH, "w") as f:
         json.dump(all_logs, f, indent=4, default=json_util.default)
-    print(f"[✓] Saved normalized logs to JSON: {OUTPUT_JSON_PATH}")
+    print(f"[+] Saved normalized logs to JSON: {OUTPUT_JSON_PATH}")
 
     # --------- Save Flattened CSV --------- #
     flattened = []
@@ -131,7 +131,7 @@ def run_normalizer():
     df = pd.DataFrame(flattened)
     os.makedirs(os.path.dirname(OUTPUT_CSV_PATH), exist_ok=True)
     df.to_csv(OUTPUT_CSV_PATH, index=False)
-    print(f"[✓] Saved flattened logs to CSV: {OUTPUT_CSV_PATH}")
+    print(f"[+] Saved flattened logs to CSV: {OUTPUT_CSV_PATH}")
 
 if __name__ == "__main__":
     run_normalizer()
