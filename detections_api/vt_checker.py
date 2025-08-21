@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# === CONFIGURATION ===
+# === CONFIGURATION ==
 # Replace LOG_FILE with the server endpoint
 LOG_ENDPOINT = os.getenv("LOG_ENDPOINT", "http://localhost:5000/download_logs")
 # Ensure VT_API_KEY is always a string
