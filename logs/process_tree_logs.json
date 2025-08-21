@@ -1365,3 +1365,12 @@
 {"event": "Untrusted Process Tree", "parent": "System Idle Process", "child": "System Idle Process", "pid": 0, "ppid": 0, "timestamp": "2025-08-21T16:15:06.501731"}
 {"event": "Untrusted Process Tree", "parent": "System Idle Process", "child": "System", "pid": 4, "ppid": 0, "timestamp": "2025-08-21T16:15:12.520405"}
 {"event": "Untrusted Process Tree", "parent": "System", "child": "", "pid": 308, "ppid": 4, "timestamp": "2025-08-21T16:15:16.789661"}
+{"event": "Untrusted Process Tree", "parent": "System Idle Process", "child": "System Idle Process", "pid": 0, "ppid": 0, "timestamp": "2025-08-21T23:22:26.308238"}
+{"event": "Untrusted Process Tree", "parent": "System Idle Process", "child": "System", "pid": 4, "ppid": 0, "timestamp": "2025-08-21T23:22:48.632191"}
+{"event": "Untrusted Process Tree", "parent": "System", "child": "", "pid": 308, "ppid": 4, "timestamp": "2025-08-21T23:22:52.783531"}
+{"event": "Untrusted Process Tree", "parent": "System", "child": "Registry", "pid": 352, "ppid": 4, "timestamp": "2025-08-21T23:22:56.936036"}
+{"event": "Untrusted Process Tree", "parent": "services.exe", "child": "svchost.exe", "pid": 572, "ppid": 1608, "timestamp": "2025-08-21T23:23:01.064090"}
+{"event": "Untrusted Process Tree", "parent": "Cursor.exe", "child": "Cursor.exe", "pid": 576, "ppid": 17192, "timestamp": "2025-08-21T23:23:05.301152"}
+{"event": "Untrusted Process Tree", "parent": "chrome.exe", "child": "chrome.exe", "pid": 972, "ppid": 18416, "timestamp": "2025-08-21T23:23:09.466081"}
+{"event": "Untrusted Process Tree", "parent": "System Idle Process", "child": "System Idle Process", "pid": 0, "ppid": 0, "timestamp": "2025-08-21T23:27:33.759026"}
+{"event": "Untrusted Process Tree", "parent": "System Idle Process", "child": "System", "pid": 4, "ppid": 0, "timestamp": "2025-08-21T23:27:39.758435"}

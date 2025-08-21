@@ -1919,6 +1919,19 @@ Process Created,process_monitor,2025-08-21T15:05:41Z,1.0,smss.exe,system,,,,,,,,
 Process Created,process_monitor,2025-08-21T15:08:02Z,1.0,System Idle Process,system idle process,,,,,,,,,,,,1.0,2025-08-21T15:08:02Z
 Process Created,process_monitor,2025-08-21T15:08:07Z,1.0,System,system idle process,,,,,,,,,,,,1.0,2025-08-21T15:08:07Z
 Process Created,process_monitor,2025-08-21T15:37:28Z,1.0,System Idle Process,system idle process,,,,,,,,,,,,1.0,2025-08-21T15:37:28Z
+Process Created,process_monitor,2025-08-21T16:14:32Z,1.0,System Idle Process,system idle process,,,,,,,,,,,,1.0,2025-08-21T16:14:32Z
+Process Created,process_monitor,2025-08-21T16:14:37Z,1.0,System,system idle process,,,,,,,,,,,,1.0,2025-08-21T16:14:37Z
+Process Created,process_monitor,2025-08-21T16:14:41Z,1.0,,system,,,,,,,,,,,,1.0,2025-08-21T16:14:41Z
+Process Created,process_monitor,2025-08-21T16:14:45Z,1.0,Registry,system,,,,,,,,,,,,1.0,2025-08-21T16:14:45Z
+Process Created,process_monitor,2025-08-21T16:14:50Z,1.0,smss.exe,system,,,,,,,,,,,,1.0,2025-08-21T16:14:50Z
+Process Created,process_monitor,2025-08-21T16:15:10Z,1.0,System Idle Process,system idle process,,,,,,,,,,,,1.0,2025-08-21T16:15:10Z
+Process Created,process_monitor,2025-08-21T16:15:14Z,1.0,System,system idle process,,,,,,,,,,,,1.0,2025-08-21T16:15:14Z
+Process Created,process_monitor,2025-08-21T23:22:46Z,1.0,System Idle Process,system idle process,,,,,,,,,,,,1.0,2025-08-21T23:22:46Z
+Process Created,process_monitor,2025-08-21T23:22:50Z,1.0,System,system idle process,,,,,,,,,,,,1.0,2025-08-21T23:22:50Z
+Process Created,process_monitor,2025-08-21T23:22:55Z,1.0,,system,,,,,,,,,,,,1.0,2025-08-21T23:22:55Z
+Process Created,process_monitor,2025-08-21T23:22:59Z,1.0,Registry,system,,,,,,,,,,,,1.0,2025-08-21T23:22:59Z
+Process Created,process_monitor,2025-08-21T23:23:03Z,1.0,svchost.exe,services.exe,,,,,,,,,,,,1.0,2025-08-21T23:23:03Z
+Process Created,process_monitor,2025-08-21T23:23:07Z,1.0,Cursor.exe,cursor.exe,,,,,,,,,,,,1.0,2025-08-21T23:23:07Z
 Autorun Entry Detected,autorun_monitor,2025-07-15T17:56:39Z,,,,,,,,,,,,,,,,2025-07-15T17:56:39Z
 Autorun Entry Detected,autorun_monitor,2025-07-15T17:56:41Z,,,,,,,,,,,,,,,,2025-07-15T17:56:41Z
 Autorun Entry Detected,autorun_monitor,2025-07-15T17:56:43Z,,,,,,,,,,,,,,,,2025-07-15T17:56:43Z
@@ -2887,6 +2900,19 @@ Autorun Entry Detected,autorun_monitor,2025-08-21T15:05:41Z,6.0,,,,,,,,,,,,,,6.0
 Autorun Entry Detected,autorun_monitor,2025-08-21T15:08:02Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:08:02Z
 Autorun Entry Detected,autorun_monitor,2025-08-21T15:08:07Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:08:07Z
 Autorun Entry Detected,autorun_monitor,2025-08-21T15:37:28Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T15:37:28Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T16:14:32Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T16:14:32Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T16:14:37Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T16:14:37Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T16:14:41Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T16:14:41Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T16:14:45Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T16:14:45Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T16:14:50Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T16:14:50Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T16:15:10Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T16:15:10Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T16:15:14Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T16:15:14Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T23:22:46Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T23:22:46Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T23:22:50Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T23:22:50Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T23:22:55Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T23:22:55Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T23:22:59Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T23:22:59Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T23:23:03Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T23:23:03Z
+Autorun Entry Detected,autorun_monitor,2025-08-21T23:23:07Z,6.0,,,,,,,,,,,,,,6.0,2025-08-21T23:23:07Z
 Network Connection,network_monitor,2025-07-15T17:56:44Z,,,,,,,,,,,104.18.18.125,Unknown,,,,2025-07-15T17:56:44Z
 Network Connection,network_monitor,2025-07-15T17:56:47Z,,,,,,,,,,,52.3.69.132,ec2-52-3-69-132.compute-1.amazonaws.com,,,,2025-07-15T17:56:47Z
 Network Connection,network_monitor,2025-07-15T17:56:49Z,,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,,2025-07-15T17:56:49Z
@@ -4363,6 +4389,17 @@ Suspicious Network,network_monitor,2025-08-21T15:05:40Z,7.0,,,,,,,,,,127.0.0.1,k
 Network Connection,network_monitor,2025-08-21T15:08:02Z,4.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,4.0,2025-08-21T15:08:02Z
 Suspicious Network,network_monitor,2025-08-21T15:08:07Z,7.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,7.0,2025-08-21T15:08:07Z
 Network Connection,network_monitor,2025-08-21T15:37:28Z,4.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,4.0,2025-08-21T15:37:28Z
+Network Connection,network_monitor,2025-08-21T16:14:35Z,4.0,,,,,,,,,,20.20.44.224,Unknown,,,4.0,2025-08-21T16:14:35Z
+Suspicious Network,network_monitor,2025-08-21T16:14:39Z,7.0,,,,,,,,,,20.20.44.224,Unknown,,,7.0,2025-08-21T16:14:39Z
+Network Connection,network_monitor,2025-08-21T16:14:48Z,4.0,,,,,,,,,,4.213.25.240,Unknown,,,4.0,2025-08-21T16:14:48Z
+Suspicious Network,network_monitor,2025-08-21T16:14:52Z,7.0,,,,,,,,,,4.213.25.240,Unknown,,,7.0,2025-08-21T16:14:52Z
+Network Connection,network_monitor,2025-08-21T16:15:13Z,4.0,,,,,,,,,,104.18.32.47,Unknown,,,4.0,2025-08-21T16:15:13Z
+Network Connection,network_monitor,2025-08-21T23:22:46Z,4.0,,,,,,,,,,142.250.202.235,lcmcta-ad-in-f11.1e100.net,,,4.0,2025-08-21T23:22:46Z
+Suspicious Network,network_monitor,2025-08-21T23:22:50Z,7.0,,,,,,,,,,142.250.202.235,lcmcta-ad-in-f11.1e100.net,,,7.0,2025-08-21T23:22:50Z
+Network Connection,network_monitor,2025-08-21T23:22:55Z,4.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,4.0,2025-08-21T23:22:55Z
+Suspicious Network,network_monitor,2025-08-21T23:22:59Z,7.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,7.0,2025-08-21T23:22:59Z
+Network Connection,network_monitor,2025-08-21T23:23:03Z,4.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,4.0,2025-08-21T23:23:03Z
+Suspicious Network,network_monitor,2025-08-21T23:23:07Z,7.0,,,,,,,,,,127.0.0.1,kubernetes.docker.internal,,,7.0,2025-08-21T23:23:07Z
 Untrusted Process Tree,process_tree,2025-08-17T00:48:57Z,7.0,,,,,,,,,,,,,,7.0,2025-08-17T00:48:57Z
 Untrusted Process Tree,process_tree,2025-08-17T00:49:01Z,7.0,,,,,,,,,,,,,,7.0,2025-08-17T00:49:01Z
 Untrusted Process Tree,process_tree,2025-08-17T00:49:05Z,7.0,,,,,,,,,,,,,,7.0,2025-08-17T00:49:05Z
@@ -5873,6 +5910,19 @@ Untrusted Process Tree,process_tree,2025-08-21T15:05:41Z,7.0,,,,,,,,,,,,,,7.0,20
 Untrusted Process Tree,process_tree,2025-08-21T15:08:02Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:08:02Z
 Untrusted Process Tree,process_tree,2025-08-21T15:08:07Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:08:07Z
 Untrusted Process Tree,process_tree,2025-08-21T15:37:28Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T15:37:28Z
+Untrusted Process Tree,process_tree,2025-08-21T16:14:32Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T16:14:32Z
+Untrusted Process Tree,process_tree,2025-08-21T16:14:37Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T16:14:37Z
+Untrusted Process Tree,process_tree,2025-08-21T16:14:41Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T16:14:41Z
+Untrusted Process Tree,process_tree,2025-08-21T16:14:45Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T16:14:45Z
+Untrusted Process Tree,process_tree,2025-08-21T16:14:50Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T16:14:50Z
+Untrusted Process Tree,process_tree,2025-08-21T16:15:10Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T16:15:10Z
+Untrusted Process Tree,process_tree,2025-08-21T16:15:14Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T16:15:14Z
+Untrusted Process Tree,process_tree,2025-08-21T23:22:46Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T23:22:46Z
+Untrusted Process Tree,process_tree,2025-08-21T23:22:50Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T23:22:50Z
+Untrusted Process Tree,process_tree,2025-08-21T23:22:54Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T23:22:54Z
+Untrusted Process Tree,process_tree,2025-08-21T23:22:59Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T23:22:59Z
+Untrusted Process Tree,process_tree,2025-08-21T23:23:03Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T23:23:03Z
+Untrusted Process Tree,process_tree,2025-08-21T23:23:07Z,7.0,,,,,,,,,,,,,,7.0,2025-08-21T23:23:07Z
 unknown,download,2025-07-20T15:13:12.060747,,,,,,,,,,,,,,,,2025-07-20T15:13:12.060747
 unknown,download,2025-07-20T20:32:37.567969,,,,,,,,,,,,,,,,2025-07-20T20:32:37.567969
 unknown,download,2025-07-20T20:58:55.284225,,,,,,,,,,,,,,,,2025-07-20T20:58:55.284225
@@ -11055,3 +11105,57 @@ Untrusted Process Tree,severity_score,2025-08-21T15:37:24Z,,,,,,,,,,,,,,,,2025-0
 Autorun Entry Detected,severity_score,2025-08-21T15:37:24Z,,,,,,,,,,,,,,,,2025-08-21T15:37:24Z
 Process Created,severity_score,2025-08-21T15:37:24Z,,,,,,,,,,,,,,,,2025-08-21T15:37:24Z
 Network Connection,severity_score,2025-08-21T15:37:24Z,,,,,,,,,,,,,,,,2025-08-21T15:37:24Z
+Process Created,severity_score,2025-08-21T16:14:28Z,,,,,,,,,,,,,,,,2025-08-21T16:14:28Z
+Untrusted Process Tree,severity_score,2025-08-21T16:14:28Z,,,,,,,,,,,,,,,,2025-08-21T16:14:28Z
+Autorun Entry Detected,severity_score,2025-08-21T16:14:28Z,,,,,,,,,,,,,,,,2025-08-21T16:14:28Z
+Network Connection,severity_score,2025-08-21T16:14:33Z,,,,,,,,,,,,,,,,2025-08-21T16:14:33Z
+Process Created,severity_score,2025-08-21T16:14:34Z,,,,,,,,,,,,,,,,2025-08-21T16:14:34Z
+Autorun Entry Detected,severity_score,2025-08-21T16:14:34Z,,,,,,,,,,,,,,,,2025-08-21T16:14:34Z
+Untrusted Process Tree,severity_score,2025-08-21T16:14:34Z,,,,,,,,,,,,,,,,2025-08-21T16:14:34Z
+Suspicious Network,severity_score,2025-08-21T16:14:37Z,,,,,,,,,,,,,,,,2025-08-21T16:14:37Z
+Untrusted Process Tree,severity_score,2025-08-21T16:14:39Z,,,,,,,,,,,,,,,,2025-08-21T16:14:39Z
+Autorun Entry Detected,severity_score,2025-08-21T16:14:39Z,,,,,,,,,,,,,,,,2025-08-21T16:14:39Z
+Process Created,severity_score,2025-08-21T16:14:39Z,,,,,,,,,,,,,,,,2025-08-21T16:14:39Z
+Autorun Entry Detected,severity_score,2025-08-21T16:14:43Z,,,,,,,,,,,,,,,,2025-08-21T16:14:43Z
+Process Created,severity_score,2025-08-21T16:14:43Z,,,,,,,,,,,,,,,,2025-08-21T16:14:43Z
+Untrusted Process Tree,severity_score,2025-08-21T16:14:43Z,,,,,,,,,,,,,,,,2025-08-21T16:14:43Z
+Network Connection,severity_score,2025-08-21T16:14:46Z,,,,,,,,,,,,,,,,2025-08-21T16:14:46Z
+Autorun Entry Detected,severity_score,2025-08-21T16:14:47Z,,,,,,,,,,,,,,,,2025-08-21T16:14:47Z
+Untrusted Process Tree,severity_score,2025-08-21T16:14:47Z,,,,,,,,,,,,,,,,2025-08-21T16:14:47Z
+Process Created,severity_score,2025-08-21T16:14:47Z,,,,,,,,,,,,,,,,2025-08-21T16:14:47Z
+Suspicious Network,severity_score,2025-08-21T16:14:50Z,,,,,,,,,,,,,,,,2025-08-21T16:14:50Z
+Autorun Entry Detected,severity_score,2025-08-21T16:14:52Z,,,,,,,,,,,,,,,,2025-08-21T16:14:52Z
+Untrusted Process Tree,severity_score,2025-08-21T16:14:52Z,,,,,,,,,,,,,,,,2025-08-21T16:14:52Z
+Process Created,severity_score,2025-08-21T16:14:52Z,,,,,,,,,,,,,,,,2025-08-21T16:14:52Z
+Process Created,severity_score,2025-08-21T16:15:06Z,,,,,,,,,,,,,,,,2025-08-21T16:15:06Z
+Untrusted Process Tree,severity_score,2025-08-21T16:15:06Z,,,,,,,,,,,,,,,,2025-08-21T16:15:06Z
+Autorun Entry Detected,severity_score,2025-08-21T16:15:06Z,,,,,,,,,,,,,,,,2025-08-21T16:15:06Z
+Network Connection,severity_score,2025-08-21T16:15:11Z,,,,,,,,,,,,,,,,2025-08-21T16:15:11Z
+Autorun Entry Detected,severity_score,2025-08-21T16:15:12Z,,,,,,,,,,,,,,,,2025-08-21T16:15:12Z
+Process Created,severity_score,2025-08-21T16:15:12Z,,,,,,,,,,,,,,,,2025-08-21T16:15:12Z
+Untrusted Process Tree,severity_score,2025-08-21T16:15:12Z,,,,,,,,,,,,,,,,2025-08-21T16:15:12Z
+Suspicious Network,severity_score,2025-08-21T16:15:15Z,,,,,,,,,,,,,,,,2025-08-21T16:15:15Z
+Untrusted Process Tree,severity_score,2025-08-21T23:22:26Z,,,,,,,,,,,,,,,,2025-08-21T23:22:26Z
+Process Created,severity_score,2025-08-21T23:22:26Z,,,,,,,,,,,,,,,,2025-08-21T23:22:26Z
+Autorun Entry Detected,severity_score,2025-08-21T23:22:26Z,,,,,,,,,,,,,,,,2025-08-21T23:22:26Z
+Network Connection,severity_score,2025-08-21T23:22:26Z,,,,,,,,,,,,,,,,2025-08-21T23:22:26Z
+Untrusted Process Tree,severity_score,2025-08-21T23:22:48Z,,,,,,,,,,,,,,,,2025-08-21T23:22:48Z
+Autorun Entry Detected,severity_score,2025-08-21T23:22:48Z,,,,,,,,,,,,,,,,2025-08-21T23:22:48Z
+Suspicious Network,severity_score,2025-08-21T23:22:48Z,,,,,,,,,,,,,,,,2025-08-21T23:22:48Z
+Process Created,severity_score,2025-08-21T23:22:48Z,,,,,,,,,,,,,,,,2025-08-21T23:22:48Z
+Untrusted Process Tree,severity_score,2025-08-21T23:22:52Z,,,,,,,,,,,,,,,,2025-08-21T23:22:52Z
+Autorun Entry Detected,severity_score,2025-08-21T23:22:52Z,,,,,,,,,,,,,,,,2025-08-21T23:22:52Z
+Network Connection,severity_score,2025-08-21T23:22:52Z,,,,,,,,,,,,,,,,2025-08-21T23:22:52Z
+Process Created,severity_score,2025-08-21T23:22:52Z,,,,,,,,,,,,,,,,2025-08-21T23:22:52Z
+Untrusted Process Tree,severity_score,2025-08-21T23:22:56Z,,,,,,,,,,,,,,,,2025-08-21T23:22:56Z
+Autorun Entry Detected,severity_score,2025-08-21T23:22:57Z,,,,,,,,,,,,,,,,2025-08-21T23:22:57Z
+Process Created,severity_score,2025-08-21T23:22:57Z,,,,,,,,,,,,,,,,2025-08-21T23:22:57Z
+Suspicious Network,severity_score,2025-08-21T23:22:57Z,,,,,,,,,,,,,,,,2025-08-21T23:22:57Z
+Untrusted Process Tree,severity_score,2025-08-21T23:23:01Z,,,,,,,,,,,,,,,,2025-08-21T23:23:01Z
+Process Created,severity_score,2025-08-21T23:23:01Z,,,,,,,,,,,,,,,,2025-08-21T23:23:01Z
+Autorun Entry Detected,severity_score,2025-08-21T23:23:01Z,,,,,,,,,,,,,,,,2025-08-21T23:23:01Z
+Network Connection,severity_score,2025-08-21T23:23:01Z,,,,,,,,,,,,,,,,2025-08-21T23:23:01Z
+Untrusted Process Tree,severity_score,2025-08-21T23:23:05Z,,,,,,,,,,,,,,,,2025-08-21T23:23:05Z
+Autorun Entry Detected,severity_score,2025-08-21T23:23:05Z,,,,,,,,,,,,,,,,2025-08-21T23:23:05Z
+Suspicious Network,severity_score,2025-08-21T23:23:05Z,,,,,,,,,,,,,,,,2025-08-21T23:23:05Z
+Process Created,severity_score,2025-08-21T23:23:05Z,,,,,,,,,,,,,,,,2025-08-21T23:23:05Z
